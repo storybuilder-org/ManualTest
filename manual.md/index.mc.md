@@ -142,11 +142,7 @@ Menu Bar
 
 The Menu bar is located just below the title bar on the StoryCAD form and provides access to StoryCAD’s common tasks.
 
-Clicking the See more (...) button will display labels below each menu button:
-
 ![][Menu-Bar]
-
-Clicking the same button will toggle the button labels off again.
 
 Hovering your mouse or stylus over a button will display a tool tip describing the button’s function:
 
@@ -686,6 +682,34 @@ If the problem is fully understood, the the premise can be constructed from its 
 When a fish-out-of-water, big-city cop (protagonist) moves to a small, coastal town dependent on tourism (situation), he must team with an oceanographer and a crusty sailor to convince the doubting, money-grubbing townsfolk to close their beaches because a giant, man-eating shark (opponent) is lurking just offshore,  (objective) until the shark strikes (disaster), forcing the townsfolk to allow the cop and his buddies to take on the shark mano-a-mano (conflict).
 
 A Problem’s Premise works best if it contains the elements of just that Problem form. The one exception is the main Problem Story Element (see Story Overview Premise Tab). That Problem’s Premise is also the story’s Premise, which summarizes the entire story and might (as in the above example) contain details of other subplots. 
+
+### Structure Tab ###
+Structure Tab
+
+The Problem Form’s Structure tab lets you associate a beat sheet with your problem and match the beats in the beats sheet to Scene or Problem story elements.  
+
+Story structure is the framework of your narrative, a road map for your story. Although elements of story structure go back as far as Aristotle’s Poetics, the idea of a beat sheet probably began with the Three Act Play. A beat sheet is a tool used to outline the key emotional and plot points of a story. It breaks the story into "beats": pivotal moments or events that drive the narrative forward. Today there are many variations of beat sheets.
+
+StoryCAD’s story structure starts with the Story Problem defined in the Story Overview form, and whose Premise summarizes the entire story. Your outline can contain other Problem story elements, which are complications, subplots, and sequences. Problem story elements are plotted as a set of Scene story elements that ultimately describe them. At that level, every scene, with its conflict or value exchange, also presents a problem to be solved. Finding your story problem, and building great scenes, are discussed elsewhere. Developing the middle structure of your story is what the Problem Structure tab is about. By putting a beat sheet on each problem story element, StoryCAD helps you to use them to structure your story. We recommend using simplified (‘mini’) beat sheets for subproblems, where a more complicated beat sheet can work well with the story problem (identified in the Story Overview.)
+
+To use the Structure Tab, select a beat sheet for your problem using the Structure dropdown. We recommend starting at the top, with the story problem which you identified for your Story Overview. 
+
+![][Image1]
+
+Here’s how you tie your plot-related story elements (scenes and problems) together: Pick a beat you want to identify, and click on Show Problems/Scenes to display a list of your outline’s problems and scenes. Select the problem or scene, and drag it to the beat’s drop area, the box which reads ‘No element Selected’:
+![][Image1-1]
+ Repeat this process to fill in as much of the beat sheet as you like.
+
+Here are a few things to keep in mind:
+
+You can assign either sub-problems or scenes to a beat, and a beat sheet can contain a mixture of the two. Ultimately, you’re going to have to draft your story from the scenes in your outline, so when you’re assigning a sub-problem, you’re making a promise to yourself to plot that problem into scenes as well. You can use that problem’s Structure tab to do so. [NOTE: a discussion of the not-yet-written report goes here. The report should integrate the problems’ beat assignments.]
+
+A scene can belong to more than one beat. This makes sense since a scene can and should accomplish more than one thing (refer to Purpose of Scene on the Scene form’s Development tab.). It is also possible to assign a scene to more than one problem, tying them together. However, you can only use a subproblem once, in one (parent) problem. 
+
+Not all beats in a beat sheet need to be used. However, when you’re reviewing your outline, you may find that a plot hole corresponds to a beat you haven’t used. Beat sheets help solve other plotting issues as well, such as lack of structure, pacing issues, weak character arcs, subplot integration, and weak endings. 
+
+Remember that a beat sheet is a pattern for your plotting, and once you pick it, you’re freezing an aspect of your story structure. This is especially important when dealing with subplot integration.
+
 
 ## Character Form ##
 ### Role Tab ###
@@ -2887,7 +2911,7 @@ villain: A character who represents an evil or unwelcome force.  The villain is 
 
 [User-Interface]: User-Interface.png width=600px height=431px
 
-[Menu-Bar]: Menu-Bar.png width=599px height=63px
+[Menu-Bar]: Menu-Bar.png width=665px height=65px
 
 [Menu-Bar-Tooltip]: Menu-Bar-Tooltip.png width=204px height=92px
 
@@ -2942,6 +2966,10 @@ villain: A character who represents an evil or unwelcome force.  The villain is 
 [Problem-Antagonist-Tab]: Problem-Antagonist-Tab.png width=676px height=485px
 
 [Problem-Resolution-Tab]: Problem-Resolution-Tab.png width=675px height=484px
+
+[Image1]: Image1.png width=673px height=463px
+
+[Image1-1]: Image1-1.png width=673px height=463px
 
 [CharRoleTab]: CharRoleTab.png width=680px height=487px
 

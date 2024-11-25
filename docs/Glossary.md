@@ -262,7 +262,7 @@ villain: A character who represents an evil or unwelcome force.  The villain is 
 
 [User-Interface]: User-Interface.png width=600px height=431px
 
-[Menu-Bar]: Menu-Bar.png width=599px height=63px
+[Menu-Bar]: Menu-Bar.png width=665px height=65px
 
 [Menu-Bar-Tooltip]: Menu-Bar-Tooltip.png width=204px height=92px
 
@@ -317,6 +317,10 @@ villain: A character who represents an evil or unwelcome force.  The villain is 
 [Problem-Antagonist-Tab]: Problem-Antagonist-Tab.png width=676px height=485px
 
 [Problem-Resolution-Tab]: Problem-Resolution-Tab.png width=675px height=484px
+
+[Image1]: Image1.png width=673px height=463px
+
+[Image1-1]: Image1-1.png width=673px height=463px
 
 [CharRoleTab]: CharRoleTab.png width=680px height=487px
 
