@@ -710,6 +710,8 @@ Not all beats in a beat sheet need to be used. However, when you’re reviewing 
 
 Remember that a beat sheet is a pattern for your plotting, and once you pick it, you’re freezing an aspect of your story structure. This is especially important when dealing with subplot integration.
 
+Additionally, selecting the reports menu option to generate a report for “Story Problem Structure” will create a report of all beats of the Story Problem specified within the Overview element and all attached problems to the beats within that element recursively. If your story does not a have a story problem set, this report will be blank.
+
 
 ## Character Form ##
 ### Role Tab ###
@@ -2961,11 +2963,11 @@ villain: A character who represents an evil or unwelcome force.  The villain is 
 
 [Problem-Problem-Tab]: Problem-Problem-Tab.png width=700px height=501px
 
-[Problem-Protagonist-Tab]: Problem-Protagonist-Tab.png width=685px height=492px
+[Problem-Protagonist-Tab]: Problem-Protagonist-Tab.png width=629px height=491px
 
 [Problem-Antagonist-Tab]: Problem-Antagonist-Tab.png width=676px height=485px
 
-[Problem-Resolution-Tab]: Problem-Resolution-Tab.png width=675px height=484px
+[Problem-Resolution-Tab]: Problem-Resolution-Tab.png width=612px height=476px
 
 [Image1]: Image1.png width=673px height=463px
 
@@ -3029,7 +3031,7 @@ villain: A character who represents an evil or unwelcome force.  The villain is 
 
 [Print-Reports-Button-and-Menu-1]: Print-Reports-Button-and-Menu-1.png width=165px height=161px
 
-[Generate-Reports-Dialog]: Generate-Reports-Dialog.png width=552px height=627px
+[Generate-Reports-Dialog]: Generate-Reports-Dialog.png width=560px height=616px
 
 [Print-Manager]: Print-Manager.png width=680px height=599px
 
