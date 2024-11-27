@@ -1,1 +1,8 @@
-theme: jekyll-theme-slate
+title: StoryCAD Manual
+description: A help manual for StoryCAD
+theme: just-the-docs
+
+url: https://storybuilder-org.github.io/StoryBuilder-Manual/
+
+aux_links:
+  StoryCAD Manual: https://github.com/storybuilder-org/StoryBuilder-Manual
