@@ -2,7 +2,7 @@
 <CompileSettings>
     <ProjectSettings>
         <Content Scope="Included">
-            <CompileGroup Type="BinderItem"/>
+            <CompileGroup Type="BinderItem">7A583553-3A84-40D6-B9B9-0430B8CD3E39</CompileGroup>
             <Filter State="Off" Exclude="No" Type="Label">
                 <Label>-1</Label>
             </Filter>
@@ -10,6 +10,7 @@
         <Options>
             <ResampleImages DPI="72" MaxSize="0">No</ResampleImages>
             <ConvertRichTextToMMD>No</ConvertRichTextToMMD>
+            <ConvertLinksToMMD>Yes</ConvertLinksToMMD>
             <Links/>
             <PDF>
                 <Cover Source="" Bleed="0.0" BleedUnits="pt"></Cover>
@@ -339,13 +340,18 @@
                 <Type ID="D03F0C01-9162-4A7B-B1B8-A4DA36F67ECA">NEW-PAGE-HEADER-WITH-TEXT</Type>
             </SectionLayouts>
         </Format>
+        <Format ID="enumerated-outline">
+            <FrontAndBackMatter>
+                <DefaultFrontMatter>BC0DC62B-D666-419C-A37C-870C3C678050</DefaultFrontMatter>
+            </FrontAndBackMatter>
+        </Format>
     </FormatSettings>
     <LastUsedFormats>
         <Print>ms-non-fiction-courier</Print>
-        <docx>ms-non-fiction-times</docx>
+        <docx>4DF7A7A6-1BB8-4E59-B7D2-8283D39FDDD9</docx>
         <epub2>e-book-legacy</epub2>
         <epub3>e-book</epub3>
-        <mmd>4DF7A7A6-1BB8-4E59-B7D2-8283D39FDDD9</mmd>
+        <mmd>mmd-barebones</mmd>
         <mmd-html>DEFAULT</mmd-html>
         <mmd-latex>mmd-latex-tufte</mmd-latex>
         <mmd-pdf>mmd-latex-tufte</mmd-pdf>
