@@ -104,17 +104,19 @@ namespace MarkdownSplitter
 
 		public void CreateIndexFile()
 		{
-			using (StreamWriter file = new(Path.Combine(docsFolder, "index.md")))
+			using StreamWriter file = new(Path.Combine(docsFolder, "index.md"));
+			file.WriteLine("---");
+			file.WriteLine("title: Home");
+			file.WriteLine("layout: home");
+			file.WriteLine("---");
+			file.WriteLine("# Table of Contents");
+			file.WriteLine("");
+			foreach (var block in nestingLevel[0].Children)
 			{
-				file.WriteLine("# Table of Contents");
-				file.WriteLine("");
-				foreach (var block in nestingLevel[0].Children)
-				{
-					file.WriteLine($"[{block.Title}]({block.Filename}) <br/><br/>");
-				}
-
-				file.Close();
+				file.WriteLine($"[{block.Title}]({block.Filename}) <br/><br/>");
 			}
+
+			file.Close();
 		}
 
 		/// <summary>
@@ -193,6 +195,10 @@ namespace MarkdownSplitter
 			string filepath = Path.Combine(docsFolder, block.Filename);
 			using (StreamWriter file = new(filepath))
 			{
+				file.WriteLine("---");
+				file.WriteLine($"title: {block.Title}");
+				file.WriteLine("page: Home");
+				file.WriteLine("---");
 				file.WriteLine(block.Header);
 				foreach (string line in block.Text)
 					file.WriteLine(CleanupMarkdown(line));
@@ -203,6 +209,10 @@ namespace MarkdownSplitter
 		private void WriteChildFile(Block block, Block Parent)
 		{
 			StringBuilder sb = new();
+			sb.AppendLine("---");
+			sb.AppendLine($"title: {block.Title}");
+			sb.AppendLine("page: Home");
+			sb.AppendLine("---");
 			sb.AppendLine(block.Header); // This writes the header.
 
 			foreach (var text in block.Text)
