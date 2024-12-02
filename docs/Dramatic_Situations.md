@@ -1,6 +1,6 @@
 ---
 title: Dramatic Situations
-page: Home
+layout: default
 ---
 ### Dramatic Situations ###
 Dramatic Situations

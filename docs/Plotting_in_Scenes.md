@@ -1,6 +1,6 @@
 ---
 title: Plotting in Scenes
-page: Home
+layout: default
 ---
 ## Plotting in Scenes ##
 Plotting in Scenes

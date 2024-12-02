@@ -1,6 +1,6 @@
 ---
 title: Story Overview Form
-page: Home
+layout: default
 ---
 ## Story Overview Form ##
 [Story Idea Tab](Story_Idea_Tab.md) <br/><br/>

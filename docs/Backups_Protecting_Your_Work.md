@@ -1,6 +1,6 @@
 ---
 title: Backups: Protecting Your Work
-page: Home
+layout: default
 ---
 ## Backups: Protecting Your Work ##
 Protecting Your Work

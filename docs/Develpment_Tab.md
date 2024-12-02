@@ -1,6 +1,6 @@
 ---
 title: Develpment Tab
-page: Home
+layout: default
 ---
 ### Develpment Tab ###
 Development Tab

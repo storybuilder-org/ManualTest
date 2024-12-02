@@ -1,6 +1,6 @@
 ---
 title: Leaving Feedback
-page: Home
+layout: default
 ---
 ## Leaving Feedback ##
 Leaving Feedback

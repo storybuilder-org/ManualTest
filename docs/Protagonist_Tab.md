@@ -1,6 +1,6 @@
 ---
 title: Protagonist Tab
-page: Home
+layout: default
 ---
 ### Protagonist Tab ###
 Protagonist Tab

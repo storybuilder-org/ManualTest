@@ -1,6 +1,6 @@
 ---
 title: Notes Form
-page: Home
+layout: default
 ---
 ## Notes Form ##
 Notes Form

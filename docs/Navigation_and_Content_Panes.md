@@ -1,6 +1,6 @@
 ---
 title: Navigation and  Content Panes
-page: Home
+layout: default
 ---
 ### Navigation and  Content Panes ###
 Navigation and Content Panes

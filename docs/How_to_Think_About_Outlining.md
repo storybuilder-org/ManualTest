@@ -1,6 +1,6 @@
 ---
 title: How to Think About Outlining
-page: Home
+layout: default
 ---
 ## How to Think About Outlining ##
 How to Think About Outlining

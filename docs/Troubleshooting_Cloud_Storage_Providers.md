@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Cloud Storage Providers
-page: Home
+layout: default
 ---
 ## Troubleshooting Cloud Storage Providers ##
 ![](Clipboard-Image-7.png)

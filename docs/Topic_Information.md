@@ -1,6 +1,6 @@
 ---
 title: Topic Information
-page: Home
+layout: default
 ---
 ## Topic Information ##
 Topic Information

@@ -1,6 +1,6 @@
 ---
 title: Reading and Writing Outlines
-page: Home
+layout: default
 ---
 ## Reading and Writing Outlines ##
 Reading and Writing Outlines

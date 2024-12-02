@@ -1,6 +1,6 @@
 ---
 title: Defining Problems
-page: Home
+layout: default
 ---
 ## Defining Problems ##
 Defining Problems

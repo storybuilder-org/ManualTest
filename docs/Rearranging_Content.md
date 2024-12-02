@@ -1,6 +1,6 @@
 ---
 title: Rearranging Content
-page: Home
+layout: default
 ---
 ### Rearranging Content ###
 Rearranging Content

@@ -1,6 +1,6 @@
 ---
 title: Front Page (Image)
-page: Home
+layout: default
 ---
 ## Front Page (Image) ##
 

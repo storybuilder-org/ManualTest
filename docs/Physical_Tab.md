@@ -1,6 +1,6 @@
 ---
 title: Physical Tab
-page: Home
+layout: default
 ---
 ### Physical Tab ###
 Physical and Appearance Tabs

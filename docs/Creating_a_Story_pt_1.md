@@ -1,6 +1,6 @@
 ---
 title: Creating a Story pt 1
-page: Home
+layout: default
 ---
 ## Creating a Story pt 1 ##
 Creating a Story

@@ -1,6 +1,6 @@
 ---
 title: Tools Menu
-page: Home
+layout: default
 ---
 #### Tools Menu ####
  <br/>

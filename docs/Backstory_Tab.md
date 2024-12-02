@@ -1,6 +1,6 @@
 ---
 title: Backstory Tab
-page: Home
+layout: default
 ---
 ### Backstory Tab ###
 Backstory Tab

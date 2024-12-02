@@ -1,6 +1,6 @@
 ---
 title: Creating a Story pt 4
-page: Home
+layout: default
 ---
 ## Creating a Story pt 4 ##
 Let’s return to our original problem’s Story Question again:

@@ -1,6 +1,6 @@
 ---
 title: Story Idea Tab
-page: Home
+layout: default
 ---
 ### Story Idea Tab ###
 Story Idea Tab

@@ -1,6 +1,6 @@
 ---
 title: Problem Tab
-page: Home
+layout: default
 ---
 ### Problem Tab ###
 Problem Tab

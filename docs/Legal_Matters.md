@@ -1,6 +1,6 @@
 ---
 title: Legal Matters
-page: Home
+layout: default
 ---
 ## Legal Matters ##
 Legal Matters

@@ -1,6 +1,6 @@
 ---
 title: Front Matter
-page: Home
+layout: default
 ---
 # Front Matter #
  <br/>

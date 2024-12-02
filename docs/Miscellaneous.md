@@ -1,6 +1,6 @@
 ---
 title: Miscellaneous
-page: Home
+layout: default
 ---
 # Miscellaneous #
  <br/>

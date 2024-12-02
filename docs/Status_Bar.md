@@ -1,6 +1,6 @@
 ---
 title: Status Bar
-page: Home
+layout: default
 ---
 ### Status Bar ###
 Status Bar

@@ -1,6 +1,6 @@
 ---
 title: StoryCAD for Pantsers
-page: Home
+layout: default
 ---
 ### StoryCAD for Pantsers ###
 StoryCAD for Pantsers

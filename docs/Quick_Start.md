@@ -1,6 +1,6 @@
 ---
 title: Quick Start
-page: Home
+layout: default
 ---
 # Quick Start #
  <br/>

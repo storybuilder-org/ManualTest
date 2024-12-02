@@ -1,6 +1,6 @@
 ---
 title: Social Tab
-page: Home
+layout: default
 ---
 ### Social Tab ###
 Social Tab

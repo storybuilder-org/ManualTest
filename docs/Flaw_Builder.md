@@ -1,6 +1,6 @@
 ---
 title: Flaw Builder
-page: Home
+layout: default
 ---
 ## Flaw Builder ##
 Flaw Builder

@@ -1,6 +1,6 @@
 ---
 title: Conflict Builder
-page: Home
+layout: default
 ---
 ## Conflict Builder ##
 Conflict Builder

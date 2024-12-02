@@ -1,6 +1,6 @@
 ---
 title: Story Elements
-page: Home
+layout: default
 ---
 # Story Elements #
  <br/>

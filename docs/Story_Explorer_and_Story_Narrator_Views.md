@@ -1,6 +1,6 @@
 ---
 title: Story Explorer and Story Narrator Views
-page: Home
+layout: default
 ---
 ### Story Explorer and Story Narrator Views ###
 Story Explorer and Story Narrator Views

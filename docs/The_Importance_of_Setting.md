@@ -1,6 +1,6 @@
 ---
 title: The Importance of Setting
-page: Home
+layout: default
 ---
 ## The Importance of Setting ##
 The Importance of Setting

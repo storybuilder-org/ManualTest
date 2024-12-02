@@ -1,6 +1,6 @@
 ---
 title: Problem and Character Development
-page: Home
+layout: default
 ---
 ## Problem and Character Development ##
 Problem and Character Development

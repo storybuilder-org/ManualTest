@@ -1,6 +1,6 @@
 ---
 title: Print Reports
-page: Home
+layout: default
 ---
 ## Print Reports ##
 Print Reports

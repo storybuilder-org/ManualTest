@@ -1,6 +1,6 @@
 ---
 title: Search
-page: Home
+layout: default
 ---
 #### Search ####
 Search

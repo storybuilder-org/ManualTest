@@ -1,6 +1,6 @@
 ---
 title: Antagonist Tab
-page: Home
+layout: default
 ---
 ### Antagonist Tab ###
 Antagonist Tab

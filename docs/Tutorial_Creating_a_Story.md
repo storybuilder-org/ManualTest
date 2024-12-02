@@ -1,6 +1,6 @@
 ---
 title: Tutorial: Creating a Story
-page: Home
+layout: default
 ---
 # Tutorial: Creating a Story #
  <br/>

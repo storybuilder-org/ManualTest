@@ -1,6 +1,6 @@
 ---
 title: Important Notice to StoryCAD Users
-page: Home
+layout: default
 ---
 ## Important Notice to StoryCAD Users ##
 Important Notice to StoryCAD Users

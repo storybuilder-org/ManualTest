@@ -1,6 +1,6 @@
 ---
 title: Developing StoryCAD
-page: Home
+layout: default
 ---
 ## Developing StoryCAD ##
 Developing StoryCAD

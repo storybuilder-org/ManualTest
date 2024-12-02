@@ -1,6 +1,6 @@
 ---
 title: File Menu
-page: Home
+layout: default
 ---
 #### File Menu  ####
 File Menu

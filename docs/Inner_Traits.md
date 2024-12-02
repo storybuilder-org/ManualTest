@@ -1,6 +1,6 @@
 ---
 title: Inner Traits
-page: Home
+layout: default
 ---
 ### Inner Traits ###
 Inner Traits Tab
