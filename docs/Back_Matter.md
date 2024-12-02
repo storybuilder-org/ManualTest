@@ -1,6 +1,6 @@
 ---
 title: Back Matter
-layout: default
+page: Home
 ---
 # Back Matter #
 [Glossary](Glossary.md) <br/><br/>

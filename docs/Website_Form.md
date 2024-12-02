@@ -1,6 +1,6 @@
 ---
 title: Website Form
-layout: default
+page: Home
 ---
 ## Website Form ##
 Website Form

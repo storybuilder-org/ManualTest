@@ -1,6 +1,6 @@
 ---
 title: Flaw Tab
-layout: default
+page: Home
 ---
 ### Flaw Tab ###
 Flaw Tab

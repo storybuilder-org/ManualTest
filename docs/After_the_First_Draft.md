@@ -1,6 +1,6 @@
 ---
 title: After the First Draft
-layout: default
+page: Home
 ---
 ### After the First Draft ###
 After the First Draft

@@ -1,6 +1,6 @@
 ---
 title: Navigation Pane Flyout CommandBar
-layout: default
+page: Home
 ---
 ### Navigation Pane Flyout CommandBar ###
 Navigation Pane Flyout Commands

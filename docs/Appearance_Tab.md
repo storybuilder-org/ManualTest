@@ -1,6 +1,6 @@
 ---
 title: Appearance Tab
-layout: default
+page: Home
 ---
 ### Appearance Tab ###
 Appearance Tab

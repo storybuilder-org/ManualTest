@@ -1,6 +1,6 @@
 ---
 title: Setting Tab
-layout: default
+page: Home
 ---
 ### Setting Tab ###
 Setting Tab

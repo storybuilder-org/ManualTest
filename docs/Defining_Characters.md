@@ -1,6 +1,6 @@
 ---
 title: Defining Characters
-layout: default
+page: Home
 ---
 ## Defining Characters ##
 Defining Characters

@@ -1,6 +1,6 @@
 ---
 title: Concept Tab
-layout: default
+page: Home
 ---
 ### Concept Tab ###
 

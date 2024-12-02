@@ -1,6 +1,6 @@
 ---
 title: Creating a Story pt 2
-layout: default
+page: Home
 ---
 ## Creating a Story pt 2 ##
 After a break, we decide to continue refining our story idea.  You need to reload the "Danger Calls" outline. Launch StoryCAD. 

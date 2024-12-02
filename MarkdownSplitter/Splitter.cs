@@ -197,7 +197,7 @@ namespace MarkdownSplitter
 			{
 				file.WriteLine("---");
 				file.WriteLine($"title: {block.Title}");
-				file.WriteLine("layout: default");
+				file.WriteLine("page: Home");
 				file.WriteLine("---");
 				file.WriteLine(block.Header);
 				foreach (string line in block.Text)
@@ -211,7 +211,7 @@ namespace MarkdownSplitter
 			StringBuilder sb = new();
 			sb.AppendLine("---");
 			sb.AppendLine($"title: {block.Title}");
-			sb.AppendLine("layout: default");
+			sb.AppendLine("page: Home");
 			sb.AppendLine("---");
 			sb.AppendLine(block.Header); // This writes the header.
 

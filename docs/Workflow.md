@@ -1,6 +1,6 @@
 ---
 title: Workflow
-layout: default
+page: Home
 ---
 ## Workflow ##
 Workflow

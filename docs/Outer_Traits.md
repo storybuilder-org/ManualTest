@@ -1,6 +1,6 @@
 ---
 title: Outer Traits
-layout: default
+page: Home
 ---
 ### Outer Traits ###
 Outer Traits Tab

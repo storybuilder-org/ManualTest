@@ -1,6 +1,6 @@
 ---
 title: Plotting Aids
-layout: default
+page: Home
 ---
 ## Plotting Aids ##
 

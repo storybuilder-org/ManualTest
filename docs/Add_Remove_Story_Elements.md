@@ -1,6 +1,6 @@
 ---
 title: Add/Remove Story Elements
-layout: default
+page: Home
 ---
 #### Add/Remove Story Elements ####
 Add/Remove Story Elements

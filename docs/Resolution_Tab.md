@@ -1,6 +1,6 @@
 ---
 title: Resolution Tab
-layout: default
+page: Home
 ---
 ### Resolution Tab ###
 Resolution Tab

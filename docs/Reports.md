@@ -1,6 +1,6 @@
 ---
 title: Reports
-layout: default
+page: Home
 ---
 # Reports #
  <br/>

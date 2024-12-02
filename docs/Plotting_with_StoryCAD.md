@@ -1,6 +1,6 @@
 ---
 title: Plotting with StoryCAD
-layout: default
+page: Home
 ---
 ## Plotting with StoryCAD ##
 Using StoryCAD to Plot Your Story

@@ -1,6 +1,6 @@
 ---
 title: Premise Tab
-layout: default
+page: Home
 ---
 ### Premise Tab ###
 Premise Tab

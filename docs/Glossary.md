@@ -1,6 +1,6 @@
 ---
 title: Glossary
-layout: default
+page: Home
 ---
 ## Glossary ##
 

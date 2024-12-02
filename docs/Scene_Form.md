@@ -1,6 +1,6 @@
 ---
 title: Scene Form
-layout: default
+page: Home
 ---
 ## Scene Form ##
 [Scene Tab](Scene_Tab.md) <br/><br/>

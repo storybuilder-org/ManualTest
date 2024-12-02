@@ -1,6 +1,6 @@
 ---
 title: Sequel Tab
-layout: default
+page: Home
 ---
 ### Sequel Tab ###
 

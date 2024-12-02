@@ -1,6 +1,6 @@
 ---
 title: Critiquing with StoryCAD
-layout: default
+page: Home
 ---
 ### Critiquing with StoryCAD ###
 Critiquing with StoryCAD

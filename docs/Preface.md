@@ -1,6 +1,6 @@
 ---
 title: Preface
-layout: default
+page: Home
 ---
 ##  Preface ##
 Preface

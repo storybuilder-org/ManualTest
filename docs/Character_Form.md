@@ -1,6 +1,6 @@
 ---
 title: Character Form
-layout: default
+page: Home
 ---
 ## Character Form ##
 [Role Tab](Role_Tab.md) <br/><br/>

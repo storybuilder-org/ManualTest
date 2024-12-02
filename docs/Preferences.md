@@ -1,6 +1,6 @@
 ---
 title: Preferences
-layout: default
+page: Home
 ---
 # Preferences #
 Preferences

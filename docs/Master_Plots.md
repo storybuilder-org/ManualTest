@@ -1,6 +1,6 @@
 ---
 title: Master Plots
-layout: default
+page: Home
 ---
 ### Master Plots ###
 1

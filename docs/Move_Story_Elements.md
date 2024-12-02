@@ -1,6 +1,6 @@
 ---
 title: Move Story Elements
-layout: default
+page: Home
 ---
 #### Move Story Elements ####
 Move Story Elements

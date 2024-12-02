@@ -1,6 +1,6 @@
 ---
 title: Menu Bar
-layout: default
+page: Home
 ---
 ### Menu Bar ###
 Menu Bar

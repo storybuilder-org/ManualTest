@@ -1,6 +1,6 @@
 ---
 title: Reports Menu
-layout: default
+page: Home
 ---
 ## Reports Menu ##
 Reports Menu

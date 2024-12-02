@@ -1,6 +1,6 @@
 ---
 title: Key Questions
-layout: default
+page: Home
 ---
 ## Key Questions ##
 

@@ -1,6 +1,6 @@
 ---
 title: Structure Tab
-layout: default
+page: Home
 ---
 ### Structure Tab ###
 Structure Tab

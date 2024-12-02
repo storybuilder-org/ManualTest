@@ -1,6 +1,6 @@
 ---
 title: Sensations Tab
-layout: default
+page: Home
 ---
 ### Sensations Tab ###
 Sensations Tab

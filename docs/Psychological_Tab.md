@@ -1,6 +1,6 @@
 ---
 title: Psychological Tab
-layout: default
+page: Home
 ---
 ### Psychological Tab ###
 Psychological Tab

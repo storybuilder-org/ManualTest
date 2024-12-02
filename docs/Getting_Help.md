@@ -1,6 +1,6 @@
 ---
 title: Getting Help
-layout: default
+page: Home
 ---
 ## Getting Help ##
 Getting Help

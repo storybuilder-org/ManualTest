@@ -1,6 +1,6 @@
 ---
 title: Problem Form
-layout: default
+page: Home
 ---
 ## Problem Form ##
 [Problem Tab](Problem_Tab.md) <br/><br/>

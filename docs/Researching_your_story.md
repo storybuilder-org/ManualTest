@@ -1,6 +1,6 @@
 ---
 title: Researching your story
-layout: default
+page: Home
 ---
 # Researching your story #
  <br/>

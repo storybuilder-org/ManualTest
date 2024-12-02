@@ -1,6 +1,6 @@
 ---
 title: Relationships Tab
-layout: default
+page: Home
 ---
 ### Relationships Tab ###
  Relationships Tab

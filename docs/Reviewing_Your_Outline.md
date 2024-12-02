@@ -1,6 +1,6 @@
 ---
 title: Reviewing Your Outline
-layout: default
+page: Home
 ---
 ## Reviewing Your Outline ##
 Reviewing Your Outline

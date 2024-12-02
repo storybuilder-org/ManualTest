@@ -1,6 +1,6 @@
 ---
 title: Tabs
-layout: default
+page: Home
 ---
 ### Tabs ###
 Tabs		

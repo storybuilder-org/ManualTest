@@ -1,6 +1,6 @@
 ---
 title: Stock Scenes
-layout: default
+page: Home
 ---
 ### Stock Scenes ###
 Stock Scenes
