@@ -2,6 +2,8 @@
 title: Tools Menu
 layout: default
 nav_enabled: true
+nav_order: 4
+parent: Menu Bar
 ---
 #### Tools Menu ####
  <br/>

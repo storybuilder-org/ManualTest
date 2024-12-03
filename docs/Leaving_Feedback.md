@@ -2,6 +2,8 @@
 title: Leaving Feedback
 layout: default
 nav_enabled: true
+nav_order: 2
+parent: Miscellaneous
 ---
 ## Leaving Feedback ##
 Leaving Feedback

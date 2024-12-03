@@ -2,6 +2,8 @@
 title: Reports Menu
 layout: default
 nav_enabled: true
+nav_order: 2
+parent: Reports
 ---
 ## Reports Menu ##
 Reports Menu

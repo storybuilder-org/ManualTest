@@ -2,6 +2,8 @@
 title: Narrative Editor
 layout: default
 nav_enabled: true
+nav_order: 2
+parent: Tools
 ---
 ## Narrative Editor ##
 Narrative Editor

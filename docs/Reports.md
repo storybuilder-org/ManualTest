@@ -2,6 +2,8 @@
 title: Reports
 layout: default
 nav_enabled: true
+nav_order: 1
+parent: Table of Contents
 ---
 # Reports #
  <br/>

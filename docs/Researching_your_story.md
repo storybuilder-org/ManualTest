@@ -2,6 +2,8 @@
 title: Researching your story
 layout: default
 nav_enabled: true
+nav_order: 1
+parent: Table of Contents
 ---
 # Researching your story #
  <br/>

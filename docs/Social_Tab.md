@@ -2,6 +2,8 @@
 title: Social Tab
 layout: default
 nav_enabled: true
+nav_order: 3
+parent: Character Form
 ---
 ### Social Tab ###
 Social Tab

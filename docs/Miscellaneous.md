@@ -2,6 +2,8 @@
 title: Miscellaneous
 layout: default
 nav_enabled: true
+nav_order: 1
+parent: Table of Contents
 ---
 # Miscellaneous #
  <br/>

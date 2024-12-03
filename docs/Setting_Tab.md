@@ -2,6 +2,8 @@
 title: Setting Tab
 layout: default
 nav_enabled: true
+nav_order: 3
+parent: Setting Form
 ---
 ### Setting Tab ###
 Setting Tab

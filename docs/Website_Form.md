@@ -2,6 +2,8 @@
 title: Website Form
 layout: default
 nav_enabled: true
+nav_order: 2
+parent: Researching your story
 ---
 ## Website Form ##
 Website Form

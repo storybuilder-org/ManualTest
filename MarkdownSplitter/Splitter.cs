@@ -199,6 +199,7 @@ namespace MarkdownSplitter
 				file.WriteLine($"title: {block.Title}");
 				file.WriteLine("layout: default");
 				file.WriteLine("nav_enabled: true");
+				file.WriteLine($"nav_order: {block.Level}");
 				file.WriteLine("---");
 				file.WriteLine(block.Header);
 				foreach (string line in block.Text)
@@ -214,6 +215,8 @@ namespace MarkdownSplitter
 			sb.AppendLine($"title: {block.Title}");
 			sb.AppendLine("layout: default");
 			sb.AppendLine("nav_enabled: true");
+			sb.AppendLine($"nav_order: {block.Level}");
+			sb.AppendLine($"parent: {Parent.Title}");
 			sb.AppendLine("---");
 			sb.AppendLine(block.Header); // This writes the header.
 

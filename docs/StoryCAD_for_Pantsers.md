@@ -2,6 +2,8 @@
 title: StoryCAD for Pantsers
 layout: default
 nav_enabled: true
+nav_order: 3
+parent: Other Uses of StoryCAD
 ---
 ### StoryCAD for Pantsers ###
 StoryCAD for Pantsers

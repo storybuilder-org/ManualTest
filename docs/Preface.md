@@ -2,6 +2,8 @@
 title: Preface
 layout: default
 nav_enabled: true
+nav_order: 2
+parent: Front Matter
 ---
 ##  Preface ##
 Preface

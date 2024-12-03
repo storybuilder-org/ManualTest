@@ -2,6 +2,8 @@
 title: Defining Scenes
 layout: default
 nav_enabled: true
+nav_order: 2
+parent: Writing with StoryCAD
 ---
 ## Defining Scenes ##
 Defining Scenes
