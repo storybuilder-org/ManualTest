@@ -1,6 +1,7 @@
 ---
 title: Problem and Character Development
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Problem and Character Development ##
 Problem and Character Development

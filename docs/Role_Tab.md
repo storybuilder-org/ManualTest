@@ -1,6 +1,7 @@
 ---
 title: Role Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Role Tab ###
 Role Tab

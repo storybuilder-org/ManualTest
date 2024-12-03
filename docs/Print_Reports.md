@@ -1,6 +1,7 @@
 ---
 title: Print Reports
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Print Reports ##
 Print Reports

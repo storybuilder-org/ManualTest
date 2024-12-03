@@ -1,6 +1,7 @@
 ---
 title: Plotting Tools
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Plotting Tools ##
 Plotting Tools

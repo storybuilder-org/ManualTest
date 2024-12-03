@@ -1,6 +1,7 @@
 ---
 title: Scene Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Scene Tab ###
 Scene Tab

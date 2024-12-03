@@ -1,6 +1,7 @@
 ---
 title: Tutorial: Creating a Story
-page: Home
+layout: default
+nav_enabled: true
 ---
 # Tutorial: Creating a Story #
  <br/>

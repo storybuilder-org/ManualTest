@@ -1,6 +1,7 @@
 ---
 title: Problem Form
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Problem Form ##
 [Problem Tab](Problem_Tab.md) <br/><br/>

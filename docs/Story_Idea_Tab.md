@@ -1,6 +1,7 @@
 ---
 title: Story Idea Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Story Idea Tab ###
 Story Idea Tab

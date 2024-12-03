@@ -1,6 +1,7 @@
 ---
 title: Menu Bar
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Menu Bar ###
 Menu Bar

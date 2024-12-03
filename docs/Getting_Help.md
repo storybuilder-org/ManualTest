@@ -1,6 +1,7 @@
 ---
 title: Getting Help
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Getting Help ##
 Getting Help

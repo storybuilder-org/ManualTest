@@ -1,6 +1,7 @@
 ---
 title: Starting and Stopping StoryCAD
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Starting and Stopping StoryCAD ##
 Starting and Stopping StoryCAD

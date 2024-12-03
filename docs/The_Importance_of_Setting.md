@@ -1,6 +1,7 @@
 ---
 title: The Importance of Setting
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## The Importance of Setting ##
 The Importance of Setting

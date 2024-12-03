@@ -1,6 +1,7 @@
 ---
 title: Stock Scenes
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Stock Scenes ###
 Stock Scenes

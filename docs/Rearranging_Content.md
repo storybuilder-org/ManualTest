@@ -1,6 +1,7 @@
 ---
 title: Rearranging Content
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Rearranging Content ###
 Rearranging Content

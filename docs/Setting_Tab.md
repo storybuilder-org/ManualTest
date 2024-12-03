@@ -1,6 +1,7 @@
 ---
 title: Setting Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Setting Tab ###
 Setting Tab

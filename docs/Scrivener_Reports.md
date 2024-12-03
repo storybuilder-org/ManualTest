@@ -1,6 +1,7 @@
 ---
 title: Scrivener Reports
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Scrivener Reports ##
 Scrivener Reports

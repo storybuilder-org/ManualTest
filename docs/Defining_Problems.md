@@ -1,6 +1,7 @@
 ---
 title: Defining Problems
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Defining Problems ##
 Defining Problems

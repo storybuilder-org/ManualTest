@@ -1,6 +1,7 @@
 ---
 title: Conflict Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Conflict Tab ###
 Conflict Tab

@@ -1,6 +1,7 @@
 ---
 title: Defining Characters
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Defining Characters ##
 Defining Characters

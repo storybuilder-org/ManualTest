@@ -1,6 +1,7 @@
 ---
 title: Outer Traits
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Outer Traits ###
 Outer Traits Tab

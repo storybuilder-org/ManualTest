@@ -1,6 +1,7 @@
 ---
 title: Develpment Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Develpment Tab ###
 Development Tab

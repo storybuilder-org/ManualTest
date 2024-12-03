@@ -1,6 +1,7 @@
 ---
 title: Creating a Story pt 9
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Creating a Story pt 9 ##
 We know how our story starts and how it ends; we're left with the middle story that ties these two parts together.

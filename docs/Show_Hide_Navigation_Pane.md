@@ -1,6 +1,7 @@
 ---
 title: Show/Hide Navigation Pane
-page: Home
+layout: default
+nav_enabled: true
 ---
 #### Show/Hide Navigation Pane ####
 1

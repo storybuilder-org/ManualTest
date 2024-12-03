@@ -1,6 +1,7 @@
 ---
 title: Key Questions
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Key Questions ##
 

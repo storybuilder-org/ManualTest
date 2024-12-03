@@ -1,6 +1,7 @@
 ---
 title: Leaving Feedback
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Leaving Feedback ##
 Leaving Feedback

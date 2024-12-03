@@ -1,6 +1,7 @@
 ---
 title: Key Binds
-page: Home
+layout: default
+nav_enabled: true
 ---
 #### Key Binds ####
 Key Binds

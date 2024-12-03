@@ -1,6 +1,7 @@
 ---
 title: Social Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Social Tab ###
 Social Tab

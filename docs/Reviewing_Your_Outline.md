@@ -1,6 +1,7 @@
 ---
 title: Reviewing Your Outline
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Reviewing Your Outline ##
 Reviewing Your Outline

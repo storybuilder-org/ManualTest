@@ -1,6 +1,7 @@
 ---
 title: Writing with StoryCAD
-page: Home
+layout: default
+nav_enabled: true
 ---
 # Writing with StoryCAD #
  <br/>

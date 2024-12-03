@@ -1,6 +1,7 @@
 ---
 title: Notes Form
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Notes Form ##
 Notes Form

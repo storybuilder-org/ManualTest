@@ -1,6 +1,7 @@
 ---
 title: Story Idea, Concept, and Premise
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Story Idea, Concept, and Premise ##
 Ideation

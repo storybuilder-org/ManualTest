@@ -1,6 +1,7 @@
 ---
 title: Tabs
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Tabs ###
 Tabs		

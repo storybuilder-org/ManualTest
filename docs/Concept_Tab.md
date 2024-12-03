@@ -1,6 +1,7 @@
 ---
 title: Concept Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Concept Tab ###
 

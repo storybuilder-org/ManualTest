@@ -1,6 +1,7 @@
 ---
 title: Preferences
-page: Home
+layout: default
+nav_enabled: true
 ---
 # Preferences #
 Preferences

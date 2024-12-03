@@ -1,6 +1,7 @@
 ---
 title: Defining Scenes
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Defining Scenes ##
 Defining Scenes

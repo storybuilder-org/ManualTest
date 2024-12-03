@@ -1,6 +1,7 @@
 ---
 title: Using Various Input Devices
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Using Various Input Devices ##
 Using Various Input Devices

@@ -1,6 +1,7 @@
 ---
 title: Workflow
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Workflow ##
 Workflow

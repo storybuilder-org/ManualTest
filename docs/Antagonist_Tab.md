@@ -1,6 +1,7 @@
 ---
 title: Antagonist Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Antagonist Tab ###
 Antagonist Tab

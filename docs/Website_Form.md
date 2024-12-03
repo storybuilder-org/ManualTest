@@ -1,6 +1,7 @@
 ---
 title: Website Form
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Website Form ##
 Website Form

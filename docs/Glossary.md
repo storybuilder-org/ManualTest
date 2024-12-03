@@ -1,6 +1,7 @@
 ---
 title: Glossary
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Glossary ##
 

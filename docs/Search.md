@@ -1,6 +1,7 @@
 ---
 title: Search
-page: Home
+layout: default
+nav_enabled: true
 ---
 #### Search ####
 Search

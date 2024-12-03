@@ -1,6 +1,7 @@
 ---
 title: Navigating in StoryCAD
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Navigating in StoryCAD ##
 [Story Elements](Story_Elements.md) <br/><br/>

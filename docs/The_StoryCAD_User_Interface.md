@@ -1,6 +1,7 @@
 ---
 title: The StoryCAD User Interface
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## The StoryCAD User Interface ##
 The StoryCAD User Interface

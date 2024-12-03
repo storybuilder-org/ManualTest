@@ -1,6 +1,7 @@
 ---
 title: Problem Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Problem Tab ###
 Problem Tab

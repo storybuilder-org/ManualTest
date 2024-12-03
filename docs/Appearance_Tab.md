@@ -1,6 +1,7 @@
 ---
 title: Appearance Tab
-page: Home
+layout: default
+nav_enabled: true
 ---
 ### Appearance Tab ###
 Appearance Tab

@@ -1,6 +1,7 @@
 ---
 title: Narrative Editor
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Narrative Editor ##
 Narrative Editor

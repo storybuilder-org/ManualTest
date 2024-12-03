@@ -1,6 +1,7 @@
 ---
 title: Setting Form
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Setting Form ##
 [Setting Tab](Setting_Tab.md) <br/><br/>

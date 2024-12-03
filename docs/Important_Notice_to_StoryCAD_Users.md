@@ -1,6 +1,7 @@
 ---
 title: Important Notice to StoryCAD Users
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Important Notice to StoryCAD Users ##
 Important Notice to StoryCAD Users

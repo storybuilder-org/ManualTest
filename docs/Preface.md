@@ -1,6 +1,7 @@
 ---
 title: Preface
-page: Home
+layout: default
+nav_enabled: true
 ---
 ##  Preface ##
 Preface

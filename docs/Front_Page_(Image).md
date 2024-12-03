@@ -1,6 +1,7 @@
 ---
 title: Front Page (Image)
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Front Page (Image) ##
 

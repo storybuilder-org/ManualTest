@@ -1,6 +1,7 @@
 ---
 title: Backups: Protecting Your Work
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Backups: Protecting Your Work ##
 Protecting Your Work

@@ -1,6 +1,7 @@
 ---
 title: Miscellaneous
-page: Home
+layout: default
+nav_enabled: true
 ---
 # Miscellaneous #
  <br/>

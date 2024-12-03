@@ -1,6 +1,7 @@
 ---
 title: Other Uses of StoryCAD
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Other Uses of StoryCAD ##
 [StoryCAD for Pantsers](StoryCAD_for_Pantsers.md) <br/><br/>

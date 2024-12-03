@@ -1,6 +1,7 @@
 ---
 title: Story Elements
-page: Home
+layout: default
+nav_enabled: true
 ---
 # Story Elements #
  <br/>

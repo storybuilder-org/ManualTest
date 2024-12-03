@@ -1,6 +1,7 @@
 ---
 title: Developing StoryCAD
-page: Home
+layout: default
+nav_enabled: true
 ---
 ## Developing StoryCAD ##
 Developing StoryCAD
