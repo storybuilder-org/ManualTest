@@ -2,7 +2,6 @@
 title: Premise Tab
 layout: default
 nav_enabled: true
-parent: Story Overview Form
 ---
 ### Premise Tab ###
 Premise Tab

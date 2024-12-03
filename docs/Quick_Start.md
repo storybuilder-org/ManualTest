@@ -2,7 +2,6 @@
 title: Quick Start
 layout: default
 nav_enabled: true
-parent: Table of Contents
 ---
 # Quick Start #
  <br/>

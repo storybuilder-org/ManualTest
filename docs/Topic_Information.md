@@ -2,7 +2,6 @@
 title: Topic Information
 layout: default
 nav_enabled: true
-parent: Tools
 ---
 ## Topic Information ##
 Topic Information

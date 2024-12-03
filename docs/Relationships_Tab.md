@@ -2,7 +2,6 @@
 title: Relationships Tab
 layout: default
 nav_enabled: true
-parent: Character Form
 ---
 ### Relationships Tab ###
  Relationships Tab

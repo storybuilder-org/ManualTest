@@ -2,7 +2,6 @@
 title: Rearranging Content
 layout: default
 nav_enabled: true
-parent: Navigating in StoryCAD
 ---
 ### Rearranging Content ###
 Rearranging Content

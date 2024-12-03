@@ -2,7 +2,6 @@
 title: Front Matter
 layout: default
 nav_enabled: true
-parent: Table of Contents
 ---
 # Front Matter #
  <br/>

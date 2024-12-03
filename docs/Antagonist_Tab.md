@@ -2,7 +2,6 @@
 title: Antagonist Tab
 layout: default
 nav_enabled: true
-parent: Problem Form
 ---
 ### Antagonist Tab ###
 Antagonist Tab

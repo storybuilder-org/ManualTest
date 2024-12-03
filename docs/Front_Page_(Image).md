@@ -2,7 +2,6 @@
 title: Front Page (Image)
 layout: default
 nav_enabled: true
-parent: Front Matter
 ---
 ## Front Page (Image) ##
 

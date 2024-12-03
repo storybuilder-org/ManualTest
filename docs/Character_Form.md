@@ -2,7 +2,6 @@
 title: Character Form
 layout: default
 nav_enabled: true
-parent: Story Elements
 ---
 ## Character Form ##
 [Role Tab](Role_Tab.md) <br/><br/>

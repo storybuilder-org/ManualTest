@@ -2,7 +2,6 @@
 title: The StoryCAD User Interface
 layout: default
 nav_enabled: true
-parent: Quick Start
 ---
 ## The StoryCAD User Interface ##
 The StoryCAD User Interface

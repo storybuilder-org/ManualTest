@@ -216,7 +216,7 @@ namespace MarkdownSplitter
 			sb.AppendLine("layout: default");
 			sb.AppendLine("nav_enabled: true");
 			//sb.AppendLine($"nav_order: {block.Level}");
-			sb.AppendLine($"parent: {Parent.Title}");
+		//	sb.AppendLine($"parent: {Parent.Title}");
 			sb.AppendLine("---");
 			sb.AppendLine(block.Header); // This writes the header.
 

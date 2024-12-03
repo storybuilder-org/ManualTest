@@ -2,7 +2,6 @@
 title: Story Idea, Concept, and Premise
 layout: default
 nav_enabled: true
-parent: Writing with StoryCAD
 ---
 ## Story Idea, Concept, and Premise ##
 Ideation

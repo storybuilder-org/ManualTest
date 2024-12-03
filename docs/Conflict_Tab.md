@@ -2,7 +2,6 @@
 title: Conflict Tab
 layout: default
 nav_enabled: true
-parent: Scene Form
 ---
 ### Conflict Tab ###
 Conflict Tab

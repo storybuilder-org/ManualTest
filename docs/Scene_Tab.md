@@ -2,7 +2,6 @@
 title: Scene Tab
 layout: default
 nav_enabled: true
-parent: Scene Form
 ---
 ### Scene Tab ###
 Scene Tab

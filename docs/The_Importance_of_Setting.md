@@ -2,7 +2,6 @@
 title: The Importance of Setting
 layout: default
 nav_enabled: true
-parent: Writing with StoryCAD
 ---
 ## The Importance of Setting ##
 The Importance of Setting

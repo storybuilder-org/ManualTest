@@ -2,7 +2,6 @@
 title: Key Binds
 layout: default
 nav_enabled: true
-parent: Menu Bar
 ---
 #### Key Binds ####
 Key Binds

@@ -2,7 +2,6 @@
 title: Defining Characters
 layout: default
 nav_enabled: true
-parent: Writing with StoryCAD
 ---
 ## Defining Characters ##
 Defining Characters

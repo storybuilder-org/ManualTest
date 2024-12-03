@@ -2,7 +2,6 @@
 title: Legal Matters
 layout: default
 nav_enabled: true
-parent: Front Matter
 ---
 ## Legal Matters ##
 Legal Matters

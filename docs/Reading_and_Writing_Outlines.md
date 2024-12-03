@@ -2,7 +2,6 @@
 title: Reading and Writing Outlines
 layout: default
 nav_enabled: true
-parent: Quick Start
 ---
 ## Reading and Writing Outlines ##
 Reading and Writing Outlines

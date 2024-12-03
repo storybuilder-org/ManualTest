@@ -2,7 +2,6 @@
 title: Sequel Tab
 layout: default
 nav_enabled: true
-parent: Scene Form
 ---
 ### Sequel Tab ###
 

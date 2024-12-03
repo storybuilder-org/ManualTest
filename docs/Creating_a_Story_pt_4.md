@@ -2,7 +2,6 @@
 title: Creating a Story pt 4
 layout: default
 nav_enabled: true
-parent: Tutorial: Creating a Story
 ---
 ## Creating a Story pt 4 ##
 Let’s return to our original problem’s Story Question again:

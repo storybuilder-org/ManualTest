@@ -2,7 +2,6 @@
 title: Troubleshooting Cloud Storage Providers
 layout: default
 nav_enabled: true
-parent: Miscellaneous
 ---
 ## Troubleshooting Cloud Storage Providers ##
 ![](Clipboard-Image-7.png)

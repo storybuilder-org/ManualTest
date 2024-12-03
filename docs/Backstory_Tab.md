@@ -2,7 +2,6 @@
 title: Backstory Tab
 layout: default
 nav_enabled: true
-parent: Character Form
 ---
 ### Backstory Tab ###
 Backstory Tab

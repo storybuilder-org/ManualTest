@@ -2,7 +2,6 @@
 title: Navigation and  Content Panes
 layout: default
 nav_enabled: true
-parent: The StoryCAD User Interface
 ---
 ### Navigation and  Content Panes ###
 Navigation and Content Panes

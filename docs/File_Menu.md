@@ -2,7 +2,6 @@
 title: File Menu
 layout: default
 nav_enabled: true
-parent: Menu Bar
 ---
 #### File Menu  ####
 File Menu

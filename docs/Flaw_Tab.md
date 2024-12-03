@@ -2,7 +2,6 @@
 title: Flaw Tab
 layout: default
 nav_enabled: true
-parent: Character Form
 ---
 ### Flaw Tab ###
 Flaw Tab

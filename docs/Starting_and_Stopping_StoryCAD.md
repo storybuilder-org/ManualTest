@@ -2,7 +2,6 @@
 title: Starting and Stopping StoryCAD
 layout: default
 nav_enabled: true
-parent: Quick Start
 ---
 ## Starting and Stopping StoryCAD ##
 Starting and Stopping StoryCAD

@@ -2,7 +2,6 @@
 title: Getting Help
 layout: default
 nav_enabled: true
-parent: Front Matter
 ---
 ## Getting Help ##
 Getting Help

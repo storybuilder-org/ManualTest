@@ -2,7 +2,6 @@
 title: Writing with StoryCAD
 layout: default
 nav_enabled: true
-parent: Table of Contents
 ---
 # Writing with StoryCAD #
  <br/>

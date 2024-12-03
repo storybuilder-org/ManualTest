@@ -2,7 +2,6 @@
 title: Workflow
 layout: default
 nav_enabled: true
-parent: Writing with StoryCAD
 ---
 ## Workflow ##
 Workflow

@@ -2,7 +2,6 @@
 title: Move Story Elements
 layout: default
 nav_enabled: true
-parent: Menu Bar
 ---
 #### Move Story Elements ####
 Move Story Elements

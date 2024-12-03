@@ -2,7 +2,6 @@
 title: Plotting with StoryCAD
 layout: default
 nav_enabled: true
-parent: Writing with StoryCAD
 ---
 ## Plotting with StoryCAD ##
 Using StoryCAD to Plot Your Story

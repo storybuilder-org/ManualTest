@@ -2,7 +2,6 @@
 title: Using Various Input Devices
 layout: default
 nav_enabled: true
-parent: Quick Start
 ---
 ## Using Various Input Devices ##
 Using Various Input Devices

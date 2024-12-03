@@ -2,7 +2,6 @@
 title: Reviewing Your Outline
 layout: default
 nav_enabled: true
-parent: Writing with StoryCAD
 ---
 ## Reviewing Your Outline ##
 Reviewing Your Outline

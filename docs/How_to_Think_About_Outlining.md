@@ -2,7 +2,6 @@
 title: How to Think About Outlining
 layout: default
 nav_enabled: true
-parent: Writing with StoryCAD
 ---
 ## How to Think About Outlining ##
 How to Think About Outlining

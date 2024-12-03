@@ -2,7 +2,6 @@
 title: Menu Bar
 layout: default
 nav_enabled: true
-parent: The StoryCAD User Interface
 ---
 ### Menu Bar ###
 Menu Bar

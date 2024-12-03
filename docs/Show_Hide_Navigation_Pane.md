@@ -2,7 +2,6 @@
 title: Show/Hide Navigation Pane
 layout: default
 nav_enabled: true
-parent: Menu Bar
 ---
 #### Show/Hide Navigation Pane ####
 1

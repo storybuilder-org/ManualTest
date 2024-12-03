@@ -2,7 +2,6 @@
 title: Problem and Character Development
 layout: default
 nav_enabled: true
-parent: Writing with StoryCAD
 ---
 ## Problem and Character Development ##
 Problem and Character Development

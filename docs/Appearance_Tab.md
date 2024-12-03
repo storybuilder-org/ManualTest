@@ -2,7 +2,6 @@
 title: Appearance Tab
 layout: default
 nav_enabled: true
-parent: Character Form
 ---
 ### Appearance Tab ###
 Appearance Tab

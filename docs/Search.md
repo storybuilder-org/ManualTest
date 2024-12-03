@@ -2,7 +2,6 @@
 title: Search
 layout: default
 nav_enabled: true
-parent: Menu Bar
 ---
 #### Search ####
 Search

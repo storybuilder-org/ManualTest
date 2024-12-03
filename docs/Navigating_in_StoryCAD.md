@@ -2,7 +2,6 @@
 title: Navigating in StoryCAD
 layout: default
 nav_enabled: true
-parent: Quick Start
 ---
 ## Navigating in StoryCAD ##
 [Story Elements](Story_Elements.md) <br/><br/>

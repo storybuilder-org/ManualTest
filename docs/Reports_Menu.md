@@ -2,7 +2,6 @@
 title: Reports Menu
 layout: default
 nav_enabled: true
-parent: Reports
 ---
 ## Reports Menu ##
 Reports Menu

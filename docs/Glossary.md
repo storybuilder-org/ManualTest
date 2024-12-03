@@ -2,7 +2,6 @@
 title: Glossary
 layout: default
 nav_enabled: true
-parent: Back Matter
 ---
 ## Glossary ##
 

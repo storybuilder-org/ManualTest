@@ -2,7 +2,6 @@
 title: Resolution Tab
 layout: default
 nav_enabled: true
-parent: Problem Form
 ---
 ### Resolution Tab ###
 Resolution Tab

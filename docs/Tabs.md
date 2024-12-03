@@ -2,7 +2,6 @@
 title: Tabs
 layout: default
 nav_enabled: true
-parent: Navigating in StoryCAD
 ---
 ### Tabs ###
 Tabs		

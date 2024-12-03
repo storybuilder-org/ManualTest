@@ -2,7 +2,6 @@
 title: Plotting Aids
 layout: default
 nav_enabled: true
-parent: Tools
 ---
 ## Plotting Aids ##
 

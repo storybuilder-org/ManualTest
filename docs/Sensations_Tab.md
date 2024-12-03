@@ -2,7 +2,6 @@
 title: Sensations Tab
 layout: default
 nav_enabled: true
-parent: Setting Form
 ---
 ### Sensations Tab ###
 Sensations Tab

@@ -2,7 +2,6 @@
 title: Add/Remove Story Elements
 layout: default
 nav_enabled: true
-parent: Menu Bar
 ---
 #### Add/Remove Story Elements ####
 Add/Remove Story Elements

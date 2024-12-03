@@ -2,7 +2,6 @@
 title: Tools Menu
 layout: default
 nav_enabled: true
-parent: Menu Bar
 ---
 #### Tools Menu ####
  <br/>

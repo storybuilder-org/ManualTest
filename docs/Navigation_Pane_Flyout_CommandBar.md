@@ -2,7 +2,6 @@
 title: Navigation Pane Flyout CommandBar
 layout: default
 nav_enabled: true
-parent: Navigating in StoryCAD
 ---
 ### Navigation Pane Flyout CommandBar ###
 Navigation Pane Flyout Commands

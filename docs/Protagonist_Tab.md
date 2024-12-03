@@ -2,7 +2,6 @@
 title: Protagonist Tab
 layout: default
 nav_enabled: true
-parent: Problem Form
 ---
 ### Protagonist Tab ###
 Protagonist Tab

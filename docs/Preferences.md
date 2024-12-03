@@ -2,7 +2,6 @@
 title: Preferences
 layout: default
 nav_enabled: true
-parent: Table of Contents
 ---
 # Preferences #
 Preferences

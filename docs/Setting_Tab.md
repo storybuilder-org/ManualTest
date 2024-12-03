@@ -2,7 +2,6 @@
 title: Setting Tab
 layout: default
 nav_enabled: true
-parent: Setting Form
 ---
 ### Setting Tab ###
 Setting Tab

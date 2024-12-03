@@ -2,7 +2,6 @@
 title: Other Uses of StoryCAD
 layout: default
 nav_enabled: true
-parent: Writing with StoryCAD
 ---
 ## Other Uses of StoryCAD ##
 [StoryCAD for Pantsers](StoryCAD_for_Pantsers.md) <br/><br/>

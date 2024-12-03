@@ -2,7 +2,6 @@
 title: Concept Tab
 layout: default
 nav_enabled: true
-parent: Story Overview Form
 ---
 ### Concept Tab ###
 

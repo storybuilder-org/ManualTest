@@ -2,7 +2,6 @@
 title: Scene Form
 layout: default
 nav_enabled: true
-parent: Story Elements
 ---
 ## Scene Form ##
 [Scene Tab](Scene_Tab.md) <br/><br/>

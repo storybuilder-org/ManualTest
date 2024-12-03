@@ -2,7 +2,6 @@
 title: Stock Scenes
 layout: default
 nav_enabled: true
-parent: Plotting Aids
 ---
 ### Stock Scenes ###
 Stock Scenes

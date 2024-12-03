@@ -2,7 +2,6 @@
 title: Inner Traits
 layout: default
 nav_enabled: true
-parent: Character Form
 ---
 ### Inner Traits ###
 Inner Traits Tab

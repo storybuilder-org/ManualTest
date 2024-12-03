@@ -2,7 +2,6 @@
 title: Develpment Tab
 layout: default
 nav_enabled: true
-parent: Scene Form
 ---
 ### Develpment Tab ###
 Development Tab

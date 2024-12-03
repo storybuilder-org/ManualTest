@@ -2,7 +2,6 @@
 title: Critiquing with StoryCAD
 layout: default
 nav_enabled: true
-parent: Other Uses of StoryCAD
 ---
 ### Critiquing with StoryCAD ###
 Critiquing with StoryCAD

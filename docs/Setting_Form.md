@@ -2,7 +2,6 @@
 title: Setting Form
 layout: default
 nav_enabled: true
-parent: Story Elements
 ---
 ## Setting Form ##
 [Setting Tab](Setting_Tab.md) <br/><br/>

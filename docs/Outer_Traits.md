@@ -2,7 +2,6 @@
 title: Outer Traits
 layout: default
 nav_enabled: true
-parent: Character Form
 ---
 ### Outer Traits ###
 Outer Traits Tab

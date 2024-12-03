@@ -2,7 +2,6 @@
 title: Master Plots
 layout: default
 nav_enabled: true
-parent: Plotting Aids
 ---
 ### Master Plots ###
 1

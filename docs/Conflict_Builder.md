@@ -2,7 +2,6 @@
 title: Conflict Builder
 layout: default
 nav_enabled: true
-parent: Tools
 ---
 ## Conflict Builder ##
 Conflict Builder

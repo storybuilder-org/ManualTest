@@ -2,7 +2,6 @@
 title: Physical Tab
 layout: default
 nav_enabled: true
-parent: Character Form
 ---
 ### Physical Tab ###
 Physical and Appearance Tabs

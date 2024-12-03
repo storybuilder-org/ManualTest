@@ -2,7 +2,6 @@
 title: Creating a Story pt 7
 layout: default
 nav_enabled: true
-parent: Tutorial: Creating a Story
 ---
 ## Creating a Story pt 7 ##
 The characters, so far, have been defined by their roles; the only specific traits we've given them (Leonard and Tony) have been shaped by the story's needs.  It's time to put some flesh on these skeletons.

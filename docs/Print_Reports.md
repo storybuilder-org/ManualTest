@@ -2,7 +2,6 @@
 title: Print Reports
 layout: default
 nav_enabled: true
-parent: Reports
 ---
 ## Print Reports ##
 Print Reports

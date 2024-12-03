@@ -2,7 +2,6 @@
 title: Notes Form
 layout: default
 nav_enabled: true
-parent: Researching your story
 ---
 ## Notes Form ##
 Notes Form

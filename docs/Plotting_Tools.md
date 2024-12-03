@@ -2,7 +2,6 @@
 title: Plotting Tools
 layout: default
 nav_enabled: true
-parent: Writing with StoryCAD
 ---
 ## Plotting Tools ##
 Plotting Tools
