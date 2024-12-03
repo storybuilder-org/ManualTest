@@ -2,6 +2,7 @@
 title: Plotting in Scenes
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Plotting in Scenes ##
 Plotting in Scenes

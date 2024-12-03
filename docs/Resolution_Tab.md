@@ -2,6 +2,7 @@
 title: Resolution Tab
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Resolution Tab ###
 Resolution Tab

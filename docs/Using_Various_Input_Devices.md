@@ -2,6 +2,7 @@
 title: Using Various Input Devices
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Using Various Input Devices ##
 Using Various Input Devices

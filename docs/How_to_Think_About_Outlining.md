@@ -2,6 +2,7 @@
 title: How to Think About Outlining
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## How to Think About Outlining ##
 How to Think About Outlining

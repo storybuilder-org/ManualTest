@@ -2,6 +2,7 @@
 title: Concept Tab
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Concept Tab ###
 

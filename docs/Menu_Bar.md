@@ -2,6 +2,7 @@
 title: Menu Bar
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Menu Bar ###
 Menu Bar

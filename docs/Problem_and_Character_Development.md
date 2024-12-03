@@ -2,6 +2,7 @@
 title: Problem and Character Development
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Problem and Character Development ##
 Problem and Character Development

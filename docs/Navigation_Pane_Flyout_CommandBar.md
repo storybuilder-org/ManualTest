@@ -2,6 +2,7 @@
 title: Navigation Pane Flyout CommandBar
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Navigation Pane Flyout CommandBar ###
 Navigation Pane Flyout Commands

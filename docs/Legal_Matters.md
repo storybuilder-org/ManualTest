@@ -2,6 +2,7 @@
 title: Legal Matters
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Legal Matters ##
 Legal Matters

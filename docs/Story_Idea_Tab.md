@@ -2,6 +2,7 @@
 title: Story Idea Tab
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Story Idea Tab ###
 Story Idea Tab

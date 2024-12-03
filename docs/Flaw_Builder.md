@@ -2,6 +2,7 @@
 title: Flaw Builder
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Flaw Builder ##
 Flaw Builder

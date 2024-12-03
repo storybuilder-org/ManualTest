@@ -2,6 +2,7 @@
 title: Stock Scenes
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Stock Scenes ###
 Stock Scenes

@@ -2,6 +2,7 @@
 title: Print Reports
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Print Reports ##
 Print Reports

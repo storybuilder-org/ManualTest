@@ -2,6 +2,7 @@
 title: Researching your story
 layout: default
 nav_enabled: true
+nav_order: 1
 ---
 # Researching your story #
  <br/>

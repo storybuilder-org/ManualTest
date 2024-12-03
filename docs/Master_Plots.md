@@ -2,6 +2,7 @@
 title: Master Plots
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Master Plots ###
 1

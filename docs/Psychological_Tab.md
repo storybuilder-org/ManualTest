@@ -2,6 +2,7 @@
 title: Psychological Tab
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Psychological Tab ###
 Psychological Tab

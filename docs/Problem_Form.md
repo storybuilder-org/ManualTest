@@ -2,6 +2,7 @@
 title: Problem Form
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Problem Form ##
 [Problem Tab](Problem_Tab.md) <br/><br/>

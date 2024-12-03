@@ -2,6 +2,7 @@
 title: The Importance of Setting
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## The Importance of Setting ##
 The Importance of Setting

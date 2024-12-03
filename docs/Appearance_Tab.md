@@ -2,6 +2,7 @@
 title: Appearance Tab
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Appearance Tab ###
 Appearance Tab

@@ -2,6 +2,7 @@
 title: Writing with StoryCAD
 layout: default
 nav_enabled: true
+nav_order: 1
 ---
 # Writing with StoryCAD #
  <br/>

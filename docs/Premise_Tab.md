@@ -2,6 +2,7 @@
 title: Premise Tab
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Premise Tab ###
 Premise Tab

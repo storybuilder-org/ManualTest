@@ -2,6 +2,7 @@
 title: Social Tab
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Social Tab ###
 Social Tab

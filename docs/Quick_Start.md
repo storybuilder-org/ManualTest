@@ -2,6 +2,7 @@
 title: Quick Start
 layout: default
 nav_enabled: true
+nav_order: 1
 ---
 # Quick Start #
  <br/>

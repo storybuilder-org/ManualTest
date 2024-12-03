@@ -2,6 +2,7 @@
 title: Structure Tab
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Structure Tab ###
 Structure Tab

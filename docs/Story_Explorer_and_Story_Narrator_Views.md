@@ -2,6 +2,7 @@
 title: Story Explorer and Story Narrator Views
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Story Explorer and Story Narrator Views ###
 Story Explorer and Story Narrator Views

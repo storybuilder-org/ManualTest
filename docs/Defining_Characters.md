@@ -2,6 +2,7 @@
 title: Defining Characters
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Defining Characters ##
 Defining Characters

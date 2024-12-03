@@ -2,6 +2,7 @@
 title: Outer Traits
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Outer Traits ###
 Outer Traits Tab

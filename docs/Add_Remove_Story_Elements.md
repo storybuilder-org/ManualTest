@@ -2,6 +2,7 @@
 title: Add/Remove Story Elements
 layout: default
 nav_enabled: true
+nav_order: 4
 ---
 #### Add/Remove Story Elements ####
 Add/Remove Story Elements

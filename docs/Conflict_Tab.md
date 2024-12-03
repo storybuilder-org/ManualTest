@@ -2,6 +2,7 @@
 title: Conflict Tab
 layout: default
 nav_enabled: true
+nav_order: 3
 ---
 ### Conflict Tab ###
 Conflict Tab

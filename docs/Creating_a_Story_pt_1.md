@@ -2,6 +2,7 @@
 title: Creating a Story pt 1
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Creating a Story pt 1 ##
 Creating a Story

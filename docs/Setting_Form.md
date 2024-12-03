@@ -2,6 +2,7 @@
 title: Setting Form
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Setting Form ##
 [Setting Tab](Setting_Tab.md) <br/><br/>

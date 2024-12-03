@@ -2,6 +2,7 @@
 title: Creating a Story pt 6
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Creating a Story pt 6 ##
 Story structure is the closest you have to a recipe for plotting your story. Your goal, in following a template story structure like the ones the Master Plots tool provides, is to create scenes for your story that fit into the structure you’ve chosen, and to position them accordingly. The scenes you’ll use are what develops from your characters trying to solve their problems.

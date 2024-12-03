@@ -2,6 +2,7 @@
 title: Conflict Builder
 layout: default
 nav_enabled: true
+nav_order: 2
 ---
 ## Conflict Builder ##
 Conflict Builder
