@@ -2,7 +2,6 @@
 title: Story Explorer and Story Narrator Views
 layout: default
 nav_enabled: true
-nav_order: 3
 parent: Navigating in StoryCAD
 ---
 ### Story Explorer and Story Narrator Views ###

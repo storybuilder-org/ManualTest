@@ -2,7 +2,6 @@
 title: Defining Problems
 layout: default
 nav_enabled: true
-nav_order: 2
 parent: Writing with StoryCAD
 ---
 ## Defining Problems ##

@@ -2,7 +2,6 @@
 title: Backups: Protecting Your Work
 layout: default
 nav_enabled: true
-nav_order: 2
 parent: Miscellaneous
 ---
 ## Backups: Protecting Your Work ##

@@ -2,7 +2,6 @@
 title: Creating a Story pt 7
 layout: default
 nav_enabled: true
-nav_order: 2
 parent: Tutorial: Creating a Story
 ---
 ## Creating a Story pt 7 ##

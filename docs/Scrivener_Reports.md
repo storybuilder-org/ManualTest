@@ -2,7 +2,6 @@
 title: Scrivener Reports
 layout: default
 nav_enabled: true
-nav_order: 2
 parent: Reports
 ---
 ## Scrivener Reports ##

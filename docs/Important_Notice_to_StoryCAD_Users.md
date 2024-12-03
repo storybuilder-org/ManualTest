@@ -2,7 +2,6 @@
 title: Important Notice to StoryCAD Users
 layout: default
 nav_enabled: true
-nav_order: 2
 parent: Front Matter
 ---
 ## Important Notice to StoryCAD Users ##

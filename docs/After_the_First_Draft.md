@@ -2,7 +2,6 @@
 title: After the First Draft
 layout: default
 nav_enabled: true
-nav_order: 3
 parent: Other Uses of StoryCAD
 ---
 ### After the First Draft ###

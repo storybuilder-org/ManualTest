@@ -2,7 +2,6 @@
 title: Tutorial: Creating a Story
 layout: default
 nav_enabled: true
-nav_order: 1
 parent: Table of Contents
 ---
 # Tutorial: Creating a Story #

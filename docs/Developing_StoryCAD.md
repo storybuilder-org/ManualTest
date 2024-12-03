@@ -2,7 +2,6 @@
 title: Developing StoryCAD
 layout: default
 nav_enabled: true
-nav_order: 2
 parent: Miscellaneous
 ---
 ## Developing StoryCAD ##
