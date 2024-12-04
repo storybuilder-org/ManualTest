@@ -5,7 +5,7 @@ nav_enabled: true
 nav_order: 103
 parent: Other Uses of StoryCAD
 ---
-### StoryCAD for Pantsers ###
+
 StoryCAD for Pantsers
 
 ‘Not all who wander are lost.’ - J.R.R. Tolkien

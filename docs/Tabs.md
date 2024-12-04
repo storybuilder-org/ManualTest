@@ -3,9 +3,9 @@ title: Tabs
 layout: default
 nav_enabled: true
 nav_order: 27
-parent: Navigation Pane Flyout CommandBar
+parent: Navigating in StoryCAD
 ---
-### Tabs ###
+
 Tabs		
 
 For most Story Element types, that Form contains multiple tabs. Clicking or touching a Tab name (the larger font) will switch to that tab’s content. 

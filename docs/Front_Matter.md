@@ -3,9 +3,9 @@ title: Front Matter
 layout: default
 nav_enabled: true
 nav_order: 1
-parent: Table of Contents
+parent: Home
 ---
-# Front Matter #
+
  <br/>
  <br/>
 
@@ -16,5 +16,5 @@ parent: Table of Contents
 [Legal Matters](Legal_Matters.md) <br/><br/>
  <br/>
  <br/>
-[Previous - Table of Contents](index.md) <br/>
+[Previous - Home](index.md) <br/>
 [Next - Preface](Preface.md) <br/>

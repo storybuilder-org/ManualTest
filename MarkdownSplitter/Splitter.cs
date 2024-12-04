@@ -110,13 +110,7 @@ namespace MarkdownSplitter
 			file.WriteLine("title: Home");
 			file.WriteLine("layout: home");
 			file.WriteLine("---");
-			file.WriteLine("# Table of Contents");
-			file.WriteLine("");
-			foreach (var block in nestingLevel[0].Children)
-			{
-				file.WriteLine($"[{block.Title}]({block.Filename}) <br/><br/>");
-			}
-
+			file.WriteLine("Unused for now");
 			file.Close();
 		}
 
@@ -153,25 +147,34 @@ namespace MarkdownSplitter
 		/// <param name="currentFile"></param>
 		private void ProcessMarkdownFile(string currentFile)
 		{
-			// Read the .md file into memory.     
+			// Read the .md file into memory.
 			string[] markdown = File.ReadAllLines(currentFile);
-			// When a new markdown line (splitMarker) is detected, its
-			// parent block is the nestingLevel just above its nestingLevel.
-			Block current = new Block("", 0, null);
-			nestingLevel[0] = current; // nestingLevel zero is the table of contents.
-			Block parent;
-			int Index = 0; 
+
+			// Initialize the root block.
+			Block current = new Block("Home", 0, 0, null);
+			nestingLevel[0] = current; // Level zero is the root.
+
+			int Index = 0;
 			foreach (string line in markdown)
 			{
 				if (line.StartsWith(splitMarker))
 				{
 					Index++;
-					Console.WriteLine(line);
-					current = new Block(line, Index, current);
-					int parentLevel = current.Level - 1;
-					parent = nestingLevel[parentLevel];
+
+					// Determine the heading level based on the number of '#' characters.
+					int level = line.TakeWhile(c => c == '#').Count();
+
+					// Get the correct parent from nestingLevel.
+					Block parent = nestingLevel[level - 1];
+
+					// Create the new block with the correct parent.
+					current = new Block(line, Index, level, parent);
+
+					// Add the new block to its parent's children.
 					parent.Children.Add(current);
-					nestingLevel[current.Level] = current;
+
+					// Update the nesting level.
+					nestingLevel[level] = current;
 				}
 				else
 				{
@@ -180,6 +183,7 @@ namespace MarkdownSplitter
 				}
 			}
 		}
+
 
 		/// <summary>
 		/// Write the 
@@ -282,7 +286,7 @@ namespace MarkdownSplitter
 			{
 				if (previousBlock.Previous.Filename == "index.md")
 				{
-					previousBlock.Previous.Title = "Table of Contents";
+					previousBlock.Previous.Title = "Home";
 				}
 			}
 

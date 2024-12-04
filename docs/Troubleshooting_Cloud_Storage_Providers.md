@@ -3,9 +3,9 @@ title: Troubleshooting Cloud Storage Providers
 layout: default
 nav_enabled: true
 nav_order: 110
-parent: Leaving Feedback
+parent: Miscellaneous
 ---
-## Troubleshooting Cloud Storage Providers ##
+
 ![](Clipboard-Image-7.png)
 
 Many people today use cloud storage providers like Google Drive, OneDrive, DropBox, etc. Most of the time these work flawlessly however, there can be times when cloud storage providers can cause problems with StoryCAD. 

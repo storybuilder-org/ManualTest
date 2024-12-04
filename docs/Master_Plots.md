@@ -5,7 +5,7 @@ nav_enabled: true
 nav_order: 66
 parent: Plotting Aids
 ---
-### Master Plots ###
+
 1
 Master Plots
 

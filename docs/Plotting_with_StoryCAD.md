@@ -3,9 +3,9 @@ title: Plotting with StoryCAD
 layout: default
 nav_enabled: true
 nav_order: 99
-parent: Plotting Tools
+parent: Writing with StoryCAD
 ---
-## Plotting with StoryCAD ##
+
 Using StoryCAD to Plot Your Story
 
 

@@ -3,9 +3,9 @@ title: Workflow
 layout: default
 nav_enabled: true
 nav_order: 91
-parent: How to Think About Outlining
+parent: Writing with StoryCAD
 ---
-## Workflow ##
+
 Workflow
 
 

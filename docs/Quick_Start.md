@@ -3,9 +3,9 @@ title: Quick Start
 layout: default
 nav_enabled: true
 nav_order: 7
-parent: Legal Matters
+parent: Home
 ---
-# Quick Start #
+
  <br/>
  <br/>
 

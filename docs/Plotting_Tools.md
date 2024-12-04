@@ -3,9 +3,9 @@ title: Plotting Tools
 layout: default
 nav_enabled: true
 nav_order: 98
-parent: Plotting in Scenes
+parent: Writing with StoryCAD
 ---
-## Plotting Tools ##
+
 Plotting Tools
 
 StoryCAD comes with three tools to help you plot your story.

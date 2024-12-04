@@ -3,9 +3,9 @@ title: Outer Traits
 layout: default
 nav_enabled: true
 nav_order: 52
-parent: Inner Traits
+parent: Character Form
 ---
-### Outer Traits ###
+
 Outer Traits Tab
 
 ![](Character-Outer-Traits.png)

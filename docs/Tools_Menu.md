@@ -3,9 +3,9 @@ title: Tools Menu
 layout: default
 nav_enabled: true
 nav_order: 18
-parent: Move Story Elements
+parent: Menu Bar
 ---
-#### Tools Menu ####
+
  <br/>
  <br/>
 [Previous - Move Story Elements](Move_Story_Elements.md) <br/>

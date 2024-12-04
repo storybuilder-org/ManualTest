@@ -3,9 +3,9 @@ title: Physical Tab
 layout: default
 nav_enabled: true
 nav_order: 44
-parent: Role Tab
+parent: Character Form
 ---
-### Physical Tab ###
+
 Physical and Appearance Tabs
 
 ![](CharPhysTab.png)

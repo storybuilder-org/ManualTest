@@ -3,9 +3,9 @@ title: Stock Scenes
 layout: default
 nav_enabled: true
 nav_order: 68
-parent: Dramatic Situations
+parent: Plotting Aids
 ---
-### Stock Scenes ###
+
 Stock Scenes
 
 ![](Tools-Stock-Scenes.png)

@@ -3,9 +3,9 @@ title: Conflict Tab
 layout: default
 nav_enabled: true
 nav_order: 59
-parent: Develpment Tab
+parent: Scene Form
 ---
-### Conflict Tab ###
+
 Conflict Tab
 
 The Conflict tab helps define the drama in a scene.

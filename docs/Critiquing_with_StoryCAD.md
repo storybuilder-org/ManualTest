@@ -3,9 +3,9 @@ title: Critiquing with StoryCAD
 layout: default
 nav_enabled: true
 nav_order: 105
-parent: After the First Draft
+parent: Other Uses of StoryCAD
 ---
-### Critiquing with StoryCAD ###
+
 Critiquing with StoryCAD
 
 Although StoryCAD’s made to help you outline your own stories, it has another use: as an aid to understanding others’ stories. StoryCAD’s ancestor, the original StoryCAD, started as just such a tool.

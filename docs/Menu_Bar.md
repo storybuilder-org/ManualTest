@@ -5,7 +5,7 @@ nav_enabled: true
 nav_order: 12
 parent: The StoryCAD User Interface
 ---
-### Menu Bar ###
+
 Menu Bar
 
 The Menu bar is located just below the title bar on the StoryCAD form and provides access to StoryCAD’s common tasks.

@@ -3,9 +3,9 @@ title: Show/Hide Navigation Pane
 layout: default
 nav_enabled: true
 nav_order: 14
-parent: Search
+parent: Menu Bar
 ---
-#### Show/Hide Navigation Pane ####
+
 1
 Show/Hide Navigation Pane
 

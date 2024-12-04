@@ -5,7 +5,7 @@ nav_enabled: true
 nav_order: 90
 parent: Writing with StoryCAD
 ---
-## How to Think About Outlining ##
+
 How to Think About Outlining
 
 

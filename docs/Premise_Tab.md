@@ -3,9 +3,9 @@ title: Premise Tab
 layout: default
 nav_enabled: true
 nav_order: 34
-parent: Concept Tab
+parent: Story Overview Form
 ---
-### Premise Tab ###
+
 Premise Tab
 
 ![](Overview-Premise.png)

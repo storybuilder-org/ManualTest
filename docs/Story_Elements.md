@@ -3,9 +3,9 @@ title: Story Elements
 layout: default
 nav_enabled: true
 nav_order: 30
-parent: Rearranging Content
+parent: Home
 ---
-# Story Elements #
+
  <br/>
  <br/>
 

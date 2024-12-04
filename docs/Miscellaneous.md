@@ -3,9 +3,9 @@ title: Miscellaneous
 layout: default
 nav_enabled: true
 nav_order: 106
-parent: Critiquing with StoryCAD
+parent: Home
 ---
-# Miscellaneous #
+
  <br/>
  <br/>
 

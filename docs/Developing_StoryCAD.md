@@ -3,9 +3,9 @@ title: Developing StoryCAD
 layout: default
 nav_enabled: true
 nav_order: 108
-parent: Backups: Protecting Your Work
+parent: Miscellaneous
 ---
-## Developing StoryCAD ##
+
 Developing StoryCAD
 If you are a C# developer and are somewhat familar with WinUI (or another XAML based UI language) then you can contribute to StoryCAD (Which is written in C# and uses WinUI 3).
 For more information about contributing, please check the GitHub Repository.

@@ -3,9 +3,9 @@ title: Key Binds
 layout: default
 nav_enabled: true
 nav_order: 21
-parent: Preferences
+parent: Menu Bar
 ---
-#### Key Binds ####
+
 Key Binds
 Some options in the menu have key binds to speed up your story planning. Below is a comprehensive list of all the key binds on the menu bar:
 

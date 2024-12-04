@@ -3,9 +3,9 @@ title: Flaw Builder
 layout: default
 nav_enabled: true
 nav_order: 70
-parent: Conflict Builder
+parent: Tools
 ---
-## Flaw Builder ##
+
 Flaw Builder
 
 ![](Flaw-Builder.png)

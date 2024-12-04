@@ -3,9 +3,9 @@ title: Creating a Story pt 8
 layout: default
 nav_enabled: true
 nav_order: 87
-parent: Creating a Story pt 7
+parent: Tutorial: Creating a Story
 ---
-## Creating a Story pt 8 ##
+
 Having developed the characters better, we can return to the plot.  So far we have a skeleton plot, created with the Master Plots tool, and have added a couple of specific scenes, an opening scene and a climax. Our goal is to replace the rest of the skeleton plot points with specific scenes, not in count but in content and shape. Having a beginning and an ending is a good start. Every story is a journey. Of course, you're not bound to follow the skeleton, but our goal here is to illustrate StoryCAD's tools.  
 
 Let’s return to our opening scene (‘He’s like a ghost’) for a moment. .  Both scenes and problems are miniature stories in their own right. The Scene form contains several tabs, Development and Conflict, that address what might be called ‘intra-scene plotting.’  Here’s the use of the Development tab:

@@ -3,9 +3,9 @@ title: Status Bar
 layout: default
 nav_enabled: true
 nav_order: 23
-parent: Navigation and  Content Panes
+parent: The StoryCAD User Interface
 ---
-### Status Bar ###
+
 Status Bar
 
 ![](Status-Bar.png)

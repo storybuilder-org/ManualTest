@@ -3,9 +3,9 @@ title: Character Form
 layout: default
 nav_enabled: true
 nav_order: 42
-parent: Structure Tab
+parent: Story Elements
 ---
-## Character Form ##
+
 [Role Tab](Role_Tab.md) <br/><br/>
 [Physical Tab](Physical_Tab.md) <br/><br/>
 [Appearance Tab](Appearance_Tab.md) <br/><br/>

@@ -3,9 +3,9 @@ title: Add/Remove Story Elements
 layout: default
 nav_enabled: true
 nav_order: 16
-parent: File Menu
+parent: Menu Bar
 ---
-#### Add/Remove Story Elements ####
+
 Add/Remove Story Elements
 
 You can add or remove Story Elements in two ways. There’s a Menu Bar button which opens an ‘Add/Remove Story Elements’ menu:

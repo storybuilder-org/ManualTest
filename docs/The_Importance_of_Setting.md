@@ -3,9 +3,9 @@ title: The Importance of Setting
 layout: default
 nav_enabled: true
 nav_order: 96
-parent: Defining Characters
+parent: Writing with StoryCAD
 ---
-## The Importance of Setting ##
+
 The Importance of Setting
 
 Setting often receives less attention than other story elements such as Problem and Character, and it does in this document as well.

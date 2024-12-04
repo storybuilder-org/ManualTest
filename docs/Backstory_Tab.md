@@ -3,9 +3,9 @@ title: Backstory Tab
 layout: default
 nav_enabled: true
 nav_order: 48
-parent: Flaw Tab
+parent: Character Form
 ---
-### Backstory Tab ###
+
 Backstory Tab
 
 ![](Character-Backstory-Tab.png)

@@ -3,9 +3,9 @@ title: Resolution Tab
 layout: default
 nav_enabled: true
 nav_order: 40
-parent: Antagonist Tab
+parent: Problem Form
 ---
-### Resolution Tab ###
+
 Resolution Tab
 
 ![](Problem-Resolution-Tab.png)

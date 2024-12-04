@@ -3,9 +3,9 @@ title: Problem Form
 layout: default
 nav_enabled: true
 nav_order: 36
-parent: Structure Tab
+parent: Story Elements
 ---
-## Problem Form ##
+
 [Problem Tab](Problem_Tab.md) <br/><br/>
 [Protagonist Tab](Protagonist_Tab.md) <br/><br/>
 [Antagonist Tab](Antagonist_Tab.md) <br/><br/>

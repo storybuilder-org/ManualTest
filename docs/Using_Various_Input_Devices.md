@@ -5,7 +5,7 @@ nav_enabled: true
 nav_order: 8
 parent: Quick Start
 ---
-## Using Various Input Devices ##
+
 Using Various Input Devices
 
 You can use a wide range of input devices with StoryCAD:  keyboard, virtual keyboard, pen or stylus, mouse, and touch, depending on your computer or tablet ‘s capabilities.

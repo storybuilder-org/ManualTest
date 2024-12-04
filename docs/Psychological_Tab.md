@@ -3,9 +3,9 @@ title: Psychological Tab
 layout: default
 nav_enabled: true
 nav_order: 50
-parent: Social Tab
+parent: Character Form
 ---
-### Psychological Tab ###
+
 Psychological Tab
 
 ![](Character-Psychological-Tab.png)

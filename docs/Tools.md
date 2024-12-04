@@ -3,9 +3,9 @@ title: Tools
 layout: default
 nav_enabled: true
 nav_order: 61
-parent: Sequel Tab
+parent: Home
 ---
-# Tools #
+
  <br/>
  <br/>
 

@@ -5,7 +5,7 @@ nav_enabled: true
 nav_order: 32
 parent: Story Overview Form
 ---
-### Story Idea Tab ###
+
 Story Idea Tab
 
 Not every story idea will become a story you want to write, but the habit of being on the lookout for and recording story ideas is useful.  Recording that initial idea here.

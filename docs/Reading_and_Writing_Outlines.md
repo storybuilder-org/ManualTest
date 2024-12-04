@@ -3,9 +3,9 @@ title: Reading and Writing Outlines
 layout: default
 nav_enabled: true
 nav_order: 10
-parent: Starting and Stopping StoryCAD
+parent: Quick Start
 ---
-## Reading and Writing Outlines ##
+
 Reading and Writing Outlines
 
 The File Menu button displays a drop-down menu of file options:

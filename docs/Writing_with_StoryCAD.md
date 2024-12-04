@@ -3,9 +3,9 @@ title: Writing with StoryCAD
 layout: default
 nav_enabled: true
 nav_order: 89
-parent: Creating a Story pt 9
+parent: Home
 ---
-# Writing with StoryCAD #
+
  <br/>
  <br/>
 

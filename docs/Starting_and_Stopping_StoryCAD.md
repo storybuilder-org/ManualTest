@@ -3,9 +3,9 @@ title: Starting and Stopping StoryCAD
 layout: default
 nav_enabled: true
 nav_order: 9
-parent: Using Various Input Devices
+parent: Quick Start
 ---
-## Starting and Stopping StoryCAD ##
+
 Starting and Stopping StoryCAD
 
 To start StoryCAD, find and click the StoryCAD icon from the Start Menu or from your pinned apps. The StoryCAD main form will be displayed.

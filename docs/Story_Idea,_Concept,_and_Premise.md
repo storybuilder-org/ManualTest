@@ -3,9 +3,9 @@ title: Story Idea, Concept, and Premise
 layout: default
 nav_enabled: true
 nav_order: 92
-parent: Workflow
+parent: Writing with StoryCAD
 ---
-## Story Idea, Concept, and Premise ##
+
 Ideation
 
 

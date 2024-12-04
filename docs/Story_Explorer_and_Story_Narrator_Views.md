@@ -3,9 +3,9 @@ title: Story Explorer and Story Narrator Views
 layout: default
 nav_enabled: true
 nav_order: 28
-parent: Tabs
+parent: Navigating in StoryCAD
 ---
-### Story Explorer and Story Narrator Views ###
+
 Story Explorer and Story Narrator Views
 
 A drop-down list on the Status Bar allows you to switch between two views of your story:

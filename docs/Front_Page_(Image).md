@@ -5,7 +5,7 @@ nav_enabled: true
 nav_order: 2
 parent: Front Matter
 ---
-## Front Page (Image) ##
+
 
 ![](StoryCAD.png)
  <br/>

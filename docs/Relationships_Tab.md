@@ -3,9 +3,9 @@ title: Relationships Tab
 layout: default
 nav_enabled: true
 nav_order: 46
-parent: Appearance Tab
+parent: Character Form
 ---
-### Relationships Tab ###
+
  Relationships Tab
 
 ![](Character-Relationships-Tab.png)

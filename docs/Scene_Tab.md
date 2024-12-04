@@ -5,7 +5,7 @@ nav_enabled: true
 nav_order: 57
 parent: Scene Form
 ---
-### Scene Tab ###
+
 Scene Tab
 
 ![](Scene-Scene-Tab.png)

@@ -3,9 +3,9 @@ title: Leaving Feedback
 layout: default
 nav_enabled: true
 nav_order: 109
-parent: Developing StoryCAD
+parent: Miscellaneous
 ---
-## Leaving Feedback ##
+
 Leaving Feedback
 Occasionally, you may want to leave feedback, suggestions, or report issues you have found within StoryCAD. Should you wish to leave feedback about or review StoryCAD, you can open the settings menu and on the about page, there is a link to leave a review on StoryCAD via the Microsoft Store.
 ![](LeaveAReview.png)

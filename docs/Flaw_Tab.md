@@ -3,9 +3,9 @@ title: Flaw Tab
 layout: default
 nav_enabled: true
 nav_order: 47
-parent: Relationships Tab
+parent: Character Form
 ---
-### Flaw Tab ###
+
 Flaw Tab
 
 ![](Character-Flaw-Tab.png)

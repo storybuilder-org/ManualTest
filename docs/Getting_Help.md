@@ -3,9 +3,9 @@ title: Getting Help
 layout: default
 nav_enabled: true
 nav_order: 5
-parent: Important Notice to StoryCAD Users
+parent: Front Matter
 ---
-## Getting Help ##
+
 Getting Help
 
 We suggest you first use this manual to try to find the information you’re looking for.

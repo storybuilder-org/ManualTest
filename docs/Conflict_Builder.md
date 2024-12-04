@@ -3,9 +3,9 @@ title: Conflict Builder
 layout: default
 nav_enabled: true
 nav_order: 69
-parent: Stock Scenes
+parent: Tools
 ---
-## Conflict Builder ##
+
 Conflict Builder
 
 

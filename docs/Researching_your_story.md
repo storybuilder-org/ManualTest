@@ -3,9 +3,9 @@ title: Researching your story
 layout: default
 nav_enabled: true
 nav_order: 76
-parent: Preferences
+parent: Home
 ---
-# Researching your story #
+
  <br/>
  <br/>
 

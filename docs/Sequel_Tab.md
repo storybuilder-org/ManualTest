@@ -3,9 +3,9 @@ title: Sequel Tab
 layout: default
 nav_enabled: true
 nav_order: 60
-parent: Conflict Tab
+parent: Scene Form
 ---
-### Sequel Tab ###
+
 
 Sequel Sequel Tab
 Sequel Tab

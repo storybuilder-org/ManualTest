@@ -5,7 +5,7 @@ nav_enabled: true
 nav_order: 37
 parent: Problem Form
 ---
-### Problem Tab ###
+
 Problem Tab
 
 This tabs contains elements which help to define a story problem.

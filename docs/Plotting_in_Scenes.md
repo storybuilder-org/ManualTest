@@ -3,9 +3,9 @@ title: Plotting in Scenes
 layout: default
 nav_enabled: true
 nav_order: 97
-parent: The Importance of Setting
+parent: Writing with StoryCAD
 ---
-## Plotting in Scenes ##
+
 Plotting in Scenes
 
 Outlining your story at the scene level (plotting) is where you move from the abstract level of characters and their problems to the specific events you’ll draft your story from.

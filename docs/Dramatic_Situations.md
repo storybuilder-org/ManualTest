@@ -3,9 +3,9 @@ title: Dramatic Situations
 layout: default
 nav_enabled: true
 nav_order: 67
-parent: Master Plots
+parent: Plotting Aids
 ---
-### Dramatic Situations ###
+
 Dramatic Situations
 
 ![](Tools-Dramatic-Situations.png)

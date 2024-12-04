@@ -3,9 +3,9 @@ title: Social Tab
 layout: default
 nav_enabled: true
 nav_order: 49
-parent: Backstory Tab
+parent: Character Form
 ---
-### Social Tab ###
+
 Social Tab
 
 ![](Character-Social-Tab.png)

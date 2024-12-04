@@ -3,9 +3,9 @@ title: Topic Information
 layout: default
 nav_enabled: true
 nav_order: 64
-parent: Key Questions
+parent: Tools
 ---
-## Topic Information ##
+
 Topic Information
 
 The Topic Information sub-menu on the Tools menu contains a list containing information specific to certain topic categories:

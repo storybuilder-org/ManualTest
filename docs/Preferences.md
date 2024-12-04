@@ -3,9 +3,9 @@ title: Preferences
 layout: default
 nav_enabled: true
 nav_order: 75
-parent: Scrivener Reports
+parent: Home
 ---
-# Preferences #
+
 Preferences
 
 The Preferences Dialog will be displayed when you press the Preferences button on the Menu Bar:

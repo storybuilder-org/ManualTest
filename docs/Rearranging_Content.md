@@ -3,9 +3,9 @@ title: Rearranging Content
 layout: default
 nav_enabled: true
 nav_order: 29
-parent: Story Explorer and Story Narrator Views
+parent: Navigating in StoryCAD
 ---
-### Rearranging Content ###
+
 Rearranging Content
 Both the Story Explorer and Story Narrator views are trees of Story Elements. The root of the Story Explorer view is the Story Overview node, and the root of the Story Narrator view is a Folder node named Story Narrator. Below that, you have complete control of the arrangement and order of Story Elements in the trees.
 To aid in this process, both views contain a special Story Element type (Folder with Story Explorer and Section with Story Narrator) which are, as the names suggest, designed to do nothing but hold other Story Elements. The sample outline “Hamlet” illustrates this use.

@@ -3,9 +3,9 @@ title: Navigation Pane Flyout CommandBar
 layout: default
 nav_enabled: true
 nav_order: 26
-parent: Story Elements
+parent: Navigating in StoryCAD
 ---
-### Navigation Pane Flyout CommandBar ###
+
 Navigation Pane Flyout Commands
 
 Right-clicking any node on the Navigation Pane will display a  flyout command bar:

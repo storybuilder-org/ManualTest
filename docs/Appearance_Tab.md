@@ -3,9 +3,9 @@ title: Appearance Tab
 layout: default
 nav_enabled: true
 nav_order: 45
-parent: Physical Tab
+parent: Character Form
 ---
-### Appearance Tab ###
+
 Appearance Tab
 
 The Appearance tab is a companion to the Physical tab.

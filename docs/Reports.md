@@ -3,9 +3,9 @@ title: Reports
 layout: default
 nav_enabled: true
 nav_order: 71
-parent: Flaw Builder
+parent: Home
 ---
-# Reports #
+
  <br/>
  <br/>
 
