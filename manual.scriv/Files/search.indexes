@@ -1385,6 +1385,8 @@ The copy function populated the Scene folder with a series of plot points which 
 #
 
 Although these are Scene story elements, they are not scenes, but placeholders: a reminder of things that your scenes need to do,   and roughly the order they need to do them in. In short, they are the structure of your story, its spine. Since your story is centered on one of your Problems, the main Story Problem, the story’s structure is the structure of that problem.  </Text>
+            <Notes>
+</Notes>
         </Document>
         <Document ID="4D7CA8B4-0659-4AC0-81D3-45651FEBD0B7">
             <Title>Concept Tab</Title>
@@ -2248,7 +2250,7 @@ The gap between these two perspectives,  and the answer to the original question
             <Title>CharPhysTab</Title>
         </Document>
         <Document ID="75481F60-C07F-4E55-AA94-79C877A1D59C">
-            <Title>Structure Tab</Title>
+            <Title>Recovered File-1</Title>
             <Text>Structure Tab
 
 The Problem Form’s Structure tab lets you associate a beat sheet with your problem and match the beats in the beats sheet to Scene or Problem story elements.  
@@ -3627,7 +3629,7 @@ See &quot;Scene and Sequel&quot; for more information.
             <Title>Lacas Backstory</Title>
         </Document>
         <Document ID="C64A9ACD-5747-439E-B24C-B6C74196D0EE">
-            <Title>Troubleshooting Cloud Storage Providers</Title>
+            <Title>Recovered File-2</Title>
             <Text>#
 
 Many people today use cloud storage providers like Google Drive, OneDrive, DropBox, etc. Most of the time these work flawlessly however, there can be times when cloud storage providers can cause problems with StoryCAD. 
@@ -3645,8 +3647,7 @@ Once you have found the file in your system, right click the file and find the o
 
 #
 
-Once you have done this, the file status field should have a green check-mark now and should say available offline in the File Explorer now. It may take a few moments to sync, but once it has the green check in the status field, it should be ready to open.
-#
+Once you have done this, the file status field should have a green check-mark now and should say available offline in the File Explorer now. It may take a few moments to sync, but once it has the green check in the status field, it should be ready to open.#
 
 If the problem persists, then you should download the file from the cloud provider and store it somewhere that will not be synced by the cloud storage provider.
 
@@ -3915,6 +3916,9 @@ Add to Narrative - This adds the element to the Narrative View
 Remove From Narrative - This removes the element from the Narrative View.
 Print Node -  This quickly prints a report for that element.
 </Text>
+        </Document>
+        <Document ID="E11FB0EA-D6C2-4CF5-A016-601FECE38C68">
+            <Title>Recovered Files (04/12/2024, 19:26)</Title>
         </Document>
         <Document ID="E17E8BB7-8E12-4469-AFEE-ACD12A954D33">
             <Title>Paperback</Title>
