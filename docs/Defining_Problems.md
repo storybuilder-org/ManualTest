@@ -2,7 +2,8 @@
 title: Defining Problems
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 94
+parent: Problem and Character Development
 ---
 ## Defining Problems ##
 Defining Problems

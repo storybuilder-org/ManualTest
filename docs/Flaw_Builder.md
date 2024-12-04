@@ -2,7 +2,8 @@
 title: Flaw Builder
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 70
+parent: Conflict Builder
 ---
 ## Flaw Builder ##
 Flaw Builder

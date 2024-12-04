@@ -2,7 +2,8 @@
 title: Premise Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 34
+parent: Concept Tab
 ---
 ### Premise Tab ###
 Premise Tab

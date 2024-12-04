@@ -2,7 +2,8 @@
 title: Navigation and  Content Panes
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 22
+parent: Key Binds
 ---
 ### Navigation and  Content Panes ###
 Navigation and Content Panes

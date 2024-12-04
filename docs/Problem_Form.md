@@ -2,7 +2,8 @@
 title: Problem Form
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 36
+parent: Structure Tab
 ---
 ## Problem Form ##
 [Problem Tab](Problem_Tab.md) <br/><br/>

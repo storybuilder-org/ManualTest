@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System.Text;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace MarkdownSplitter
 {
@@ -156,16 +157,17 @@ namespace MarkdownSplitter
 			string[] markdown = File.ReadAllLines(currentFile);
 			// When a new markdown line (splitMarker) is detected, its
 			// parent block is the nestingLevel just above its nestingLevel.
-			Block current = new Block("");
+			Block current = new Block("", 0, null);
 			nestingLevel[0] = current; // nestingLevel zero is the table of contents.
 			Block parent;
-
+			int Index = 0; 
 			foreach (string line in markdown)
 			{
 				if (line.StartsWith(splitMarker))
 				{
+					Index++;
 					Console.WriteLine(line);
-					current = new Block(line);
+					current = new Block(line, Index, current);
 					int parentLevel = current.Level - 1;
 					parent = nestingLevel[parentLevel];
 					parent.Children.Add(current);
@@ -199,7 +201,8 @@ namespace MarkdownSplitter
 				file.WriteLine($"title: {block.Title}");
 				file.WriteLine("layout: default");
 				file.WriteLine("nav_enabled: true");
-				file.WriteLine($"nav_order: {block.Level}");
+				file.WriteLine($"nav_order: {block.Index}");
+				file.WriteLine($"parent: {block.Parent.Title}");
 				file.WriteLine("---");
 				file.WriteLine(block.Header);
 				foreach (string line in block.Text)
@@ -215,8 +218,8 @@ namespace MarkdownSplitter
 			sb.AppendLine($"title: {block.Title}");
 			sb.AppendLine("layout: default");
 			sb.AppendLine("nav_enabled: true");
-			sb.AppendLine($"nav_order: {block.Level}");
-		//	sb.AppendLine($"parent: {Parent.Title}");
+			sb.AppendLine($"nav_order: {block.Index}");
+			sb.AppendLine($"parent: {block.Parent.Title}");
 			sb.AppendLine("---");
 			sb.AppendLine(block.Header); // This writes the header.
 

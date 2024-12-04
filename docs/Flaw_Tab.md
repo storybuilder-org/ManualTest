@@ -2,7 +2,8 @@
 title: Flaw Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 47
+parent: Relationships Tab
 ---
 ### Flaw Tab ###
 Flaw Tab

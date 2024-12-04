@@ -2,7 +2,8 @@
 title: Protagonist Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 38
+parent: Problem Tab
 ---
 ### Protagonist Tab ###
 Protagonist Tab

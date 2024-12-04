@@ -2,7 +2,8 @@
 title: Sequel Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 60
+parent: Conflict Tab
 ---
 ### Sequel Tab ###
 

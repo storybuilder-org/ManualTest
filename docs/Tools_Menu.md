@@ -2,7 +2,8 @@
 title: Tools Menu
 layout: default
 nav_enabled: true
-nav_order: 4
+nav_order: 18
+parent: Move Story Elements
 ---
 #### Tools Menu ####
  <br/>

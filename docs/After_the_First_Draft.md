@@ -2,7 +2,8 @@
 title: After the First Draft
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 104
+parent: StoryCAD for Pantsers
 ---
 ### After the First Draft ###
 After the First Draft

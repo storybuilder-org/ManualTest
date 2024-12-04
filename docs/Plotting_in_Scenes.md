@@ -2,7 +2,8 @@
 title: Plotting in Scenes
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 97
+parent: The Importance of Setting
 ---
 ## Plotting in Scenes ##
 Plotting in Scenes

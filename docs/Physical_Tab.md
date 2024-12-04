@@ -2,7 +2,8 @@
 title: Physical Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 44
+parent: Role Tab
 ---
 ### Physical Tab ###
 Physical and Appearance Tabs

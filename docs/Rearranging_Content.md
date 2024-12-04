@@ -2,7 +2,8 @@
 title: Rearranging Content
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 29
+parent: Story Explorer and Story Narrator Views
 ---
 ### Rearranging Content ###
 Rearranging Content

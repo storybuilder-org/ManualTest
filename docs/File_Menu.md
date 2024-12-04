@@ -2,7 +2,8 @@
 title: File Menu
 layout: default
 nav_enabled: true
-nav_order: 4
+nav_order: 15
+parent: Show/Hide Navigation Pane
 ---
 #### File Menu  ####
 File Menu

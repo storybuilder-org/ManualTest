@@ -2,7 +2,8 @@
 title: Creating a Story pt 5
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 84
+parent: Creating a Story pt 4
 ---
 ## Creating a Story pt 5 ##
 The original external problem (‘Catching the drug dealer Lacas’) is solved through the resolution of the inner problem (‘Leonard's impulsiveness lets Lacas capture him’.) The story's turning point is the resolution of the inner problem, but an additional bit is needed, what we started with, getting the drop on Lacas. We should state the resolution of the external problem.  Clicking on the first problem from the list at the left of the screen, and then on the Resolution tab, allows us to key the Premise:

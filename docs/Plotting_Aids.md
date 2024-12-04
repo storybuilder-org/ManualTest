@@ -2,7 +2,8 @@
 title: Plotting Aids
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 65
+parent: Topic Information
 ---
 ## Plotting Aids ##
 

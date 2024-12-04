@@ -2,7 +2,8 @@
 title: Navigating in StoryCAD
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 24
+parent: Status Bar
 ---
 ## Navigating in StoryCAD ##
 [Story Elements](Story_Elements.md) <br/><br/>

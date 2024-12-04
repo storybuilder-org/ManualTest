@@ -2,7 +2,8 @@
 title: Story Idea, Concept, and Premise
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 92
+parent: Workflow
 ---
 ## Story Idea, Concept, and Premise ##
 Ideation

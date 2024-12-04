@@ -2,7 +2,8 @@
 title: Sensations Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 55
+parent: Setting Tab
 ---
 ### Sensations Tab ###
 Sensations Tab

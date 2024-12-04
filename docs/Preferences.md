@@ -2,7 +2,8 @@
 title: Preferences
 layout: default
 nav_enabled: true
-nav_order: 1
+nav_order: 75
+parent: Scrivener Reports
 ---
 # Preferences #
 Preferences

@@ -2,7 +2,8 @@
 title: Plotting Tools
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 98
+parent: Plotting in Scenes
 ---
 ## Plotting Tools ##
 Plotting Tools

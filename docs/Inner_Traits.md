@@ -2,7 +2,8 @@
 title: Inner Traits
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 51
+parent: Psychological Tab
 ---
 ### Inner Traits ###
 Inner Traits Tab

@@ -2,7 +2,8 @@
 title: Resolution Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 40
+parent: Antagonist Tab
 ---
 ### Resolution Tab ###
 Resolution Tab

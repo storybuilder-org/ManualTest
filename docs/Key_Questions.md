@@ -2,7 +2,8 @@
 title: Key Questions
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 63
+parent: Narrative Editor
 ---
 ## Key Questions ##
 

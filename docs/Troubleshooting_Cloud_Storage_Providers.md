@@ -2,7 +2,8 @@
 title: Troubleshooting Cloud Storage Providers
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 110
+parent: Leaving Feedback
 ---
 ## Troubleshooting Cloud Storage Providers ##
 ![](Clipboard-Image-7.png)

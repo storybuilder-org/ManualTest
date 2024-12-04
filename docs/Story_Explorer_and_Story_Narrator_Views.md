@@ -2,7 +2,8 @@
 title: Story Explorer and Story Narrator Views
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 28
+parent: Tabs
 ---
 ### Story Explorer and Story Narrator Views ###
 Story Explorer and Story Narrator Views

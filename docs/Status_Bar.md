@@ -2,7 +2,8 @@
 title: Status Bar
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 23
+parent: Navigation and  Content Panes
 ---
 ### Status Bar ###
 Status Bar

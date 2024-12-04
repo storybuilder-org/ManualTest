@@ -2,7 +2,8 @@
 title: Key Binds
 layout: default
 nav_enabled: true
-nav_order: 4
+nav_order: 21
+parent: Preferences
 ---
 #### Key Binds ####
 Key Binds

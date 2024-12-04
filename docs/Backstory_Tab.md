@@ -2,7 +2,8 @@
 title: Backstory Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 48
+parent: Flaw Tab
 ---
 ### Backstory Tab ###
 Backstory Tab

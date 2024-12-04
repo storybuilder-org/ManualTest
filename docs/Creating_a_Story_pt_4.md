@@ -2,7 +2,8 @@
 title: Creating a Story pt 4
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 83
+parent: Creating a Story pt 3
 ---
 ## Creating a Story pt 4 ##
 Let’s return to our original problem’s Story Question again:

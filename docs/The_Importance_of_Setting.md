@@ -2,7 +2,8 @@
 title: The Importance of Setting
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 96
+parent: Defining Characters
 ---
 ## The Importance of Setting ##
 The Importance of Setting

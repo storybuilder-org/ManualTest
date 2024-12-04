@@ -2,7 +2,8 @@
 title: Move Story Elements
 layout: default
 nav_enabled: true
-nav_order: 4
+nav_order: 17
+parent: Add/Remove Story Elements
 ---
 #### Move Story Elements ####
 Move Story Elements

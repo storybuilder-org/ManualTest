@@ -2,7 +2,8 @@
 title: Setting Form
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 53
+parent: Outer Traits
 ---
 ## Setting Form ##
 [Setting Tab](Setting_Tab.md) <br/><br/>

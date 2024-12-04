@@ -2,7 +2,8 @@
 title: Leaving Feedback
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 109
+parent: Developing StoryCAD
 ---
 ## Leaving Feedback ##
 Leaving Feedback

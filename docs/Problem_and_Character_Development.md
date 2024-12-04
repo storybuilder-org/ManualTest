@@ -2,7 +2,8 @@
 title: Problem and Character Development
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 93
+parent: Story Idea, Concept, and Premise
 ---
 ## Problem and Character Development ##
 Problem and Character Development

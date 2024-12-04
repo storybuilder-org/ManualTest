@@ -2,7 +2,8 @@
 title: Starting and Stopping StoryCAD
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 9
+parent: Using Various Input Devices
 ---
 ## Starting and Stopping StoryCAD ##
 Starting and Stopping StoryCAD

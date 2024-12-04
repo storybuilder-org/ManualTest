@@ -2,7 +2,8 @@
 title: Creating a Story pt 2
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 81
+parent: Creating a Story pt 1
 ---
 ## Creating a Story pt 2 ##
 After a break, we decide to continue refining our story idea.  You need to reload the "Danger Calls" outline. Launch StoryCAD. 

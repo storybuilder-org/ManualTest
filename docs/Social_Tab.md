@@ -2,7 +2,8 @@
 title: Social Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 49
+parent: Backstory Tab
 ---
 ### Social Tab ###
 Social Tab

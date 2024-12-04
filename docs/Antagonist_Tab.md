@@ -2,7 +2,8 @@
 title: Antagonist Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 39
+parent: Protagonist Tab
 ---
 ### Antagonist Tab ###
 Antagonist Tab

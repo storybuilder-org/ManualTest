@@ -2,7 +2,8 @@
 title: Getting Help
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 5
+parent: Important Notice to StoryCAD Users
 ---
 ## Getting Help ##
 Getting Help

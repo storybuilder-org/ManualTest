@@ -2,7 +2,8 @@
 title: Story Idea Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 32
+parent: Story Overview Form
 ---
 ### Story Idea Tab ###
 Story Idea Tab

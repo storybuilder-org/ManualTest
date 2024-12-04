@@ -2,7 +2,8 @@
 title: Tabs
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 27
+parent: Navigation Pane Flyout CommandBar
 ---
 ### Tabs ###
 Tabs		

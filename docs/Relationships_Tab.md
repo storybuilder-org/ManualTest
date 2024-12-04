@@ -2,7 +2,8 @@
 title: Relationships Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 46
+parent: Appearance Tab
 ---
 ### Relationships Tab ###
  Relationships Tab

@@ -2,7 +2,8 @@
 title: Stock Scenes
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 68
+parent: Dramatic Situations
 ---
 ### Stock Scenes ###
 Stock Scenes

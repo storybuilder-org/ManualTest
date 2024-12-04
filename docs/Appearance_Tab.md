@@ -2,7 +2,8 @@
 title: Appearance Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 45
+parent: Physical Tab
 ---
 ### Appearance Tab ###
 Appearance Tab

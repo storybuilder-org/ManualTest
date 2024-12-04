@@ -12,15 +12,19 @@ public class Block
     public int Level;
     public Block Next;
     public Block Previous;
+    public Block Parent;
+    public int Index;
 
-    public Block(string header) 
+    public Block(string header, int index, Block parent) 
     {
         Header = header;
         Children = new List<Block>();
         Text = new List<string>();
         ParseFilename(header);
         Level = header.IndexOf(" ");
-        if (Level == -1) { Level = 0;}
+		Index = index;
+		Parent = parent;
+		if (Level == -1) { Level = 0;}
     }
 
     private void ParseFilename(string header)

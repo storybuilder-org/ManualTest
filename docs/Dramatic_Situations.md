@@ -2,7 +2,8 @@
 title: Dramatic Situations
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 67
+parent: Master Plots
 ---
 ### Dramatic Situations ###
 Dramatic Situations

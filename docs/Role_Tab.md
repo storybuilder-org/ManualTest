@@ -2,7 +2,8 @@
 title: Role Tab
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 43
+parent: Character Form
 ---
 ### Role Tab ###
 Role Tab

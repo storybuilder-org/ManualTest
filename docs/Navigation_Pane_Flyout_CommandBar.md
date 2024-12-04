@@ -2,7 +2,8 @@
 title: Navigation Pane Flyout CommandBar
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 26
+parent: Story Elements
 ---
 ### Navigation Pane Flyout CommandBar ###
 Navigation Pane Flyout Commands

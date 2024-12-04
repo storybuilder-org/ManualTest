@@ -2,7 +2,8 @@
 title: Critiquing with StoryCAD
 layout: default
 nav_enabled: true
-nav_order: 3
+nav_order: 105
+parent: After the First Draft
 ---
 ### Critiquing with StoryCAD ###
 Critiquing with StoryCAD

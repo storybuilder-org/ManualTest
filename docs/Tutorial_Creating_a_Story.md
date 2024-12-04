@@ -2,7 +2,8 @@
 title: Tutorial: Creating a Story
 layout: default
 nav_enabled: true
-nav_order: 1
+nav_order: 79
+parent: Notes Form
 ---
 # Tutorial: Creating a Story #
  <br/>

@@ -2,7 +2,8 @@
 title: Reviewing Your Outline
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 101
+parent: Defining Scenes
 ---
 ## Reviewing Your Outline ##
 Reviewing Your Outline

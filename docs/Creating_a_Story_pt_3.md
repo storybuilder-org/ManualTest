@@ -2,7 +2,8 @@
 title: Creating a Story pt 3
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 82
+parent: Creating a Story pt 2
 ---
 ## Creating a Story pt 3 ##
 So far we’ve completed the first two steps in the story workflow, Story Idea and Concept, and added a few characters. We mentioned that Concept is an intermediate step between Story Idea and Premise, so it’s no surprise that we’ll talk about your story’s Premise next. Here’s our concept again:

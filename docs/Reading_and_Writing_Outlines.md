@@ -2,7 +2,8 @@
 title: Reading and Writing Outlines
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 10
+parent: Starting and Stopping StoryCAD
 ---
 ## Reading and Writing Outlines ##
 Reading and Writing Outlines

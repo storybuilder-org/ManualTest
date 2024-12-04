@@ -2,7 +2,8 @@
 title: The StoryCAD User Interface
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 11
+parent: Reading and Writing Outlines
 ---
 ## The StoryCAD User Interface ##
 The StoryCAD User Interface

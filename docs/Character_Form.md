@@ -2,7 +2,8 @@
 title: Character Form
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 42
+parent: Structure Tab
 ---
 ## Character Form ##
 [Role Tab](Role_Tab.md) <br/><br/>

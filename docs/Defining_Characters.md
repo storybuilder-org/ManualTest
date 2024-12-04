@@ -2,7 +2,8 @@
 title: Defining Characters
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 95
+parent: Defining Problems
 ---
 ## Defining Characters ##
 Defining Characters

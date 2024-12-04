@@ -2,7 +2,8 @@
 title: Conflict Builder
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 69
+parent: Stock Scenes
 ---
 ## Conflict Builder ##
 Conflict Builder
