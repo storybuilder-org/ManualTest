@@ -15,7 +15,3 @@ parent: Home
 [Plotting Aids](Plotting_Aids.md) <br/><br/>
 [Conflict Builder](Conflict_Builder.md) <br/><br/>
 [Flaw Builder](Flaw_Builder.md) <br/><br/>
- <br/>
- <br/>
-[Previous - Story Elements](Story_Elements.md) <br/>
-[Next - Narrative Editor](Narrative_Editor.md) <br/>

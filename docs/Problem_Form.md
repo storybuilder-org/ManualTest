@@ -11,7 +11,3 @@ parent: Story Elements
 [Antagonist Tab](Antagonist_Tab.md) <br/><br/>
 [Resolution Tab](Resolution_Tab.md) <br/><br/>
 [Structure Tab](Structure_Tab.md) <br/><br/>
- <br/>
- <br/>
-[Previous - Story Overview Form](Story_Overview_Form.md) <br/>
-[Next - Problem Tab](Problem_Tab.md) <br/>

@@ -83,7 +83,3 @@ The What’s New tab displays the Changelog for the current release.
  <br/>
  <br/>
 
- <br/>
- <br/>
-[Previous - Reports](Reports.md) <br/>
-[Next - Researching your story](Researching_your_story.md) <br/>

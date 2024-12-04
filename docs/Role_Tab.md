@@ -70,7 +70,3 @@ Character Sketch
 
 Use these notes to provide a thumbnail picture of the character and the overall impression he makes.
 
- <br/>
- <br/>
-[Previous - Character Form](Character_Form.md) <br/>
-[Next - Physical Tab](Physical_Tab.md) <br/>

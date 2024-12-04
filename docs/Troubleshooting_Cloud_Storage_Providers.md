@@ -28,7 +28,3 @@ Once you have found the file in your system, right click the file and find the o
 If the problem persists, then you should download the file from the cloud provider and store it somewhere that will not be synced by the cloud storage provider.
 
 If you have followed all the troubleshooting steps above and the issue persists, please contact us. The Getting Help Page in the front matter section contains information on getting help.
- <br/>
- <br/>
-[Previous - Leaving Feedback](Leaving_Feedback.md) <br/>
-[Next - Miscellaneous](Miscellaneous.md) <br/>

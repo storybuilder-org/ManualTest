@@ -24,7 +24,3 @@ New Goal		The period of thought leads to a new plan, by which the protagonist ca
 
 See "Scene and Sequel" for more information.
 
- <br/>
- <br/>
-[Previous - Conflict Tab](Conflict_Tab.md) <br/>
-[Next - Scene Form](Scene_Form.md) <br/>

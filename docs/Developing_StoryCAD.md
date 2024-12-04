@@ -32,7 +32,3 @@ Developer Notes
 	- Attempt to launch the app again
 	- The first instance of the app should now be brought on top of all the window
 
- <br/>
- <br/>
-[Previous - Backups: Protecting Your Work](Backups_Protecting_Your_Work.md) <br/>
-[Next - Leaving Feedback](Leaving_Feedback.md) <br/>

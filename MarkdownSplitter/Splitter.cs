@@ -237,9 +237,6 @@ namespace MarkdownSplitter
 				sb.AppendLine($"[{child.Title}]({child.Filename}) <br/><br/>"); // This writes any links.
 			}
 
-			// Append navigation links.
-			AppendNavigationLinks(block, sb, Parent);
-
 			// Write the entire content, including navigation, to the markdown file.
 			File.WriteAllText(Path.Combine(docsFolder, block.Filename), sb.ToString());
 
@@ -292,55 +289,6 @@ namespace MarkdownSplitter
 
 			previousBlock.Text.Add(sb.ToString());
 			previousBlock = current;
-		}
-
-		private void AppendNavigationLinks(Block block, StringBuilder sb, Block Parent)
-		{
-			sb.AppendLine($" <br/>"); // Ensure there is spacing before the navigation links.
-			sb.AppendLine($" <br/>");
-
-			// If there is a previous block, append a link to it.
-			if (block.Previous != null && !block.Previous.Title.Contains("Front Page (Image)"))
-			{
-				sb.AppendLine($"[Previous - {block.Previous.Title}]({block.Previous.Filename}) <br/>");
-			}
-			else if (Parent.Children.IndexOf(block) != 0 &&
-			         Parent.Children[Parent.Children.IndexOf(block) - 1].Title != "Front Page (Image)")
-			{
-				sb.AppendLine($"[Previous - {Parent.Children[Parent.Children.IndexOf(block) - 1].Title}]" +
-				              $"({Parent.Children[Parent.Children.IndexOf(block) - 1].Filename}) <br/>");
-			}
-			else
-			{
-				sb.AppendLine($"[Previous - {Parent.Title}]({Parent.Filename}) <br/>");
-			}
-
-			// If there is a next block, append a link to it.
-			if (block.Children.Count == 0) //dead end
-			{
-				if (Parent.Children.IndexOf(block) == Parent.Children.Count - 1) // Dead-end
-				{
-					sb.AppendLine($"[Next - {Parent.Title}]({Parent.Filename}) <br/>");
-				}
-				else
-				{
-					sb.AppendLine($"[Next - {Parent.Children[Parent.Children.IndexOf(block) + 1].Title}]" +
-					              $"({Parent.Children[Parent.Children.IndexOf(block) + 1].Filename}) <br/>");
-				}
-			}
-			else
-			{
-				if (block.Children[0].Title.Contains("Front Page (Image)")) //Do not show frontpage image as next page no matter what.
-				{
-					sb.AppendLine($"[Next - {block.Children[1].Title}]" +
-					              $"({block.Children[1].Filename}) <br/>");
-				}
-				else
-				{
-					sb.AppendLine($"[Next - {block.Children.First().Title}]" +
-					              $"({block.Children.First().Filename}) <br/>");
-				}
-			}
 		}
 	}
 }

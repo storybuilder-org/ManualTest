@@ -35,7 +35,3 @@ The Goal is the result or end toward which the character's efforts are directed.
 As with all story elements, the more specific the goal, the better.  The Goal control lists a number of generic goals, which is certainly not a comprehensive list.  Even if one of these is selected, you should convert it into a specific desire: rather than 'To find a missing object', your goal should be 'To find the Maltese Falcon.'
 
 
- <br/>
- <br/>
-[Previous - Problem Tab](Problem_Tab.md) <br/>
-[Next - Antagonist Tab](Antagonist_Tab.md) <br/>

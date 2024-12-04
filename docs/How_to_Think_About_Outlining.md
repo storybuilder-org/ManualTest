@@ -30,7 +30,3 @@ The gap between these two perspectives,  and the answer to the original question
 
 	
 
- <br/>
- <br/>
-[Previous - Writing with StoryCAD](Writing_with_StoryCAD.md) <br/>
-[Next - Workflow](Workflow.md) <br/>

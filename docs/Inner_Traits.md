@@ -20,7 +20,3 @@ Don't go overboard and provide every possible trait for a character.  Focus on t
 
 Both the Inner Traits tab and the Virtues and Vices list in StoryCAD can be tailored to your needs and wishes.  See "Customizing StoryCAD" for details on how to add, delete, or modify the listed traits.
 
- <br/>
- <br/>
-[Previous - Psychological Tab](Psychological_Tab.md) <br/>
-[Next - Outer Traits](Outer_Traits.md) <br/>

@@ -25,7 +25,3 @@ Copyright © 2022, 2023
 StoryBuilder Organization
 
 
- <br/>
- <br/>
-[Previous - Getting Help](Getting_Help.md) <br/>
-[Next - Front Matter](Front_Matter.md) <br/>

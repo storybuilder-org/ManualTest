@@ -6,7 +6,3 @@ nav_order: 18
 parent: Menu Bar
 ---
 
- <br/>
- <br/>
-[Previous - Move Story Elements](Move_Story_Elements.md) <br/>
-[Next - Reports](Reports.md) <br/>

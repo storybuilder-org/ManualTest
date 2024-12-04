@@ -12,7 +12,3 @@ Occasionally, you may want to leave feedback, suggestions, or report issues you 
 
 If you wish to suggest a feature or report a problem with StoryCAD, then there is a report feedback button. This will open a menu where you can explain your feature and how it should work or about the issue you ran into and how it happened.
 ![](ShellBar.png)
- <br/>
- <br/>
-[Previous - Developing StoryCAD](Developing_StoryCAD.md) <br/>
-[Next - Troubleshooting Cloud Storage Providers](Troubleshooting_Cloud_Storage_Providers.md) <br/>

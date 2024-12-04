@@ -21,7 +21,3 @@ The form’s sections are as follows. They’ll be explained in more detail as w
 [Menu Bar](Menu_Bar.md) <br/><br/>
 [Navigation and  Content Panes](Navigation_and_Content_Panes.md) <br/><br/>
 [Status Bar](Status_Bar.md) <br/><br/>
- <br/>
- <br/>
-[Previous - Reading and Writing Outlines](Reading_and_Writing_Outlines.md) <br/>
-[Next - Menu Bar](Menu_Bar.md) <br/>

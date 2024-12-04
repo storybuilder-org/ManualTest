@@ -35,7 +35,3 @@ Remember that a beat sheet is a pattern for your plotting, and once you pick it,
 Additionally, selecting the reports menu option to generate a report for “Story Problem Structure” will create a report of all beats of the Story Problem specified within the Overview element and all attached problems to the beats within that element recursively. If your story does not a have a story problem set, this report will be blank.
 
 
- <br/>
- <br/>
-[Previous - Resolution Tab](Resolution_Tab.md) <br/>
-[Next - Problem Form](Problem_Form.md) <br/>

@@ -80,7 +80,3 @@ When you’re done with an editing session, you can Close your outline using the
 
 
 
- <br/>
- <br/>
-[Previous - Tutorial: Creating a Story](Tutorial_Creating_a_Story.md) <br/>
-[Next - Creating a Story pt 2](Creating_a_Story_pt_2.md) <br/>

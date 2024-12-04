@@ -29,7 +29,3 @@ Goal, Motivation, Conflict Builder, Conflict
 
 
 
- <br/>
- <br/>
-[Previous - Protagonist Tab](Protagonist_Tab.md) <br/>
-[Next - Resolution Tab](Resolution_Tab.md) <br/>

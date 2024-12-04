@@ -21,7 +21,3 @@ Cast		The number of characters in a scene should be limited to those who contrib
 Scene Sketch		A thumbnail sketch of the scene.
 
 
- <br/>
- <br/>
-[Previous - Scene Form](Scene_Form.md) <br/>
-[Next - Develpment Tab](Develpment_Tab.md) <br/>
