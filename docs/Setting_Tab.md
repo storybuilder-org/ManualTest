@@ -12,7 +12,7 @@ Setting Tab
 The Setting tab contains elements which make the setting specific and unique.
 
  
-![](/media/Setting-Setting-Tab.png)
+![](media/Setting-Setting-Tab.png)
 
 Locale	The location of the setting in space.
 

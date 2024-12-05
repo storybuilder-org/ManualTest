@@ -10,7 +10,7 @@ parent: Scene Form
 Sequel Sequel Tab
 Sequel Tab
 
-![](/media/Scene-Sequel-Tab.png)
+![](media/Scene-Sequel-Tab.png)
 
 The prose which immediately follows a scene usually ties that scene to the next.  The two literary devices which serve this purpose are the transition and the sequel.
 

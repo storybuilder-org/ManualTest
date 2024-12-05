@@ -8,7 +8,7 @@ parent: The StoryCAD User Interface
 
 Status Bar
 
-![](/media/Status-Bar.png)
+![](media/Status-Bar.png)
 
 
 The Status Bar reports information you may find useful during program execution. It contains the following controls:
@@ -31,6 +31,6 @@ Indicates if a Search is active.
 
 Changed Indicator
 
-![](/media/Changed-Indicator.png)
+![](media/Changed-Indicator.png)
 
 The Changed Indicator displays red if any editing has been done to the outline and green if not. It’s a reminder to save your work. It’s also a command button which will save your outline if you click it.

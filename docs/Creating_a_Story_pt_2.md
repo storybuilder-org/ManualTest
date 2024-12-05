@@ -16,7 +16,7 @@ In the literature of fiction writing, concept is a a term which is often misused
 
 Click on the Concept tab on your Story Overview and you’ll see this:
 
-![](/media/Tutorial-2-Concept-Tooltip.png)
+![](media/Tutorial-2-Concept-Tooltip.png)
 
 
 The note displayed is called a ToolTIp, and you’ll find many of these in StoryCAD. It will be replaced with your text as soon as you start keying into the text box.
@@ -27,7 +27,7 @@ Brooks offers the following example: a story idea might be to write a story abou
 
 For the “Danger Calls” concept, let’s use this:
  
-![](/media/Tutorial-2-Concept.png)
+![](media/Tutorial-2-Concept.png)
 
 
 (Don’t forget to save.) 
@@ -38,7 +38,7 @@ But questions can also be used to refine and test concepts and many other store 
 
 Launch Key Questions from the Tool menu (use the wrench icon on the Menu Bar.) With Story Overview selected in the ComboBox, click Next Question until you find the first Concept question:
 
-![](/media/Tutorial-2-Key-Questions.png)
+![](media/Tutorial-2-Key-Questions.png)
 
 
 Key Questions can help you refine any story element or workflow step.
@@ -47,17 +47,17 @@ As is discussed in the Story Elements and Tabs topics in the Quick Start, a stor
 
 We can continue to work on the "Danger Calls" concept from any direction, adding Problem, Setting, or  Scene story elements, but let's start with something implicit in our Concept, some key characters.  Outlines are built by aggregation, adding bits and pieces as they occur to you, or as you reason things out. As a 'cops and robbers' story,  “Danger Calls”  has two obvious character archetypes, cop and criminal. Right-click on the Character Folder. You’ll see a ‘fly-out menu’ open:
 
-![](/media/Tutorial-2-Add-Character.png)
+![](media/Tutorial-2-Add-Character.png)
 
 The icons to the left of the first separator represent different story element types, and clicking on one of them will insert that as a child of the node you right-clicked. Click on the Character icon (if you want to know what a button is, just mouse over it.) You’ll insert a ‘New Character’ Character story element under the empty Characters folder. Click on the ‘New Character’ node and give your character a name. We also know the role we want, so pick that:
 
-![](/media/Tutorial-2-Detective-Role.png)
+![](media/Tutorial-2-Detective-Role.png)
 
 Give him the Story Role of Protagonist and move him to the characters folder.
 
 We can also add a second character, the bad guy, the same way: 
 
-![](/media/Tutorial-2-Add-New-Role.png)
+![](media/Tutorial-2-Add-New-Role.png)
 
 You can set him as the Antagonist.
 
@@ -65,7 +65,7 @@ Notice that the list of roles doesn’t have an entry for Drug Dealer, so this w
 
 While we’re at it, let’s add a third character, another detective who’s a partner to Leonard. We’ll give him the name Tony Irwin.
 
-![](/media/Tutorial-2-Third-Character.png)
+![](media/Tutorial-2-Third-Character.png)
 
 Why a third character? There’s no concrete reason at this point in the outline’s development, but policemen often work in teams. Besides, with two detectives, there’s somebody to talk to. At some point in the story we’re likely to need to narrate events, to explain what’s going on and to develop plans of action. ‘Buddy’ roles are good for that. And if we don’t need Tony, a touch of the Delete button can always get rid of him.
 

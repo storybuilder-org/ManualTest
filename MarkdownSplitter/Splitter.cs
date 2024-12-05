@@ -210,7 +210,7 @@ namespace MarkdownSplitter
 				{
 					string imageName = tokens[1];
 					imageName = NormalizeImageName(imageName);
-					line = line.Replace($"({tokens[1]})", $"(/media/{imageName}.png)");
+					line = line.Replace($"({tokens[1]})", $"(media/{imageName}.png)");
 				}
 			}
 

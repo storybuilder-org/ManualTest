@@ -16,10 +16,10 @@ StoryCAD’s story structure starts with the Story Problem defined in the Story 
 
 To use the Structure Tab, select a beat sheet for your problem using the Structure dropdown. We recommend starting at the top, with the story problem which you identified for your Story Overview. 
 
-![](/media/Image1.png)
+![](media/Image1.png)
 
 Here’s how you tie your plot-related story elements (scenes and problems) together: Pick a beat you want to identify, and click on Show Problems/Scenes to display a list of your outline’s problems and scenes. Select the problem or scene, and drag it to the beat’s drop area, the box which reads ‘No element Selected’:
-![](/media/Image1-1.png)
+![](media/Image1-1.png)
  Repeat this process to fill in as much of the beat sheet as you like.
 
 Here are a few things to keep in mind:

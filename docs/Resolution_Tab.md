@@ -8,7 +8,7 @@ parent: Problem Form
 
 Resolution Tab
 
-![](/media/Problem-Resolution-Tab.png)
+![](media/Problem-Resolution-Tab.png)
 
 The Resolution tab describes the Problem’s outcome. 
 

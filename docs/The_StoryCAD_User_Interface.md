@@ -8,7 +8,7 @@ parent: Quick Start
 
 The StoryCAD User Interface
 
-![](/media/User-Interface.png)
+![](media/User-Interface.png)
 
 The form’s sections are as follows. They’ll be explained in more detail as we go.
 

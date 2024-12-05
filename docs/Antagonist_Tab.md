@@ -8,7 +8,7 @@ parent: Problem Form
 
 Antagonist Tab
 
-![](/media/Problem-Antagonist-Tab.png)
+![](media/Problem-Antagonist-Tab.png)
 
 The problem's antagonist is the source of the opposition to the problem protagonist's goal.
 

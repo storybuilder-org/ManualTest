@@ -7,4 +7,4 @@ parent: Front Matter
 ---
 
 
-![](/media/StoryCAD.png)
+![](media/StoryCAD.png)
