@@ -6,8 +6,8 @@ nav_order: 24
 parent: Quick Start
 ---
 
-[Story Elements](Story_Elements.md) <br/><br/>
-[Navigation Pane Flyout CommandBar](Navigation_Pane_Flyout_CommandBar.md) <br/><br/>
-[Tabs](Tabs.md) <br/><br/>
-[Story Explorer and Story Narrator Views](Story_Explorer_and_Story_Narrator_Views.md) <br/><br/>
-[Rearranging Content](Rearranging_Content.md) <br/><br/>
+[Story Elements](Story_Elements.html) <br/><br/>
+[Navigation Pane Flyout CommandBar](Navigation_Pane_Flyout_CommandBar.html) <br/><br/>
+[Tabs](Tabs.html) <br/><br/>
+[Story Explorer and Story Narrator Views](Story_Explorer_and_Story_Narrator_Views.html) <br/><br/>
+[Rearranging Content](Rearranging_Content.html) <br/><br/>

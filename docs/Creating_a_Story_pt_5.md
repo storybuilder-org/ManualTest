@@ -17,11 +17,11 @@ Most stories have more than one problem, but an important thing to keep in mind 
 
 StoryCAD acknowledges the need for a main story problem by having you pick the Problem that is your story problem, back on the Overview node. Overview’s Premise tab looks like this:
 
-![](Overview-Empty-Premis-tab.png)
+![][Overview-Empty-Premis-tab]
 
 The Story Problem drop-down lists your outline’s Problem story elements. If you select the problem we’ve been developing you’ll see:
 
-![](Danger-Calls-Story-Premise.png)
+![][Danger-Calls-Story-Premise]
 
 Note that the Premise here is just a read-only copy of the Premise on the Problem story node’s Resolution tab. Don’t forget to save your work- the red pencil on the Status bar is a reminder that you have unsaved work. You may want to take a look at the various backup and autosave options available in Preferences.
 
@@ -31,11 +31,11 @@ Back when we started, we envisioned a scene in which Lacas walks out of the cour
 
 Right-clicking the Scenes folder displays a fly-out command bar.
 
-![](Danger-Calls-Add-Scene.png)
+![][Danger-Calls-Add-Scene]
 
 Clicking on the Add Scene icon on the fly-out bar will insert a new scene, which you can click on and rename by keying into the Name field. A sketch might also be added:
 
-![](Danger-Calls-First-Scene-Sketch.png)
+![][Danger-Calls-First-Scene-Sketch]
 
 
 Of course, one scene isn't a plot. This scene might or might not fit. If it’s something you envision when you’re working through your story idea and concept and premise, trust your intuition and record it. Honor your muse by paying attention to those early thoughts. This goes for any story elements that suggest themselves. If they don’t fit, they can always be trashed.
@@ -44,17 +44,17 @@ Let's put a skeleton of a plot together, using the problems and story premise yo
 
 On the Tools menu there's a sub-menu with several tools to assist plotting.  One of them, Master Plots, could be useful in this situation.  The master plots available from this sub-menu suggest certain events which take place at different places in a story, and can quickly provide a skeleton plot outline which provides a shape for the plot. With the Scenes folder node selected, rather than go through the menus, let's use a shortcut and type in [Ctrl+M].  This will display the Master Plots menu:
 
-![](Danger-Calls-MasterPlots-menu.png)
+![][Danger-Calls-MasterPlots-menu]
 
 Not all of the master plots are true plot outlines; other master plots suggest common story types which recur in fiction.  But we're looking for an outline, and the first few master plots do just that.
 
 Let's use the first one on the list, the Three Act Play.  Click on the Copy button. 
 
-![](Danger-Calls-Three-Act-Play.png)
+![][Danger-Calls-Three-Act-Play]
 
 
 The copy function populated the Scene folder with a series of plot points which suggest where in the dramatic progression of a story certain things should happen.  The Notes tabs on these plot points contain some suggestions.  For example, the Notes for 'Narrative hook' looks like this:
 
-![](Danger-Calls-Narrative-Hook.png)
+![][Danger-Calls-Narrative-Hook]
 
 Although these are Scene story elements, they are not scenes, but placeholders: a reminder of things that your scenes need to do,   and roughly the order they need to do them in. In short, they are the structure of your story, its spine. Since your story is centered on one of your Problems, the main Story Problem, the story’s structure is the structure of that problem.  

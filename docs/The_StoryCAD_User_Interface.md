@@ -8,7 +8,7 @@ parent: Quick Start
 
 The StoryCAD User Interface
 
-![](User-Interface.png)
+![][User-Interface]
 
 The form’s sections are as follows. They’ll be explained in more detail as we go.
 
@@ -18,6 +18,6 @@ The form’s sections are as follows. They’ll be explained in more detail as w
 	•	Content Pane - The contents of the currently selected Story Element
 
 
-[Menu Bar](Menu_Bar.md) <br/><br/>
-[Navigation and  Content Panes](Navigation_and_Content_Panes.md) <br/><br/>
-[Status Bar](Status_Bar.md) <br/><br/>
+[Menu Bar](Menu_Bar.html) <br/><br/>
+[Navigation and  Content Panes](Navigation_and_Content_Panes.html) <br/><br/>
+[Status Bar](Status_Bar.html) <br/><br/>

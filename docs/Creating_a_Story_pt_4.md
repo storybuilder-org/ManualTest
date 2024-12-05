@@ -15,7 +15,7 @@ story elements is  critical. What else is there?
 
 We did throw in the phrase ‘effect a rescue’.  The ‘effect a rescue’ phrase raises the question: rescue from what? We could also ask where this phrase came from and what that phrase is even doing in the Story Question,  but it clearly seems to involve drama and more drama is always good. Your subconscious will often give you what you need, if you let it. Perhaps Lacas ‘gets the drop’ on one or both of our detectives somehow. We can add that as an additional story problem:
 
-![](Tutorial-4-Lacas-gets-the-drop-on-Kraskin.png)
+![][Tutorial-4-Lacas-gets-the-drop-on-Kraskin]
 
 Rather than ‘gets the drop on the detectives’, I used one detective, so that the other can affect the rescue. But how did Lacas gain the upper hand? 
 
@@ -27,28 +27,28 @@ The outer or external problem we've just added has a physical goal--- to catch C
 
 Click on the Lenard Kraskin node and then click on the Outer Traits tab. The Content Pane contains a button for a tool, Trait Builder, and an empty list of traits. If you click on the Trait Builder tool you’ll see this:
 
-![](Tutorial-4-Trait-Builder.png)
+![][Tutorial-4-Trait-Builder]
 
 Clicking on Behaviors will give you a list of example behaviors: 
 
-![](Tutorial-4-Behaviors.png)
+![][Tutorial-4-Behaviors]
 
 And right there is what we’re looking for. Remember, we have no preconceptions about Leonard's character; he's a blank sheet of paper.  He can therefore easily be molded to suit the story, and giving him a character flaw by making him impulsive is a step in that direction.
 
 Click on Impulsive and Copy Trait to add the trait:
 
-![](Tutorial-4-Impulsive.png)
+![][Tutorial-4-Impulsive]
 
 
 Note that this is an outer rather than an inner trait. Inner traits are aspects of character stemming from psychological and social causes. External traits are habits and behaviors which reflect and illustrate the inner traits. It turns out that Impulsiveness is also a value under the Adventurousness  quality on the Inner Traits tab, so we can select that value as well:
 
-![](Tutorial-4-Inner-Trait.png)
+![][Tutorial-4-Inner-Trait]
 
 We should remember though, that  to affect the story’s outcome, traits need to be demonstrated as external actions, under the 'show, don't tell' maxim. We need Leonard to exhibit Impulsiveness in an action that puts him in a situation where he needs rescue.
 
 With this change we can now rename our third problem (Lacas gets the drop on Kraskin) to something more precise:
 
-![](Tutorial-4-Renamed-third-problem.png)
+![][Tutorial-4-Renamed-third-problem]
 
 Both the Conflict Type and the Story Question address the flawed character trait.
 
@@ -73,7 +73,7 @@ The story is beginning to take on substance; we can start to visualize some scen
 
 Character traits are also a means of achieving conflict.  Many stories don't have enough built-in conflict, which leads to contrived plots.  But conflict isn't necessarily limited to the interplay of protagonist and antagonist.  We can create conflict by giving Tony a trait which clashes with Leonard's.  The opposite of impulsiveness isn't necessarily caution, though.  Going back to the Inner Traits tab on Tony's record, we select Thoughtful from the Shrewdness trait:
 
-![](Tony-Irwin-Inner-Traits.png)
+![][Tony-Irwin-Inner-Traits]
 
 
 

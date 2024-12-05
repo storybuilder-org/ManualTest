@@ -6,4 +6,4 @@ nav_order: 111
 parent: Home
 ---
 
-[Glossary](Glossary.md) <br/><br/>
+[Glossary](Glossary.html) <br/><br/>

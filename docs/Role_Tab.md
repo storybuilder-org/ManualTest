@@ -8,7 +8,7 @@ parent: Character Form
 
 Role Tab
 
-![](CharRoleTab.png)
+![][CharRoleTab]
 
 The role tab contains the information which defines the relationship between this character and the story.
 

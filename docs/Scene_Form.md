@@ -6,7 +6,7 @@ nav_order: 56
 parent: Story Elements
 ---
 
-[Scene Tab](Scene_Tab.md) <br/><br/>
-[Develpment Tab](Develpment_Tab.md) <br/><br/>
-[Conflict Tab](Conflict_Tab.md) <br/><br/>
-[Sequel Tab](Sequel_Tab.md) <br/><br/>
+[Scene Tab](Scene_Tab.html) <br/><br/>
+[Develpment Tab](Develpment_Tab.html) <br/><br/>
+[Conflict Tab](Conflict_Tab.html) <br/><br/>
+[Sequel Tab](Sequel_Tab.html) <br/><br/>

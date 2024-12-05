@@ -8,7 +8,7 @@ parent: Story Overview Form
 
 Premise Tab
 
-![](Overview-Premise.png)
+![][Overview-Premise]
 
 
 Story Problem

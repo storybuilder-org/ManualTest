@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics;
 using System.Text;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace MarkdownSplitter
 {
@@ -8,83 +7,61 @@ namespace MarkdownSplitter
 	/// Generate the StoryBuilder User Manual website by processing
 	/// the output of a Scrivener Compile to MultiMarkdown.
 	/// The output of the Compile command is written to compilerFolder.
-	///
-	/// The .md markdown files are rewritten as a tree of nodes (blocks) each 
-	/// of which contains links to its child nodes, according to its depth
-	/// or indentation nestingLevel in the Scrivener file.
-	/// 
-	/// The workflow is as follows:
-	///    Empty the (output) /docs folder. This folder is where the final
-	///       GitHub Pages .md files (and .png) images go. When your local repository
-	///       changes (your manual edits processed by Compile and MarkdownSplitter)
-	///       are pushed to the online repository, the /docs folder will be processed
-	///       by YAML to generate the test website.
-	///    Process the Scrivener project's Compile output folder contents. This is
-	///       the .md folder (typically manual.md) and contains single MultiMarkdown
-	///       .md file and its .png image files.
-	///    Create the index.md file in the docs folder by reading the .md markdown
-	///       file and reformatting it as a series of blocks.
-	///    Write the child .md files for each block as a set of link statements. That
-	///       is, each child node is a mark-down link in its parent's .md file.
 	/// </summary>
 	public class Splitter
 	{
-		public string MarkdownFolder;
+		public string MarkdownFolder { get; set; }
 		private string repositoryPath;
 		private string docsFolder;
-		private string splitMarker = "#";
+		private string splitMarker;
 		private readonly Block[] nestingLevel = new Block[7];
 		private Block? previousBlock;
+		private string mediaFolder;
 
 		public Splitter()
 		{
-			MarkdownFolder = @"manual.md";
+			MarkdownFolder = "manual.md";
 			repositoryPath = Directory.GetCurrentDirectory();
-			this.docsFolder = @"docs";
-			this.splitMarker = splitMarker;
-			this.previousBlock = null;
+			docsFolder = "docs";
+			splitMarker = "#";
 		}
 
-		/// <summary>
-		/// Creates an empty github pages (/docs) folder
-		/// </summary>
 		public void EmptyDocsFolder()
 		{
 			repositoryPath = Directory.GetParent(MarkdownFolder)!.FullName;
-			docsFolder = Path.Join(repositoryPath, @"docs");
+			docsFolder = Path.Join(repositoryPath, "docs");
 			DirectoryInfo di = new(docsFolder);
 			if (di.Exists)
-			{
 				di.Delete(true);
-			}
-
 			di.Create();
+
+			mediaFolder = Path.Combine(docsFolder, "media");
+			Directory.CreateDirectory(mediaFolder);
 		}
 
-		/// <summary>
-		/// Process the folder written by Scrivener Compile. This contains a single
-		/// .md markdown file and a set of .png image files. Find the .md file and
-		/// process it. All other files (the images) are copied to the /docs folder.
-		///
-		/// If the .md file can't be found, the Compile wasn't performed properly.
-		/// </summary>
-		/// <returns></returns>
 		public bool ProcessMarkdownFolder()
 		{
 			bool found = false;
 			try
 			{
-				var txtFiles = Directory.EnumerateFiles(MarkdownFolder, "*.*");
-				foreach (string currentFile in txtFiles)
+				foreach (string currentFile in Directory.EnumerateFiles(MarkdownFolder, "*.*"))
 				{
-					string fileName = currentFile.Substring(MarkdownFolder.Length + 1);
+					string fileName = Path.GetFileName(currentFile);
 					if (fileName.EndsWith(".md"))
 					{
 						ProcessMarkdownFile(currentFile);
 						found = true;
 					}
+					else if (fileName.EndsWith(".png", StringComparison.OrdinalIgnoreCase))
+					{
+						// Move images to media folder
+						File.Copy(currentFile, Path.Combine(mediaFolder, fileName), true);
+					}
 					else
-						File.Copy(currentFile, Path.Combine(docsFolder, fileName));
+					{
+						// Other files remain in docs folder
+						File.Copy(currentFile, Path.Combine(docsFolder, fileName), true);
+					}
 				}
 			}
 			catch (Exception e)
@@ -105,90 +82,53 @@ namespace MarkdownSplitter
 
 		public void CreateIndexFile()
 		{
-			using StreamWriter file = new(Path.Combine(docsFolder, "index.md"));
-			file.WriteLine("---");
-			file.WriteLine("title: Home");
-			file.WriteLine("layout: home");
-			file.WriteLine("---");
-			file.WriteLine("Unused for now");
-			file.Close();
+			File.WriteAllLines(Path.Combine(docsFolder, "index.md"), new[]
+			{
+				"---",
+				"title: Home",
+				"layout: home",
+				"---",
+				"Unused for now"
+			});
 		}
 
-		/// <summary>
-		/// Write separate .md files from the single .md file
-		/// written by Scrivener Compile.
-		/// </summary>
 		public void CreateChildMarkdownFiles()
 		{
 			previousBlock = nestingLevel[0];
-			// Generate previous and next links for each child     
 			for (int i = 0; i < nestingLevel[0].Children.Count; i++)
 			{
 				ChainBlocks(nestingLevel[0].Children[i], i);
 			}
 
-			//Creates the other md files.
 			foreach (var child in nestingLevel[0].Children)
-			{
 				WriteChildFile(child, nestingLevel[0]);
-			}
 		}
 
-		/// <summary>
-		/// Process the Compiler's .md MultiMarkdown file.
-		///
-		/// It's parsed as a series of linked Block objects. A new block is
-		/// created every time a Markdown Header (#, ##, etc.) is found in the
-		/// Compiler output file, and added to its parent block. The nestingLevel of
-		/// nesting for a block is determined by its heading nestingLevel.
-		///
-		/// If a line doesn't start a new block, it's added to the current block.
-		/// </summary>
-		/// <param name="currentFile"></param>
 		private void ProcessMarkdownFile(string currentFile)
 		{
-			// Read the .md file into memory.
 			string[] markdown = File.ReadAllLines(currentFile);
-
-			// Initialize the root block.
 			Block current = new Block("Home", 0, 0, null);
-			nestingLevel[0] = current; // Level zero is the root.
+			nestingLevel[0] = current;
 
-			int Index = 0;
+			int index = 0;
 			foreach (string line in markdown)
 			{
 				if (line.StartsWith(splitMarker))
 				{
-					Index++;
-
-					// Determine the heading level based on the number of '#' characters.
+					index++;
 					int level = line.TakeWhile(c => c == '#').Count();
-
-					// Get the correct parent from nestingLevel.
 					Block parent = nestingLevel[level - 1];
-
-					// Create the new block with the correct parent.
-					current = new Block(line, Index, level, parent);
-
-					// Add the new block to its parent's children.
+					current = new Block(line, index, level, parent);
 					parent.Children.Add(current);
-
-					// Update the nesting level.
 					nestingLevel[level] = current;
 				}
 				else
 				{
-					if (current != null)
-						current.Text.Add(line);
+					current?.Text.Add(line);
 				}
 			}
 		}
 
-
-		/// <summary>
-		/// Write the 
-		/// </summary>
-		/// <param name="block"></param>
 		private void RecurseMarkdownBlocks(Block block)
 		{
 			WriteMarkdownBlock(block);
@@ -199,23 +139,20 @@ namespace MarkdownSplitter
 		private void WriteMarkdownBlock(Block block)
 		{
 			string filepath = Path.Combine(docsFolder, block.Filename);
-			using (StreamWriter file = new(filepath))
-			{
-				file.WriteLine("---");
-				file.WriteLine($"title: {block.Title}");
-				file.WriteLine("layout: default");
-				file.WriteLine("nav_enabled: true");
-				file.WriteLine($"nav_order: {block.Index}");
-				file.WriteLine($"parent: {block.Parent.Title}");
-				file.WriteLine("---");
-				file.WriteLine(block.Header);
-				foreach (string line in block.Text)
-					file.WriteLine(CleanupMarkdown(line));
-				file.Close();
-			}
+			using StreamWriter file = new(filepath);
+			file.WriteLine("---");
+			file.WriteLine($"title: {block.Title}");
+			file.WriteLine("layout: default");
+			file.WriteLine("nav_enabled: true");
+			file.WriteLine($"nav_order: {block.Index}");
+			file.WriteLine($"parent: {block.Parent.Title}");
+			file.WriteLine("---");
+			file.WriteLine(block.Header);
+			foreach (string line in block.Text)
+				file.WriteLine(CleanupMarkdown(line));
 		}
 
-		private void WriteChildFile(Block block, Block Parent)
+		private void WriteChildFile(Block block, Block parent)
 		{
 			StringBuilder sb = new();
 			sb.AppendLine("---");
@@ -225,67 +162,64 @@ namespace MarkdownSplitter
 			sb.AppendLine($"nav_order: {block.Index}");
 			sb.AppendLine($"parent: {block.Parent.Title}");
 			sb.AppendLine("---");
-			sb.AppendLine(block.Header); // This writes the header.
+			sb.AppendLine(block.Header);
 
 			foreach (var text in block.Text)
-			{
-				sb.AppendLine(CleanupMarkdown(text)); // This writes all the text.
-			}
+				sb.AppendLine(CleanupMarkdown(text));
 
 			foreach (var child in block.Children)
 			{
-				sb.AppendLine($"[{child.Title}]({child.Filename}) <br/><br/>"); // This writes any links.
+				// Convert .md links to .html
+				string htmlLink = Path.ChangeExtension(child.Filename, ".html");
+				sb.AppendLine($"[{child.Title}]({htmlLink}) <br/><br/>");
 			}
 
-			// Write the entire content, including navigation, to the markdown file.
 			File.WriteAllText(Path.Combine(docsFolder, block.Filename), sb.ToString());
 
-			// Recursively process children blocks.
 			foreach (var child in block.Children)
-			{
 				WriteChildFile(child, block);
-			}
 		}
 
 		private string CleanupMarkdown(string line)
 		{
 			if (line.Contains("[Front Page (Image)](Front_Page_(Image).md)"))
-			{
-				return "" /*"![](StoryBuilder.png)"*/;
-			}
+				return "";
 
 			if (line == " <br/>")
-			{
-				line = "";
-			}
+				return "";
 
+			// Convert image references:
+			// Previously it did ![](...). Now add .png and prepend /media
 			if (line.IndexOf("![") > -1)
 			{
-				string[] tokens = line.Split(new char[] { '[', ']' });
-				string line2 = "![](" + tokens[3] + ".png)";
-				return line2;
+				// Example: "![Alt Text](ImageName)"
+				// We add .png and prepend /media -> "![Alt Text](/media/ImageName.png)"
+				string[] tokens = line.Split(new[] { '(', ')' }, StringSplitOptions.RemoveEmptyEntries);
+				if (tokens.Length > 1 && tokens[0].Contains("!["))
+				{
+					string imageName = tokens[1];
+					// Prepend /media and add .png
+					return line.Replace(imageName, "/media/" + imageName + ".png");
+				}
 			}
+
+			// Convert .md links in the text to .html
+			if (line.Contains("](") && line.Contains(".md"))
+				line = line.Replace(".md", ".html");
 
 			return line;
 		}
 
 		private void ChainBlocks(Block current, int index)
 		{
-			previousBlock.Next = current;
-			Debug.Assert(previousBlock != null, nameof(previousBlock) + " != null");
+			previousBlock!.Next = current;
 			current.Previous = previousBlock;
 
-			// Append the previous and next links to the previous block's text.
 			StringBuilder sb = new();
-			sb.AppendLine($" <br/>");
-			sb.AppendLine($" <br/>");
-			if (previousBlock.Previous != null)
-			{
-				if (previousBlock.Previous.Filename == "index.md")
-				{
-					previousBlock.Previous.Title = "Home";
-				}
-			}
+			sb.AppendLine(" <br/>");
+			sb.AppendLine(" <br/>");
+			if (previousBlock.Previous?.Filename == "index.md")
+				previousBlock.Previous.Title = "Home";
 
 			previousBlock.Text.Add(sb.ToString());
 			previousBlock = current;

@@ -9,6 +9,6 @@ parent: Home
  <br/>
  <br/>
 
-[Reports Menu](Reports_Menu.md) <br/><br/>
-[Print Reports](Print_Reports.md) <br/><br/>
-[Scrivener Reports](Scrivener_Reports.md) <br/><br/>
+[Reports Menu](Reports_Menu.html) <br/><br/>
+[Print Reports](Print_Reports.html) <br/><br/>
+[Scrivener Reports](Scrivener_Reports.html) <br/><br/>

@@ -8,7 +8,7 @@ parent: Tools
 
 Flaw Builder
 
-![](Flaw-Builder.png)
+![][Flaw-Builder]
 
 This tool is invoked from a button on the Character Form’s Flaw tab. It explores some common examples of character flaws to help you in developing a character.
 

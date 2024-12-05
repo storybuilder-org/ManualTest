@@ -10,11 +10,11 @@ Topic Information
 
 The Topic Information sub-menu on the Tools menu contains a list containing information specific to certain topic categories:
 
-![](Topic-Information.png)
+![][Topic-Information]
 
 A topic, once selected, may contain sub-topics:
 
-![](TopicDialog.png)
+![][TopicDialog]
 . 
 
 Information on some of the topic categories follows.

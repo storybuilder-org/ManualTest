@@ -8,7 +8,7 @@ parent: Character Form
 
  Relationships Tab
 
-![](Character-Relationships-Tab.png)
+![][Character-Relationships-Tab]
 
 
 The Relationship tab on the Character form describes significant character-to-character relationships.
@@ -23,7 +23,7 @@ Create a new Relationship
 
 Click on this button to add a new relationship:
 
-![](Add-a-Relationship.png)
+![][Add-a-Relationship]
 
 
 Relation Type
@@ -39,7 +39,7 @@ Make a relationship on the other character
 Check this box to define the inverse relationship. To complete that relationship, however, you must navigate to the other character.
 
 Once you’ve added a relationship, you can update its defining details:
-![](Inverse-Relationship.png)
+![][Inverse-Relationship]
 Trait
 
 Select from list of traits, or add your own.

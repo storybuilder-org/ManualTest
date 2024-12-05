@@ -8,7 +8,7 @@ parent: Story Overview Form
 
 
 
-![](Overview-Concept-Tab.png)
+![][Overview-Concept-Tab]
 
 A concept is an idea that asks a question that implies conflict.  The answer to that question is your story.  
 

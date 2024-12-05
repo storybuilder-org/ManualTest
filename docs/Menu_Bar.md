@@ -10,22 +10,22 @@ Menu Bar
 
 The Menu bar is located just below the title bar on the StoryCAD form and provides access to StoryCAD’s common tasks.
 
-![](Menu-Bar.png)
+![][Menu-Bar]
 
 Hovering your mouse or stylus over a button will display a tool tip describing the button’s function:
 
-![](Menu-Bar-Tooltip.png)
+![][Menu-Bar-Tooltip]
 
 
 The menu bar buttons either display drop-down menus (such as File), or launch particular actions (such as Preferences.)
 
 
-[Search](Search.md) <br/><br/>
-[Show/Hide Navigation Pane](Show_Hide_Navigation_Pane.md) <br/><br/>
-[File Menu](File_Menu.md) <br/><br/>
-[Add/Remove Story Elements](Add_Remove_Story_Elements.md) <br/><br/>
-[Move Story Elements](Move_Story_Elements.md) <br/><br/>
-[Tools Menu](Tools_Menu.md) <br/><br/>
-[Reports](Reports.md) <br/><br/>
-[Preferences](Preferences.md) <br/><br/>
-[Key Binds](Key_Binds.md) <br/><br/>
+[Search](Search.html) <br/><br/>
+[Show/Hide Navigation Pane](Show_Hide_Navigation_Pane.html) <br/><br/>
+[File Menu](File_Menu.html) <br/><br/>
+[Add/Remove Story Elements](Add_Remove_Story_Elements.html) <br/><br/>
+[Move Story Elements](Move_Story_Elements.html) <br/><br/>
+[Tools Menu](Tools_Menu.html) <br/><br/>
+[Reports](Reports.html) <br/><br/>
+[Preferences](Preferences.html) <br/><br/>
+[Key Binds](Key_Binds.html) <br/><br/>

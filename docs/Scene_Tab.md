@@ -8,7 +8,7 @@ parent: Scene Form
 
 Scene Tab
 
-![](Scene-Scene-Tab.png)
+![][Scene-Scene-Tab]
 
 Date and Time		Identify when the scene occurs.
 

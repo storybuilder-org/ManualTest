@@ -8,7 +8,7 @@ parent: Character Form
 
 Physical and Appearance Tabs
 
-![](CharPhysTab.png)
+![][CharPhysTab]
 
 These character traits describe the external physical characteristics and appearance of the character.  They are generally self-explanatory.
 

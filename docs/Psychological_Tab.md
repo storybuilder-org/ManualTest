@@ -8,7 +8,7 @@ parent: Character Form
 
 Psychological Tab
 
-![](Character-Psychological-Tab.png)
+![][Character-Psychological-Tab]
 
 This tab contains information about the mental states and processes of the character.
 

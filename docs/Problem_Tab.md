@@ -10,7 +10,7 @@ Problem Tab
 
 This tabs contains elements which help to define a story problem.
 
-![](Problem-Problem-Tab.png)
+![][Problem-Problem-Tab]
 
 
 Problem Type
