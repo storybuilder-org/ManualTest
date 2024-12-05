@@ -3,11 +3,6 @@ using System.Text;
 
 namespace MarkdownSplitter
 {
-	/// <summary>
-	/// Generate the StoryBuilder User Manual website by processing
-	/// the output of a Scrivener Compile to MultiMarkdown.
-	/// The output of the Compile command is written to compilerFolder.
-	/// </summary>
 	public class Splitter
 	{
 		public string MarkdownFolder { get; set; }
@@ -140,7 +135,10 @@ namespace MarkdownSplitter
 
 		private void WriteMarkdownBlock(Block block)
 		{
-			string filepath = Path.Combine(docsFolder, block.Filename);
+			string outputDir = GetOutputDirectoryForBlock(block);
+			Directory.CreateDirectory(outputDir);
+
+			string filepath = Path.Combine(outputDir, block.Filename);
 			using StreamWriter file = new(filepath);
 			file.WriteLine("---");
 			file.WriteLine($"title: {block.Title}");
@@ -156,6 +154,9 @@ namespace MarkdownSplitter
 
 		private void WriteChildFile(Block block, Block parent)
 		{
+			string outputDir = GetOutputDirectoryForBlock(block);
+			Directory.CreateDirectory(outputDir);
+
 			StringBuilder sb = new();
 			sb.AppendLine("---");
 			sb.AppendLine($"title: {block.Title}");
@@ -171,16 +172,16 @@ namespace MarkdownSplitter
 
 			foreach (var child in block.Children)
 			{
-				// Convert .md links to .html
 				string htmlLink = Path.ChangeExtension(child.Filename, ".html");
 				sb.AppendLine($"[{child.Title}]({htmlLink}) <br/><br/>");
 			}
 
-			File.WriteAllText(Path.Combine(docsFolder, block.Filename), sb.ToString());
+			File.WriteAllText(Path.Combine(outputDir, block.Filename), sb.ToString());
 
 			foreach (var child in block.Children)
 				WriteChildFile(child, block);
 		}
+
 		private string CleanupMarkdown(string line)
 		{
 			if (line.Contains("[Front Page (Image)](Front_Page_(Image).md)"))
@@ -189,8 +190,6 @@ namespace MarkdownSplitter
 			if (line == " <br/>")
 				return "";
 
-			// Handle reference-style images: ![][refName]
-			// Convert them to ![](/media/refName.png)
 			if (line.Contains("![]["))
 			{
 				int startIndex = line.IndexOf("![][") + 4;
@@ -203,8 +202,6 @@ namespace MarkdownSplitter
 				}
 			}
 
-			// Handle inline images: ![AltText](imageName)
-			// Add .png and prepend /media
 			if (line.IndexOf("![") > -1 && line.Contains("]("))
 			{
 				string[] tokens = line.Split(new[] { '(', ')' }, StringSplitOptions.RemoveEmptyEntries);
@@ -216,29 +213,21 @@ namespace MarkdownSplitter
 				}
 			}
 
-			// Convert .md links to .html
 			if (line.Contains(".md"))
 				line = line.Replace(".md", ".html");
 
 			return line;
 		}
 
-		// This helper function ensures the image name is "cleaned" before we add "/media/" and ".png"
 		private string NormalizeImageName(string imageName)
 		{
-			// Remove any leading/trailing spaces
 			imageName = imageName.Trim();
-
-			// Remove any existing /media/ segment
 			imageName = imageName.Replace("/media/", "");
-
-			// Remove any trailing .png (or .PNG) extension if present
 			if (imageName.EndsWith(".png", StringComparison.OrdinalIgnoreCase))
 				imageName = imageName.Substring(0, imageName.Length - 4);
 
 			return imageName;
 		}
-
 
 		private void ChainBlocks(Block current, int index)
 		{
@@ -253,6 +242,49 @@ namespace MarkdownSplitter
 
 			previousBlock.Text.Add(sb.ToString());
 			previousBlock = current;
+		}
+
+		private string GetOutputDirectoryForBlock(Block block)
+		{
+			if (block.Parent == null || block.Parent == nestingLevel[0])
+			{
+				// If this is root or direct child of root, top-level directory is docs
+				if (block == nestingLevel[0])
+				{
+					// root block (index.md) stays in docs
+					return docsFolder;
+				}
+				else
+				{
+					// This is a top-level child block: create a directory based on its title
+					string safeTitle = SanitizeFolderName(block.Title);
+					return Path.Combine(docsFolder, safeTitle);
+				}
+			}
+			else
+			{
+				// For deeper levels, use top-level parent's title
+				Block topLevelParent = GetTopLevelParent(block);
+				string safeTitle = SanitizeFolderName(topLevelParent.Title);
+				return Path.Combine(docsFolder, safeTitle);
+			}
+		}
+
+		private Block GetTopLevelParent(Block block)
+		{
+			Block current = block;
+			while (current.Parent != null && current.Parent != nestingLevel[0])
+			{
+				current = current.Parent;
+			}
+			return current;
+		}
+
+		private string SanitizeFolderName(string name)
+		{
+			foreach (char c in Path.GetInvalidFileNameChars())
+				name = name.Replace(c, '_');
+			return name;
 		}
 	}
 }
