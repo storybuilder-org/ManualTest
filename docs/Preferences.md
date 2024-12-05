@@ -10,7 +10,7 @@ Preferences
 
 The Preferences Dialog will be displayed when you press the Preferences button on the Menu Bar:
 
-![][Prefences-CommandBar-Button-1]
+![](/media/Prefences-CommandBar-Button-1.png)
 
 
 
@@ -18,7 +18,7 @@ The Preferences Dialog contains many options. It’s divided into a series of ta
 
 General tab:
 
-![][Preferences-General-tab]
+![](/media/Preferences-General-tab.png)
 
 The name field is used as the default Author on the Story Overview form on new outlines.
 
@@ -30,13 +30,13 @@ Here are a list of the options (Besides information fields such as name, email e
 
 Backup tab:
 
-![][Preferences-Backup-tab]
+![](/media/Preferences-Backup-tab.png)
 
 StoryCAD backups are  zip files containing your .stbx outline. 
 
 The backup directory is the folder which will hold your backups. It holds a subfolder for each outline (.stbx file) you’ve backed up; the subfolder has the individual backups of your outline:
 
-![][Backup-Folder-Hierarchy]
+![](/media/Backup-Folder-Hierarchy.png)
 
 Make a backup when a story is opened - Makes a backup when you open a story
 
@@ -46,7 +46,7 @@ Backup Frequency - How often a timed backup should be made in minutes.
 
 Other tab:
 
-![][Preferences-Other-tab]
+![](/media/Preferences-Other-tab.png)
 
 Send error logs - This option uses a service, elmah.io, which collects error data and provides us with a log which gives us an idea of what happened. This information includes your your email so that we can follow up for more information if needed. Your outline data is not not retained or forwarded and no
 information is shared with anyone outside of Team StoryCAD.
@@ -63,13 +63,13 @@ Preferred Theme - This is the theme that StoryCAD will use. You can select betwe
 
 About tab:
 
-![][Preferences-About-tab]
+![](/media/Preferences-About-tab.png)
 
 This tab identifies the current version and has links to keep up with StoryCAD on Social Media. You can also review StoryCAD here; additionally, you will also be prompted to review StoryCAD roughly once every six months.
 
 The logs folder is a subfolder of the installation folder. It contains a list of the most recent log files written by StoryCAD (one file per day.)
 
-![][Logs-Folder-Display]
+![](/media/Logs-Folder-Display.png)
 
 These files contain operational logs of StoryCAD sessions and if you’ve enabled exception reporting we may ask you to forward the log relevant to a reported exception, at your discretion.
 
@@ -77,7 +77,7 @@ The Discord server is the community meeting place for StoryCAD users; we urge yo
 
 What’s New tab:
 
-![][Preferences-Whats-New-tb]
+![](/media/Preferences-Whats-New-tb.png)
 
 The What’s New tab displays the Changelog for the current release. 
  <br/>

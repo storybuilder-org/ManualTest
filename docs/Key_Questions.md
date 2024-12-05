@@ -13,7 +13,7 @@ parent: Tools
 
 Key Questions
 
-![][Clipboard-Image]
+![](/media/Clipboard-Image.png)
 
 Key Questions contains sub-menus which contain lists of questions appropriate to the Story Overview, Problem, Character, Setting, and Plot forms and story elements.
 

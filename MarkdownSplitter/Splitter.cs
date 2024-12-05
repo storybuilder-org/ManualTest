@@ -179,7 +179,6 @@ namespace MarkdownSplitter
 			foreach (var child in block.Children)
 				WriteChildFile(child, block);
 		}
-
 		private string CleanupMarkdown(string line)
 		{
 			if (line.Contains("[Front Page (Image)](Front_Page_(Image).md)"))
@@ -188,27 +187,56 @@ namespace MarkdownSplitter
 			if (line == " <br/>")
 				return "";
 
-			// Convert image references:
-			// Previously it did ![](...). Now add .png and prepend /media
-			if (line.IndexOf("![") > -1)
+			// Handle reference-style images: ![][refName]
+			// Convert them to ![](/media/refName.png)
+			if (line.Contains("![]["))
 			{
-				// Example: "![Alt Text](ImageName)"
-				// We add .png and prepend /media -> "![Alt Text](/media/ImageName.png)"
+				int startIndex = line.IndexOf("![][") + 4;
+				int endIndex = line.IndexOf("]", startIndex);
+				if (startIndex > 3 && endIndex > startIndex)
+				{
+					string refName = line.Substring(startIndex, endIndex - startIndex);
+					refName = NormalizeImageName(refName);
+					line = $"![](/media/{refName}.png)";
+				}
+			}
+
+			// Handle inline images: ![AltText](imageName)
+			// Add .png and prepend /media
+			if (line.IndexOf("![") > -1 && line.Contains("]("))
+			{
 				string[] tokens = line.Split(new[] { '(', ')' }, StringSplitOptions.RemoveEmptyEntries);
 				if (tokens.Length > 1 && tokens[0].Contains("!["))
 				{
 					string imageName = tokens[1];
-					// Prepend /media and add .png
-					return line.Replace(imageName, "/media/" + imageName + ".png");
+					imageName = NormalizeImageName(imageName);
+					line = line.Replace($"({tokens[1]})", $"(/media/{imageName}.png)");
 				}
 			}
 
-			// Convert .md links in the text to .html
-			if (line.Contains("](") && line.Contains(".md"))
+			// Convert .md links to .html
+			if (line.Contains(".md"))
 				line = line.Replace(".md", ".html");
 
 			return line;
 		}
+
+		// This helper function ensures the image name is "cleaned" before we add "/media/" and ".png"
+		private string NormalizeImageName(string imageName)
+		{
+			// Remove any leading/trailing spaces
+			imageName = imageName.Trim();
+
+			// Remove any existing /media/ segment
+			imageName = imageName.Replace("/media/", "");
+
+			// Remove any trailing .png (or .PNG) extension if present
+			if (imageName.EndsWith(".png", StringComparison.OrdinalIgnoreCase))
+				imageName = imageName.Substring(0, imageName.Length - 4);
+
+			return imageName;
+		}
+
 
 		private void ChainBlocks(Block current, int index)
 		{

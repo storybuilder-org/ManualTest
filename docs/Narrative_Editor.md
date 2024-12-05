@@ -12,7 +12,7 @@ You can move a scene from Story Explorer to Story Narrator at any time with the 
 
 Once you open the Narrative Editor, it will look similar to this. On one side you will the Story Explorer View (The view where you plan your story) and the Narrator View (This is the view that shows your story as it’s told.) 
 
-![][NarrativeEditors]
+![](/media/NarrativeEditors.png)
 The Narrative view is different from the Explorer view and contains only Scenes and Sections. Along the bottom there are several buttons:
 
 	•	Add Scene - Adds a node from the Story Explorer View (Only scenes and folders can be copied over, other types will not be copied over)

@@ -9,7 +9,7 @@ parent: Navigating in StoryCAD
 Navigation Pane Flyout Commands
 
 Right-clicking any node on the Navigation Pane will display a  flyout command bar:
-![][Navigation-Pane-Flyout-CommandBar]
+![](/media/Navigation-Pane-Flyout-CommandBar.png)
 
 In order of top to bottom, the flyout items do the following:
 

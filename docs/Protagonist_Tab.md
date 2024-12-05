@@ -8,7 +8,7 @@ parent: Problem Form
 
 Protagonist Tab
 
-![][Problem-Protagonist-Tab]
+![](/media/Problem-Protagonist-Tab.png)
 
 The  protagonist is the character who has the problem.  The protagonist of of the story problem is the main driver of the plot.  In the case of a subplot, that problem's protagonist may be a different character than the story's protagonist.
 

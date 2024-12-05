@@ -12,11 +12,11 @@ To aid in this process, both views contain a special Story Element type (Folder 
 Using folders is not a requirement, though: any node can be a parent node with children, or not. The sample outline “The Old Man and The Sea” uses this approach.
 You can use any structure you like. For example, if you’re writing a John Jakes-style Civil War novel, you could create folders for Union and Confederate characters.
 To help you get started, the File menu’s Create New Story command contains a Template drop-down which will populate your new outline with a starter set of Story Elements:
-![][Create-New-Story-Project-Templates]
+![](/media/Create-New-Story-Project-Templates.png)
 
 For example, the ‘Overview and Story Problem’ template will add these nodes:
 
-![][Overview-and-Story-Problem]
+![](/media/Overview-and-Story-Problem.png)
 
 You may find one or more of these templates useful early in your outlining process. However, your needs may change over time, particularly if you’re writing long-form fiction such as a novel or screenplay. To address this need, StoryCAD allows you to rearrange the nodes in your views, using two tools.
 Drag and Drop

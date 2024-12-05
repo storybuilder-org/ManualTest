@@ -9,7 +9,7 @@ parent: Tools
 Conflict Builder
 
 
-![][ConflictBuilderDialog]
+![](/media/ConflictBuilderDialog.png)
 
 
 The Conflict Builder tool, invoked by buttons on the Protagonist and Antagonist tabs of the Problem Form.

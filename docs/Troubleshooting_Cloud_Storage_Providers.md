@@ -6,7 +6,7 @@ nav_order: 110
 parent: Miscellaneous
 ---
 
-![][Clipboard-Image-7]
+![](/media/Clipboard-Image-7.png)
 
 Many people today use cloud storage providers like Google Drive, OneDrive, DropBox, etc. Most of the time these work flawlessly however, there can be times when cloud storage providers can cause problems with StoryCAD. 
 If you are having issues with StoryCAD and you store your outlines within a cloud storage provider or StoryCAD is showing the message above, then this page will walk you through troubleshooting these problems.
@@ -17,13 +17,13 @@ With that out of the way, most problems with Cloud Storage Providers can be solv
 
 If the problem persists, then open File Explorer and navigate to the folder containing the Outline, if you do not know where the file is located then StoryCAD will display the location of the outline if you hover over the name of the outline within the StoryCAD File Open Menu (pictured below).
 
-![][Clipboard-Image-8]
+![](/media/Clipboard-Image-8.png)
 
 Once you have found the file in your system, right click the file and find the option to make it available offline/Always keep on device. (The wording and location of the option will vary depending on the cloud storage provider)
 
-![][Clipboard-Image-9]
+![](/media/Clipboard-Image-9.png)
 
-Once you have done this, the file status field should have a green check-mark now and should say available offline in the File Explorer now. It may take a few moments to sync, but once it has the green check in the status field, it should be ready to open. ![][Clipboard-Image-10]
+![](/media/Clipboard-Image-10.png)
 
 If the problem persists, then you should download the file from the cloud provider and store it somewhere that will not be synced by the cloud storage provider.
 

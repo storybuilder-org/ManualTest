@@ -19,4 +19,4 @@ Pen		Barrel Button Press or Long Press on item
 Touchpad		Right Touchpad button
 The menu key(sometimes called document key) looks like this: 
 
-![][Keyboard-Right-Mouse-Key]
+![](/media/Keyboard-Right-Mouse-Key.png)
