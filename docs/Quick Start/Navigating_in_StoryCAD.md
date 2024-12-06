@@ -1,6 +1,6 @@
 ---
 title: Navigating in StoryCAD
-layout: default
+layout: minimal
 nav_enabled: true
 nav_order: 24
 parent: Quick Start
