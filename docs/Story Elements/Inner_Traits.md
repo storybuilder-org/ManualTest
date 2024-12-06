@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 51
 parent: Character Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Inner Traits
 Inner Traits Tab
 
 ![](../media/Character-Inner-Traits-Tab.png)

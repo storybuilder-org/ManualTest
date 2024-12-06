@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 72
 parent: Reports
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Reports Menu
 Reports Menu
 
 Clicking on the Reports button on the Menu Bar displays a fly-out menu with two reporting options:

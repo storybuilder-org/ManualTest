@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 75
 parent: Home
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+# Preferences
 Preferences
 
 The Preferences Dialog will be displayed when you press the Preferences button on the Menu Bar:

@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 25
 parent: Navigating in StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Story Elements
 Story Elements
 
 Your outline is a tree of Story Elements which are displayed in the Navigation Pane. Clicking (or touching) a Story Element node on the Navigation Pane will display that Story Element’s  content in the Content Pane.

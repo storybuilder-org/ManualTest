@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 70
 parent: Tools
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Flaw Builder
 Flaw Builder
 
 ![](../media/Flaw-Builder.png)

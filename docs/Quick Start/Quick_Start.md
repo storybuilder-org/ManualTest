@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 7
 parent: Home
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+# Quick Start
 <br/>
 <br/>
 

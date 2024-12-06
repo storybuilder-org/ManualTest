@@ -3,10 +3,10 @@ title: Creating a Story pt 4
 layout: default
 nav_enabled: true
 nav_order: 83
-parent: Tutorial: Creating a Story
+parent: Tutorial Creating a Story
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Creating a Story pt 4
 Let’s return to our original problem’s Story Question again:
 
 What if a police detective uses a criminal's phone to gain time to effect a rescue, by calling the dealer at the critical moment?

@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 46
 parent: Character Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Relationships Tab
  Relationships Tab
 
 ![](../media/Character-Relationships-Tab.png)

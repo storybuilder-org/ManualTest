@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 14
 parent: Menu Bar
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+#### Show/Hide Navigation Pane
 1
 Show/Hide Navigation Pane
 

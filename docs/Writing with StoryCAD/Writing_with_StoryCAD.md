@@ -4,15 +4,15 @@ layout: default
 nav_enabled: true
 nav_order: 89
 parent: Home
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+# Writing with StoryCAD
 <br/>
 <br/>
 
 [How to Think About Outlining](How_to_Think_About_Outlining.html) <br/><br/>
 [Workflow](Workflow.html) <br/><br/>
-[Story Idea, Concept, and Premise](Story_Idea,_Concept,_and_Premise.html) <br/><br/>
+[Story Idea, Concept, and Premise](Story_Idea_Concept_and_Premise.html) <br/><br/>
 [Problem and Character Development](Problem_and_Character_Development.html) <br/><br/>
 [Defining Problems](Defining_Problems.html) <br/><br/>
 [Defining Characters](Defining_Characters.html) <br/><br/>

@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 54
 parent: Setting Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Setting Tab
 Setting Tab
 
 

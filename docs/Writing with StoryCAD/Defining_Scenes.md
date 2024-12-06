@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 100
 parent: Writing with StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Defining Scenes
 Defining Scenes
 
 Scene workflow

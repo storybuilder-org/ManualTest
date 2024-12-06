@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 94
 parent: Writing with StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Defining Problems
 Defining Problems
 
 In StoryCAD the Problem form is the key to creating an outline. You want to motivate your audience to keep reading or viewing your story, and Problems create suspense and tension through uncertain outcomes. 

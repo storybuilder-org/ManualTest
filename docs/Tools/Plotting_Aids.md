@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 65
 parent: Tools
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Plotting Aids
 
 Plotting Aids
 

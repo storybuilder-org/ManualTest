@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 99
 parent: Writing with StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Plotting with StoryCAD
 Using StoryCAD to Plot Your Story
 
 

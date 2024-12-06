@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 41
 parent: Problem Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Structure Tab
 Structure Tab
 
 The Problem Form’s Structure tab lets you associate a beat sheet with your problem and match the beats in the beats sheet to Scene or Problem story elements.  

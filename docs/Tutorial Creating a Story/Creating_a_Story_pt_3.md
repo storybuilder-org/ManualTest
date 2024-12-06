@@ -3,10 +3,10 @@ title: Creating a Story pt 3
 layout: default
 nav_enabled: true
 nav_order: 82
-parent: Tutorial: Creating a Story
+parent: Tutorial Creating a Story
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Creating a Story pt 3
 So far we’ve completed the first two steps in the story workflow, Story Idea and Concept, and added a few characters. We mentioned that Concept is an intermediate step between Story Idea and Premise, so it’s no surprise that we’ll talk about your story’s Premise next. Here’s our concept again:
 
 What if a police detective uses a criminal's phone to gain time to effect a rescue, by calling the dealer at the critical moment?
@@ -34,7 +34,7 @@ As is often the case, one question leads to another. We’re also faced with the
 
 We can treat this this issue of overcoming the advantage of the cellular phones as a  complication, by rewording the problem  not as a yes or no (suspense) question but as a ‘how do they overcome?’  Story Question. Your story can (and usually will) contain more than one Problem, and every Problem has its own Premise. Let’s add our ‘how to’ question as a second problem:
 
-![](../media/Tutorial-3-The-'how-to'-complication.png)
+![](../media/Tutorial-3-The--how-to--complication.png)
 
 Neither of these problems are fleshed out, but we’ll work on that in a minute.
 

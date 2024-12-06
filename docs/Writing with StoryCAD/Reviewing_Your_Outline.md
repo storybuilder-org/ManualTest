@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 101
 parent: Writing with StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Reviewing Your Outline
 Reviewing Your Outline
 
 Key Questions, from the Tools menu, provides a checklist for each of the major story element types. Stepping through these questions can help you to refine your outline.

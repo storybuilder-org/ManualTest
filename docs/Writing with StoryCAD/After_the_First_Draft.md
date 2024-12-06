@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 104
 parent: Other Uses of StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### After the First Draft
 After the First Draft
 
 Outlining after you already have a first draft sounds a bit crazy, but it’s not. A novel is a long journey, and long journeys to unknown destinations frequently lead to an occasional wrong turn. If you have a map to check, you can easily see where you went astray. An outline is that map. 

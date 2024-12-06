@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 74
 parent: Reports
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Scrivener Reports
 Scrivener Reports
 
 If you use Scrivener, clicking Scrivener Reports will open a file picker to allow you to select a Scrivener .scrivx file from a Scrivener project. The Scrivener project you select is the one you’ll be writing your draft in, and it must have been created before you generate the reports.

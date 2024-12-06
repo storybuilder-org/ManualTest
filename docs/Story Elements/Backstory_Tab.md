@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 48
 parent: Character Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Backstory Tab
 Backstory Tab
 
 ![](../media/Character-Backstory-Tab.png)

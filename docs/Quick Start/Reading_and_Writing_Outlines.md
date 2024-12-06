@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 10
 parent: Quick Start
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Reading and Writing Outlines
 Reading and Writing Outlines
 
 The File Menu button displays a drop-down menu of file options:

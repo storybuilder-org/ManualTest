@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 55
 parent: Setting Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Sensations Tab
 Sensations Tab
 
 Your reader can only experience your settings through the eyes and ears of your characters.  To make the setting as effective as possible, you must explore the impressions the setting makes on the five senses. This tab is a reminder to do so.

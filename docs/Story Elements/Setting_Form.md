@@ -4,8 +4,8 @@ layout: default
 nav_enabled: true
 nav_order: 53
 parent: Story Elements
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Setting Form
 [Setting Tab](Setting_Tab.html) <br/><br/>
 [Sensations Tab](Sensations_Tab.html) <br/><br/>

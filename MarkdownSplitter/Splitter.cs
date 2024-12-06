@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace MarkdownSplitter
 {
@@ -49,12 +50,10 @@ namespace MarkdownSplitter
 					}
 					else if (fileName.EndsWith(".png", StringComparison.OrdinalIgnoreCase))
 					{
-						// Move images to media folder
 						File.Copy(currentFile, Path.Combine(mediaFolder, fileName), true);
 					}
 					else
 					{
-						// Other files remain in docs folder
 						File.Copy(currentFile, Path.Combine(docsFolder, fileName), true);
 					}
 				}
@@ -77,16 +76,25 @@ namespace MarkdownSplitter
 
 		public void CreateIndexFile()
 		{
-			File.WriteAllLines(Path.Combine(docsFolder, "index.md"), new[]
+			string? parentDirectory = Directory.GetParent(docsFolder)?.FullName;
+			if (parentDirectory == null)
+			{
+				Console.WriteLine("Unable to determine the parent directory of the docs folder.");
+				return;
+			}
+
+			string indexPath = Path.Combine(parentDirectory, "index.md");
+			File.WriteAllLines(indexPath, new[]
 			{
 				"---",
 				"title: Home",
 				"layout: home",
+				"nav_enabled: true",
+				"nav_order: 1",
+				"has_toc: false",
 				"---",
-				"{: .no_toc .text-delta }",
-				"StoryCAD is a comprehensive outlining tool for fiction writers, designed to help organize and structure stories effectively. It provides a range of features to assist with plotting, character development, and world-building. Writers can outline stories at the scene level, use pre-built templates for various plot structures, and explore tools like Dramatic Situations and Stock Scenes to refine their narrative.",
-				"The software allows users to approach their stories methodically, offering workflows to manage the complexity of storytelling. StoryCAD is flexible, supporting various fiction forms and genres while helping writers visualize and address each story element independently.",
-				"This manual will guide you through the features and tools available in StoryCAD, helping you make the most of its capabilities to plan and develop your stories."
+				"StoryCAD is a comprehensive outlining tool for fiction writers...",
+				"This manual will guide you through the features and tools..."
 			});
 		}
 
@@ -116,9 +124,17 @@ namespace MarkdownSplitter
 					index++;
 					int level = line.TakeWhile(c => c == '#').Count();
 					Block parent = nestingLevel[level - 1];
-					current = new Block(line, index, level, parent);
-					parent.Children.Add(current);
-					nestingLevel[level] = current;
+
+					// Sanitize the title
+					string rawTitle = line.Trim();
+					string sanitizedTitle = SanitizeTitle(rawTitle);
+
+					Block newBlock = new Block(sanitizedTitle, index, level, parent);
+					// Ensure title is trimmed and sanitized
+					newBlock.Title = sanitizedTitle;
+					parent.Children.Add(newBlock);
+					nestingLevel[level] = newBlock;
+					current = newBlock;
 				}
 				else
 				{
@@ -139,19 +155,18 @@ namespace MarkdownSplitter
 			string outputDir = GetOutputDirectoryForBlock(block);
 			Directory.CreateDirectory(outputDir);
 
-			// Compute the relative path from the current output directory to the media folder
 			string relativeMediaPath = Path.GetRelativePath(outputDir, mediaFolder).Replace("\\", "/");
-
 			string filepath = Path.Combine(outputDir, block.Filename);
 			using StreamWriter file = new(filepath);
 			file.WriteLine("---");
-			file.WriteLine($"title: {block.Title}");
+			file.WriteLine($"title: {SanitizeTitle(block.Title)}");
 			file.WriteLine("layout: default");
 			file.WriteLine("nav_enabled: true");
 			file.WriteLine($"nav_order: {block.Index}");
-			file.WriteLine($"parent: {block.Parent.Title}");
+			if (block.Parent != null)
+				file.WriteLine($"parent: {SanitizeTitle(block.Parent.Title)}");
+			file.WriteLine("has_toc: false");
 			file.WriteLine("---");
-			file.WriteLine("{: .no_toc .text-delta }");
 			file.WriteLine(block.Header);
 			foreach (string line in block.Text)
 				file.WriteLine(CleanupMarkdown(line, relativeMediaPath));
@@ -162,18 +177,18 @@ namespace MarkdownSplitter
 			string outputDir = GetOutputDirectoryForBlock(block);
 			Directory.CreateDirectory(outputDir);
 
-			// Compute the relative path from the current output directory to the media folder
 			string relativeMediaPath = Path.GetRelativePath(outputDir, mediaFolder).Replace("\\", "/");
 
 			StringBuilder sb = new();
 			sb.AppendLine("---");
-			sb.AppendLine($"title: {block.Title}");
+			sb.AppendLine($"title: {SanitizeTitle(block.Title)}");
 			sb.AppendLine("layout: default");
 			sb.AppendLine("nav_enabled: true");
 			sb.AppendLine($"nav_order: {block.Index}");
-			sb.AppendLine($"parent: {block.Parent.Title}");
+			if (block.Parent != null)
+				sb.AppendLine($"parent: {SanitizeTitle(block.Parent.Title)}");
+			sb.AppendLine("has_toc: false");
 			sb.AppendLine("---");
-			sb.AppendLine("{: .no_toc .text-delta }");
 			sb.AppendLine(block.Header);
 
 			foreach (var text in block.Text)
@@ -182,7 +197,7 @@ namespace MarkdownSplitter
 			foreach (var child in block.Children)
 			{
 				string htmlLink = Path.ChangeExtension(child.Filename, ".html");
-				sb.AppendLine($"[{child.Title}]({htmlLink}) <br/><br/>");
+				sb.AppendLine($"[{SanitizeTitle(child.Title)}]({htmlLink}) <br/><br/>");
 			}
 
 			File.WriteAllText(Path.Combine(outputDir, block.Filename), sb.ToString());
@@ -193,14 +208,13 @@ namespace MarkdownSplitter
 
 		private string CleanupMarkdown(string line, string relativeMediaPath)
 		{
-			if (line.Contains("[Front Page (Image)](Front_Page_(Image).md)"))
+			if (line.Contains("[Front Page (Image)](Front_Page_(Image).md"))
 				return "";
 
 			if (line.Trim() == "<br/>")
 				return "";
 
-			// Reference-style images: ![][refName]
-			if (line.Contains("![]["))
+			if (line.Contains("![][")) // Reference-style images
 			{
 				int startIndex = line.IndexOf("![][") + 4;
 				int endIndex = line.IndexOf("]", startIndex);
@@ -212,10 +226,8 @@ namespace MarkdownSplitter
 				}
 			}
 
-			// Inline images: ![AltText](imageName)
-			if (line.Contains("![") && line.Contains("]("))
+			if (line.Contains("![") && line.Contains("](")) // Inline images
 			{
-				// Split on '(' and ')' to isolate the image name
 				int start = line.IndexOf("](") + 2;
 				int end = line.IndexOf(')', start);
 				if (start > 1 && end > start)
@@ -227,7 +239,6 @@ namespace MarkdownSplitter
 				}
 			}
 
-			// Convert .md links to .html
 			if (line.Contains(".md"))
 				line = line.Replace(".md", ".html");
 
@@ -237,11 +248,9 @@ namespace MarkdownSplitter
 		private string NormalizeImageName(string imageName)
 		{
 			imageName = imageName.Trim();
-
-			// Remove any leading directory paths
 			imageName = Path.GetFileNameWithoutExtension(imageName);
-
-			return imageName;
+			imageName = Regex.Replace(imageName, @"[^a-zA-Z0-9\-_]", "-");
+			return imageName.Trim('-');
 		}
 
 		private void ChainBlocks(Block current, int index)
@@ -263,7 +272,6 @@ namespace MarkdownSplitter
 		{
 			if (block.Parent == null || block.Parent == nestingLevel[0])
 			{
-				// If root or direct child of root
 				if (block == nestingLevel[0])
 				{
 					// root block (index.md) -> docs
@@ -285,6 +293,7 @@ namespace MarkdownSplitter
 			}
 		}
 
+
 		private Block GetTopLevelParent(Block block)
 		{
 			Block current = block;
@@ -297,9 +306,24 @@ namespace MarkdownSplitter
 
 		private string SanitizeFolderName(string name)
 		{
-			foreach (char c in Path.GetInvalidFileNameChars())
-				name = name.Replace(c, '_');
-			return name;
+			// Replace invalid chars (anything not alphanumeric or space) with a space
+			string sanitized = Regex.Replace(name.Trim(), @"[^a-zA-Z0-9 ]+", " ");
+
+			// Collapse multiple spaces
+			sanitized = Regex.Replace(sanitized, @"\s+", " ");
+
+			return sanitized.Trim();
+		}
+
+		private string SanitizeTitle(string title)
+		{
+			// Remove leading and trailing '#' characters and whitespace
+			title = title.Trim('#', ' ').Trim();
+
+			// Remove unwanted characters: #, ', ", :
+			title = Regex.Replace(title, @"[#'"":]", "");
+
+			return title;
 		}
 	}
 }

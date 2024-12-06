@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 77
 parent: Researching your story
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Website Form
 Website Form
 The website form allows you store and view web pages easily and functions like a 			smaller version of your web browser. The URL you’re browsing is kept in the form.
 

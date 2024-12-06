@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 50
 parent: Character Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Psychological Tab
 Psychological Tab
 
 ![](../media/Character-Psychological-Tab.png)

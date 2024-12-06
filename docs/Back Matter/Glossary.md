@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 112
 parent: Back Matter
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Glossary
 
 Glossary
 

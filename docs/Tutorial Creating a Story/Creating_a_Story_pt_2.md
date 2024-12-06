@@ -3,10 +3,10 @@ title: Creating a Story pt 2
 layout: default
 nav_enabled: true
 nav_order: 81
-parent: Tutorial: Creating a Story
+parent: Tutorial Creating a Story
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Creating a Story pt 2
 After a break, we decide to continue refining our story idea.  You need to reload the "Danger Calls" outline. Launch StoryCAD. 
 
  StoryCAD displays the File Open menu by default when launched,  and displays the last files you worked on the menu form. You can mouse over any of these files to see more details (like the file location.) If you haven’t edited the story you’re looking for in a while and it’s not on the list, Click the ‘Open story from disk’ button and browse for it. You can work on multiple story outlines in one StoryCAD session, but StoryCAD can only work with one story outline at a time. 

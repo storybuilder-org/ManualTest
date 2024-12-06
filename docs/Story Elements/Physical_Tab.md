@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 44
 parent: Character Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Physical Tab
 Physical and Appearance Tabs
 
 ![](../media/CharPhysTab.png)

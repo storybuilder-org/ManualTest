@@ -4,6 +4,6 @@ layout: default
 nav_enabled: true
 nav_order: 18
 parent: Menu Bar
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+#### Tools Menu

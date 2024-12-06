@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 12
 parent: The StoryCAD User Interface
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Menu Bar
 Menu Bar
 
 The Menu bar is located just below the title bar on the StoryCAD form and provides access to StoryCAD’s common tasks.
@@ -22,9 +22,9 @@ The menu bar buttons either display drop-down menus (such as File), or launch pa
 
 
 [Search](Search.html) <br/><br/>
-[Show/Hide Navigation Pane](Show_Hide_Navigation_Pane.html) <br/><br/>
+[Show/Hide Navigation Pane](ShowHide_Navigation_Pane.html) <br/><br/>
 [File Menu](File_Menu.html) <br/><br/>
-[Add/Remove Story Elements](Add_Remove_Story_Elements.html) <br/><br/>
+[Add/Remove Story Elements](AddRemove_Story_Elements.html) <br/><br/>
 [Move Story Elements](Move_Story_Elements.html) <br/><br/>
 [Tools Menu](Tools_Menu.html) <br/><br/>
 [Reports](Reports.html) <br/><br/>

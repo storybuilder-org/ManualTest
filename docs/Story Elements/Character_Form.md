@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 42
 parent: Story Elements
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Character Form
 [Role Tab](Role_Tab.html) <br/><br/>
 [Physical Tab](Physical_Tab.html) <br/><br/>
 [Appearance Tab](Appearance_Tab.html) <br/><br/>

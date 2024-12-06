@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 47
 parent: Character Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Flaw Tab
 Flaw Tab
 
 ![](../media/Character-Flaw-Tab.png)

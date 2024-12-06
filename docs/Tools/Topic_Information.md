@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 64
 parent: Tools
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Topic Information
 Topic Information
 
 The Topic Information sub-menu on the Tools menu contains a list containing information specific to certain topic categories:

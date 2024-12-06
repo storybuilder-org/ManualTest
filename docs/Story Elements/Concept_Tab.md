@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 33
 parent: Story Overview Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Concept Tab
 
 
 ![](../media/Overview-Concept-Tab.png)

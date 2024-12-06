@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 69
 parent: Tools
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Conflict Builder
 Conflict Builder
 
 

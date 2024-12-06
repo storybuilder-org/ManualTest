@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 90
 parent: Writing with StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## How to Think About Outlining
 How to Think About Outlining
 
 

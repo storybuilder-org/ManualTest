@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 40
 parent: Problem Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Resolution Tab
 Resolution Tab
 
 ![](../media/Problem-Resolution-Tab.png)

@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 66
 parent: Plotting Aids
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Master Plots
 1
 Master Plots
 

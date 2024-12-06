@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 4
 parent: Front Matter
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Important Notice to StoryCAD Users
 Important Notice to StoryCAD Users
 
 As the creators of StoryCAD, we're committed to offering a robust tool that aids fiction writers in planning and outlining their novels with ease. However, it's essential to understand the specific applications and limitations of StoryCAD to minimize data loss or inconvenience.

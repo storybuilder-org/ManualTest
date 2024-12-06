@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 6
 parent: Front Matter
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Legal Matters
 Legal Matters
 
 The text of and illustrations in this document are licensed by the StoryBuilder Organization under a Creative Commons Attribution--Share Alike 3.0 Unported license ("CC-BY-SA"). An explanation of CC-BY-SA is available at http://creativecommons.org/licenses/by-sa/3.0/ 

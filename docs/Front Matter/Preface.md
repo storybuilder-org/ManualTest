@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 3
 parent: Front Matter
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Preface
 Preface
 
 Writing fiction is tough. Modern novels typically contain between 70,000 and 100,000 words and can take a year or longer to write and edit. Starting a project of such magnitude without a plan is an invitation to disaster, but how do you plan something as complex as a novel?

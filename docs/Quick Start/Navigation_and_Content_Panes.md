@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 22
 parent: The StoryCAD User Interface
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Navigation and  Content Panes
 Navigation and Content Panes
 
 The Navigation Pane allows you to view, organize, and manage the parts of your story outline in a hierarchical structure.  It’s similar to the Windows File Explorer, but instead of files and folders, each node in the tree is a Story Elements  Your outline is composed of five Story Element types:

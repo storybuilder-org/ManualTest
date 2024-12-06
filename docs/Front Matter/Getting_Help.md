@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 5
 parent: Front Matter
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Getting Help
 Getting Help
 
 We suggest you first use this manual to try to find the information you’re looking for.

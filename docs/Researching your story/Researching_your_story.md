@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 76
 parent: Home
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+# Researching your story
 <br/>
 <br/>
 

@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 37
 parent: Problem Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Problem Tab
 Problem Tab
 
 This tabs contains elements which help to define a story problem.

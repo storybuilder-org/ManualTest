@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 105
 parent: Other Uses of StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Critiquing with StoryCAD
 Critiquing with StoryCAD
 
 Although StoryCAD’s made to help you outline your own stories, it has another use: as an aid to understanding others’ stories. StoryCAD’s ancestor, the original StoryCAD, started as just such a tool.

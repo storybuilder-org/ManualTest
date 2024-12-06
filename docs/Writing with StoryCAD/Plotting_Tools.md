@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 98
 parent: Writing with StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Plotting Tools
 Plotting Tools
 
 StoryCAD comes with three tools to help you plot your story.

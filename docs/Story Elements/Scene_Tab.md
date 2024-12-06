@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 57
 parent: Scene Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Scene Tab
 Scene Tab
 
 ![](../media/Scene-Scene-Tab.png)

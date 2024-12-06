@@ -3,10 +3,10 @@ title: Creating a Story pt 7
 layout: default
 nav_enabled: true
 nav_order: 86
-parent: Tutorial: Creating a Story
+parent: Tutorial Creating a Story
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Creating a Story pt 7
 The characters, so far, have been defined by their roles; the only specific traits we've given them (Leonard and Tony) have been shaped by the story's needs.  It's time to put some flesh on these skeletons.
 
 Let's start with Charlie Lacas.  We know a few things about him.  He's young, he deals drugs, and he uses technology that the detectives don't have.  That absence of technology suggests that the story doesn't take place in a big city.  But perhaps Charlie is a city boy who's figured out that he can use his supplier contacts in New York to deal drugs in a smaller city, say in upstate New York somewhere.   It's safer, the competition is less, and he has an edge over the small-town cops.   This implies that he's fairly bright, which makes him a more worthy adversary for our detectives.

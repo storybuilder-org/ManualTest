@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 11
 parent: Quick Start
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## The StoryCAD User Interface
 The StoryCAD User Interface
 
 ![](../media/User-Interface.png)

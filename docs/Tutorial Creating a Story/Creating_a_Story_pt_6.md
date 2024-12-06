@@ -3,10 +3,10 @@ title: Creating a Story pt 6
 layout: default
 nav_enabled: true
 nav_order: 85
-parent: Tutorial: Creating a Story
+parent: Tutorial Creating a Story
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Creating a Story pt 6
 Story structure is the closest you have to a recipe for plotting your story. Your goal, in following a template story structure like the ones the Master Plots tool provides, is to create scenes for your story that fit into the structure you’ve chosen, and to position them accordingly. The scenes you’ll use are what develops from your characters trying to solve their problems.
  
 We can replace the plot point for ‘Narrative Hook’ with  ‘He’s like a ghost’, the scene we added earlier. Let’s move our scene where it belongs, treating the MasterPlot scenes as they’re intended, temporary scaffolding. First, right-click on the scene, and then click on the ‘Move’ icon on the menu bar:

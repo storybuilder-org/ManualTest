@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 39
 parent: Problem Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Antagonist Tab
 Antagonist Tab
 
 ![](../media/Problem-Antagonist-Tab.png)

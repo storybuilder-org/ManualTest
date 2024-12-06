@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 61
 parent: Home
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+# Tools
 <br/>
 <br/>
 

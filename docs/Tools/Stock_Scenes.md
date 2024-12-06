@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 68
 parent: Plotting Aids
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Stock Scenes
 Stock Scenes
 
 ![](../media/Tools-Stock-Scenes.png)

@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 93
 parent: Writing with StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Problem and Character Development
 Problem and Character Development
 
 A StoryCAD outline ‘begins’ on the Story Overview form, but as you’ve seen, it really starts with the selection of the Story Problem and its description in its Premise, whose definition could be condensed to ‘a character with a problem.’ 

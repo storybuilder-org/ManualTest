@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 60
 parent: Scene Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Sequel Tab
 
 Sequel Sequel Tab
 Sequel Tab

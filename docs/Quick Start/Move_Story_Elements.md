@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 17
 parent: Menu Bar
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+#### Move Story Elements
 Move Story Elements
 
 ![](../media/Move-Story-Elements.png)

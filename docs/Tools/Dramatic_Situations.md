@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 67
 parent: Plotting Aids
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Dramatic Situations
 Dramatic Situations
 
 ![](../media/Tools-Dramatic-Situations.png)

@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 45
 parent: Character Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Appearance Tab
 Appearance Tab
 
 The Appearance tab is a companion to the Physical tab.

@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 52
 parent: Character Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Outer Traits
 Outer Traits Tab
 
 ![](../media/Character-Outer-Traits.png)

@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 34
 parent: Story Overview Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Premise Tab
 Premise Tab
 
 ![](../media/Overview-Premise.png)

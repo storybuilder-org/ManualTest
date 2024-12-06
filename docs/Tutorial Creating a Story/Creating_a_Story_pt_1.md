@@ -3,10 +3,10 @@ title: Creating a Story pt 1
 layout: default
 nav_enabled: true
 nav_order: 80
-parent: Tutorial: Creating a Story
+parent: Tutorial Creating a Story
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Creating a Story pt 1
 Creating a Story
 
 
@@ -55,7 +55,7 @@ Key whatever notes you like regarding your idea. While we're here, we might as w
 
 At the moment, the story outline for "Danger Calls" exists only in your computer's memory, but isn’t saved to disk.  Let's save what we've done so far.  We recommend you save your work frequently, and provide a number of ways to do so.  The simplest is to click on the status bar’s Changed Indicator:
 
-![](../media/Tutorial-1-Changed-Indicator-(Red.png).png)
+![](../media/Tutorial-1-Changed-Indicator--Red.png)
 
 The indicator will change from red to green, indicating that all changes have been saved to disk.
 

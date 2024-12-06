@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 38
 parent: Problem Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Protagonist Tab
 Protagonist Tab
 
 ![](../media/Problem-Protagonist-Tab.png)

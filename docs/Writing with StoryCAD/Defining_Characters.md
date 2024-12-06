@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 95
 parent: Writing with StoryCAD
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Defining Characters
 Defining Characters
 
 Character is the most important element of most great fiction.  A memorable character will live in the mind of the reader long after details of the story are forgotten.  Sequels are written about characters much more frequently than about the events in a story. 

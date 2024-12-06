@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 43
 parent: Character Form
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Role Tab
 Role Tab
 
 ![](../media/CharRoleTab.png)

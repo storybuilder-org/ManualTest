@@ -4,9 +4,9 @@ layout: default
 nav_enabled: true
 nav_order: 23
 parent: The StoryCAD User Interface
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+### Status Bar
 Status Bar
 
 ![](../media/Status-Bar.png)

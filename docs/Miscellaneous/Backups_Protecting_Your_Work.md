@@ -1,12 +1,12 @@
 ---
-title: Backups: Protecting Your Work
+title: Backups Protecting Your Work
 layout: default
 nav_enabled: true
 nav_order: 107
 parent: Miscellaneous
+has_toc: false
 ---
-{: .no_toc .text-delta }
-
+## Backups Protecting Your Work
 Protecting Your Work
 
 
