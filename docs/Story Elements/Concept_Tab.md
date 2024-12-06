@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 33
 parent: Story Overview Form
 ---
+{: .no_toc .text-delta }
 
 
 
-![](media/Overview-Concept-Tab.png)
+![](../media/Overview-Concept-Tab.png)
 
 A concept is an idea that asks a question that implies conflict.  The answer to that question is your story.  
 

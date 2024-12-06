@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 48
 parent: Character Form
 ---
+{: .no_toc .text-delta }
 
 Backstory Tab
 
-![](media/Character-Backstory-Tab.png)
+![](../media/Character-Backstory-Tab.png)
 
  Backstory is what happened to your character before the story. It’s usually introduced as explanation  for traits or beliefs- as the root of a character’s motivations or reactions to story situations.
 

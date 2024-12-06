@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 47
 parent: Character Form
 ---
+{: .no_toc .text-delta }
 
 Flaw Tab
 
-![](media/Character-Flaw-Tab.png)
+![](../media/Character-Flaw-Tab.png)
 
 A character flaw is a negative trait that affects your character or others in a bad way. Flaws vary in severity; some are just unpleasant quirks, but a major flaw will have story consequences. It’s almost always at the root of a character arc, and must be corrected (a redemption arc) or will lead to your character’s downfall  (a fatal flaw.)
 

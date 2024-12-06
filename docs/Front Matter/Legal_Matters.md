@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 6
 parent: Front Matter
 ---
+{: .no_toc .text-delta }
 
 Legal Matters
 

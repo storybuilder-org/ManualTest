@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 42
 parent: Story Elements
 ---
+{: .no_toc .text-delta }
 
 [Role Tab](Role_Tab.html) <br/><br/>
 [Physical Tab](Physical_Tab.html) <br/><br/>

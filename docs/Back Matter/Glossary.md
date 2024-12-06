@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 112
 parent: Back Matter
 ---
+{: .no_toc .text-delta }
 
 
 Glossary

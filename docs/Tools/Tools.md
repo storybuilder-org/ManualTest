@@ -5,9 +5,10 @@ nav_enabled: true
 nav_order: 61
 parent: Home
 ---
+{: .no_toc .text-delta }
 
- <br/>
- <br/>
+<br/>
+<br/>
 
 [Narrative Editor](Narrative_Editor.html) <br/><br/>
 [Key Questions](Key_Questions.html) <br/><br/>

@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 36
 parent: Story Elements
 ---
+{: .no_toc .text-delta }
 
 [Problem Tab](Problem_Tab.html) <br/><br/>
 [Protagonist Tab](Protagonist_Tab.html) <br/><br/>

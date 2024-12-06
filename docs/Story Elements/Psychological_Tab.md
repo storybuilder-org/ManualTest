@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 50
 parent: Character Form
 ---
+{: .no_toc .text-delta }
 
 Psychological Tab
 
-![](media/Character-Psychological-Tab.png)
+![](../media/Character-Psychological-Tab.png)
 
 This tab contains information about the mental states and processes of the character.
 

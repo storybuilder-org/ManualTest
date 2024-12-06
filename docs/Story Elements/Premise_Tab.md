@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 34
 parent: Story Overview Form
 ---
+{: .no_toc .text-delta }
 
 Premise Tab
 
-![](media/Overview-Premise.png)
+![](../media/Overview-Premise.png)
 
 
 Story Problem

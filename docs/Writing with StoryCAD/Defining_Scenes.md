@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 100
 parent: Writing with StoryCAD
 ---
+{: .no_toc .text-delta }
 
 Defining Scenes
 

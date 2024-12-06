@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 63
 parent: Tools
 ---
+{: .no_toc .text-delta }
 
 
 
@@ -13,7 +14,7 @@ parent: Tools
 
 Key Questions
 
-![](media/Clipboard-Image.png)
+![](../media/Clipboard-Image.png)
 
 Key Questions contains sub-menus which contain lists of questions appropriate to the Story Overview, Problem, Character, Setting, and Plot forms and story elements.
 

@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 54
 parent: Setting Form
 ---
+{: .no_toc .text-delta }
 
 Setting Tab
 
@@ -12,7 +13,7 @@ Setting Tab
 The Setting tab contains elements which make the setting specific and unique.
 
  
-![](media/Setting-Setting-Tab.png)
+![](../media/Setting-Setting-Tab.png)
 
 Locale	The location of the setting in space.
 

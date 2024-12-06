@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 57
 parent: Scene Form
 ---
+{: .no_toc .text-delta }
 
 Scene Tab
 
-![](media/Scene-Scene-Tab.png)
+![](../media/Scene-Scene-Tab.png)
 
 Date and Time		Identify when the scene occurs.
 

@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 93
 parent: Writing with StoryCAD
 ---
+{: .no_toc .text-delta }
 
 Problem and Character Development
 

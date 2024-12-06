@@ -5,9 +5,10 @@ nav_enabled: true
 nav_order: 30
 parent: Home
 ---
+{: .no_toc .text-delta }
 
- <br/>
- <br/>
+<br/>
+<br/>
 
 [Story Overview Form](Story_Overview_Form.html) <br/><br/>
 [Problem Form](Problem_Form.html) <br/><br/>

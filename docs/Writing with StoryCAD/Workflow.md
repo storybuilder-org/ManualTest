@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 91
 parent: Writing with StoryCAD
 ---
+{: .no_toc .text-delta }
 
 Workflow
 

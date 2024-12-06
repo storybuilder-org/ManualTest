@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 104
 parent: Other Uses of StoryCAD
 ---
+{: .no_toc .text-delta }
 
 After the First Draft
 

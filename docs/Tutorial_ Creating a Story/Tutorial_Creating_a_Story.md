@@ -5,9 +5,10 @@ nav_enabled: true
 nav_order: 79
 parent: Home
 ---
+{: .no_toc .text-delta }
 
- <br/>
- <br/>
+<br/>
+<br/>
 
 [Creating a Story pt 1](Creating_a_Story_pt_1.html) <br/><br/>
 [Creating a Story pt 2](Creating_a_Story_pt_2.html) <br/><br/>

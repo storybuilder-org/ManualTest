@@ -5,9 +5,10 @@ nav_enabled: true
 nav_order: 106
 parent: Home
 ---
+{: .no_toc .text-delta }
 
- <br/>
- <br/>
+<br/>
+<br/>
 
 [Backups: Protecting Your Work](Backups_Protecting_Your_Work.html) <br/><br/>
 [Developing StoryCAD](Developing_StoryCAD.html) <br/><br/>

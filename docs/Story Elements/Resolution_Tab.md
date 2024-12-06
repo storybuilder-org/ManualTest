@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 40
 parent: Problem Form
 ---
+{: .no_toc .text-delta }
 
 Resolution Tab
 
-![](media/Problem-Resolution-Tab.png)
+![](../media/Problem-Resolution-Tab.png)
 
 The Resolution tab describes the Problem’s outcome. 
 

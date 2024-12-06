@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 9
 parent: Quick Start
 ---
+{: .no_toc .text-delta }
 
 Starting and Stopping StoryCAD
 

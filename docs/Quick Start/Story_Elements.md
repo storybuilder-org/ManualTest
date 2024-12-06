@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 25
 parent: Navigating in StoryCAD
 ---
+{: .no_toc .text-delta }
 
 Story Elements
 
@@ -14,7 +15,7 @@ Here, clicking on the first or root node in the tree displays the Story  Overvie
 
 On some screen sizes and orientations the Navigation and Content panes may be stacked with the Navigation pane above the Content pane. In those cases the Show/Hide Navigation button (the hamburger menu button) acts differently; it toggles from the Navigation Pane to the Content Pane and back.
 
-![](media/Navigation-and-Content-Pane-1.png)
+![](../media/Navigation-and-Content-Pane-1.png)
 
 Every Story Element type is a different form. These are the story elements:
 

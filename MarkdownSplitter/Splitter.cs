@@ -42,7 +42,7 @@ namespace MarkdownSplitter
 				foreach (string currentFile in Directory.EnumerateFiles(MarkdownFolder, "*.*"))
 				{
 					string fileName = Path.GetFileName(currentFile);
-					if (fileName.EndsWith(".md"))
+					if (fileName.EndsWith(".md", StringComparison.OrdinalIgnoreCase))
 					{
 						ProcessMarkdownFile(currentFile);
 						found = true;
@@ -83,6 +83,7 @@ namespace MarkdownSplitter
 				"title: Home",
 				"layout: home",
 				"---",
+				"{: .no_toc .text-delta }",
 				"StoryCAD is a comprehensive outlining tool for fiction writers, designed to help organize and structure stories effectively. It provides a range of features to assist with plotting, character development, and world-building. Writers can outline stories at the scene level, use pre-built templates for various plot structures, and explore tools like Dramatic Situations and Stock Scenes to refine their narrative.",
 				"The software allows users to approach their stories methodically, offering workflows to manage the complexity of storytelling. StoryCAD is flexible, supporting various fiction forms and genres while helping writers visualize and address each story element independently.",
 				"This manual will guide you through the features and tools available in StoryCAD, helping you make the most of its capabilities to plan and develop your stories."
@@ -138,6 +139,9 @@ namespace MarkdownSplitter
 			string outputDir = GetOutputDirectoryForBlock(block);
 			Directory.CreateDirectory(outputDir);
 
+			// Compute the relative path from the current output directory to the media folder
+			string relativeMediaPath = Path.GetRelativePath(outputDir, mediaFolder).Replace("\\", "/");
+
 			string filepath = Path.Combine(outputDir, block.Filename);
 			using StreamWriter file = new(filepath);
 			file.WriteLine("---");
@@ -147,15 +151,19 @@ namespace MarkdownSplitter
 			file.WriteLine($"nav_order: {block.Index}");
 			file.WriteLine($"parent: {block.Parent.Title}");
 			file.WriteLine("---");
+			file.WriteLine("{: .no_toc .text-delta }");
 			file.WriteLine(block.Header);
 			foreach (string line in block.Text)
-				file.WriteLine(CleanupMarkdown(line));
+				file.WriteLine(CleanupMarkdown(line, relativeMediaPath));
 		}
 
 		private void WriteChildFile(Block block, Block parent)
 		{
 			string outputDir = GetOutputDirectoryForBlock(block);
 			Directory.CreateDirectory(outputDir);
+
+			// Compute the relative path from the current output directory to the media folder
+			string relativeMediaPath = Path.GetRelativePath(outputDir, mediaFolder).Replace("\\", "/");
 
 			StringBuilder sb = new();
 			sb.AppendLine("---");
@@ -165,10 +173,11 @@ namespace MarkdownSplitter
 			sb.AppendLine($"nav_order: {block.Index}");
 			sb.AppendLine($"parent: {block.Parent.Title}");
 			sb.AppendLine("---");
+			sb.AppendLine("{: .no_toc .text-delta }");
 			sb.AppendLine(block.Header);
 
 			foreach (var text in block.Text)
-				sb.AppendLine(CleanupMarkdown(text));
+				sb.AppendLine(CleanupMarkdown(text, relativeMediaPath));
 
 			foreach (var child in block.Children)
 			{
@@ -182,14 +191,15 @@ namespace MarkdownSplitter
 				WriteChildFile(child, block);
 		}
 
-		private string CleanupMarkdown(string line)
+		private string CleanupMarkdown(string line, string relativeMediaPath)
 		{
 			if (line.Contains("[Front Page (Image)](Front_Page_(Image).md)"))
 				return "";
 
-			if (line == " <br/>")
+			if (line.Trim() == "<br/>")
 				return "";
 
+			// Reference-style images: ![][refName]
 			if (line.Contains("![]["))
 			{
 				int startIndex = line.IndexOf("![][") + 4;
@@ -198,21 +208,26 @@ namespace MarkdownSplitter
 				{
 					string refName = line.Substring(startIndex, endIndex - startIndex);
 					refName = NormalizeImageName(refName);
-					line = $"![](/media/{refName}.png)";
+					line = $"![]({relativeMediaPath}/{refName}.png)";
 				}
 			}
 
-			if (line.IndexOf("![") > -1 && line.Contains("]("))
+			// Inline images: ![AltText](imageName)
+			if (line.Contains("![") && line.Contains("]("))
 			{
-				string[] tokens = line.Split(new[] { '(', ')' }, StringSplitOptions.RemoveEmptyEntries);
-				if (tokens.Length > 1 && tokens[0].Contains("!["))
+				// Split on '(' and ')' to isolate the image name
+				int start = line.IndexOf("](") + 2;
+				int end = line.IndexOf(')', start);
+				if (start > 1 && end > start)
 				{
-					string imageName = tokens[1];
+					string imageName = line.Substring(start, end - start);
 					imageName = NormalizeImageName(imageName);
-					line = line.Replace($"({tokens[1]})", $"(media/{imageName}.png)");
+					string newImagePath = $"{relativeMediaPath}/{imageName}.png";
+					line = line.Substring(0, start) + newImagePath + line.Substring(end);
 				}
 			}
 
+			// Convert .md links to .html
 			if (line.Contains(".md"))
 				line = line.Replace(".md", ".html");
 
@@ -222,9 +237,9 @@ namespace MarkdownSplitter
 		private string NormalizeImageName(string imageName)
 		{
 			imageName = imageName.Trim();
-			imageName = imageName.Replace("/media/", "");
-			if (imageName.EndsWith(".png", StringComparison.OrdinalIgnoreCase))
-				imageName = imageName.Substring(0, imageName.Length - 4);
+
+			// Remove any leading directory paths
+			imageName = Path.GetFileNameWithoutExtension(imageName);
 
 			return imageName;
 		}
@@ -235,8 +250,8 @@ namespace MarkdownSplitter
 			current.Previous = previousBlock;
 
 			StringBuilder sb = new();
-			sb.AppendLine(" <br/>");
-			sb.AppendLine(" <br/>");
+			sb.AppendLine("<br/>");
+			sb.AppendLine("<br/>");
 			if (previousBlock.Previous?.Filename == "index.md")
 				previousBlock.Previous.Title = "Home";
 
@@ -248,22 +263,22 @@ namespace MarkdownSplitter
 		{
 			if (block.Parent == null || block.Parent == nestingLevel[0])
 			{
-				// If this is root or direct child of root, top-level directory is docs
+				// If root or direct child of root
 				if (block == nestingLevel[0])
 				{
-					// root block (index.md) stays in docs
+					// root block (index.md) -> docs
 					return docsFolder;
 				}
 				else
 				{
-					// This is a top-level child block: create a directory based on its title
+					// Top-level child block: create a directory under docs
 					string safeTitle = SanitizeFolderName(block.Title);
 					return Path.Combine(docsFolder, safeTitle);
 				}
 			}
 			else
 			{
-				// For deeper levels, use top-level parent's title
+				// Deeper levels go into the top-level parent's directory
 				Block topLevelParent = GetTopLevelParent(block);
 				string safeTitle = SanitizeFolderName(topLevelParent.Title);
 				return Path.Combine(docsFolder, safeTitle);

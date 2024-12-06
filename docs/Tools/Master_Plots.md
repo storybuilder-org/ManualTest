@@ -5,11 +5,12 @@ nav_enabled: true
 nav_order: 66
 parent: Plotting Aids
 ---
+{: .no_toc .text-delta }
 
 1
 Master Plots
 
-![](media/Tools-Master-Plots.png)
+![](../media/Tools-Master-Plots.png)
 
 Plots tend to include the same story elements.  Aristotle was the first to identify and expand upon some of these elements, which have been elaborated in the centuries since his time.  These elements have to do with the shape of the plot.
 

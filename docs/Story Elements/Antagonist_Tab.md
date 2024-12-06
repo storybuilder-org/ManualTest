@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 39
 parent: Problem Form
 ---
+{: .no_toc .text-delta }
 
 Antagonist Tab
 
-![](media/Problem-Antagonist-Tab.png)
+![](../media/Problem-Antagonist-Tab.png)
 
 The problem's antagonist is the source of the opposition to the problem protagonist's goal.
 

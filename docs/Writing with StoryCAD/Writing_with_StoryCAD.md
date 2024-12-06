@@ -5,9 +5,10 @@ nav_enabled: true
 nav_order: 89
 parent: Home
 ---
+{: .no_toc .text-delta }
 
- <br/>
- <br/>
+<br/>
+<br/>
 
 [How to Think About Outlining](How_to_Think_About_Outlining.html) <br/><br/>
 [Workflow](Workflow.html) <br/><br/>

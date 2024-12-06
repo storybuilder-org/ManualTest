@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 105
 parent: Other Uses of StoryCAD
 ---
+{: .no_toc .text-delta }
 
 Critiquing with StoryCAD
 

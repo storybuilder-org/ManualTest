@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 44
 parent: Character Form
 ---
+{: .no_toc .text-delta }
 
 Physical and Appearance Tabs
 
-![](media/CharPhysTab.png)
+![](../media/CharPhysTab.png)
 
 These character traits describe the external physical characteristics and appearance of the character.  They are generally self-explanatory.
 

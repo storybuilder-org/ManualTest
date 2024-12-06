@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 68
 parent: Plotting Aids
 ---
+{: .no_toc .text-delta }
 
 Stock Scenes
 
-![](media/Tools-Stock-Scenes.png)
+![](../media/Tools-Stock-Scenes.png)
 
 This tool, invoked from the Plotting Aids sub-menu of the Tools menu, provides a list of several categories of stock scenes. These are scenic situations which recur frequently in fiction. 
 

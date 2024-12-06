@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 15
 parent: Menu Bar
 ---
+{: .no_toc .text-delta }
 
 File Menu
 

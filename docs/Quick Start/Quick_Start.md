@@ -5,9 +5,10 @@ nav_enabled: true
 nav_order: 7
 parent: Home
 ---
+{: .no_toc .text-delta }
 
- <br/>
- <br/>
+<br/>
+<br/>
 
 [Using Various Input Devices](Using_Various_Input_Devices.html) <br/><br/>
 [Starting and Stopping StoryCAD](Starting_and_Stopping_StoryCAD.html) <br/><br/>

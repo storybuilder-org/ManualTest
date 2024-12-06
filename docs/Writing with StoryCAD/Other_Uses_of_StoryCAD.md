@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 102
 parent: Writing with StoryCAD
 ---
+{: .no_toc .text-delta }
 
 [StoryCAD for Pantsers](StoryCAD_for_Pantsers.html) <br/><br/>
 [After the First Draft](After_the_First_Draft.html) <br/><br/>

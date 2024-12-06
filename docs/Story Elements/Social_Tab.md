@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 49
 parent: Character Form
 ---
+{: .no_toc .text-delta }
 
 Social Tab
 
-![](media/Character-Social-Tab.png)
+![](../media/Character-Social-Tab.png)
 
 These elements are the major factors which affect this character's behavior and which come from the influence of others or the community.
 

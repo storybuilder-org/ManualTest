@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 43
 parent: Character Form
 ---
+{: .no_toc .text-delta }
 
 Role Tab
 
-![](media/CharRoleTab.png)
+![](../media/CharRoleTab.png)
 
 The role tab contains the information which defines the relationship between this character and the story.
 

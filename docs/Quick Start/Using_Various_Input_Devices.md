@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 8
 parent: Quick Start
 ---
+{: .no_toc .text-delta }
 
 Using Various Input Devices
 
@@ -19,4 +20,4 @@ Pen		Barrel Button Press or Long Press on item
 Touchpad		Right Touchpad button
 The menu key(sometimes called document key) looks like this: 
 
-![](media/Keyboard-Right-Mouse-Key.png)
+![](../media/Keyboard-Right-Mouse-Key.png)

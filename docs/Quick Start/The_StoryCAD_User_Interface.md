@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 11
 parent: Quick Start
 ---
+{: .no_toc .text-delta }
 
 The StoryCAD User Interface
 
-![](media/User-Interface.png)
+![](../media/User-Interface.png)
 
 The form’s sections are as follows. They’ll be explained in more detail as we go.
 

@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 22
 parent: The StoryCAD User Interface
 ---
+{: .no_toc .text-delta }
 
 Navigation and Content Panes
 
@@ -29,13 +30,13 @@ Two more assist in researching your story:
 There’s also a Trashcan node which is the parent for other nodes you wish to discard.
 
 Clicking (or touching) a Story Element node on the Navigation Pane will display that Story Element’s  content in the Content Panel. Each Story Element type has its own form; the major ones are tabbed.
-![](media/ContentPane.png)
+![](../media/ContentPane.png)
 
 
 
 On some screen sizes and orientations the Navigation and Content panes may be stacked with the Navigation pane above the Content pane. In those cases the Show/Hide Navigation button (the hamburger menu button) acts differently; it toggles from the Navigation Pane to the Content Pane and back.
 
-![](media/Navigation-and-Content-Pane.png)
+![](../media/Navigation-and-Content-Pane.png)
 
 
 Your outline has only one Story Overview; it’s created automatically when you open or create a new outline. The Story Overview is the root of the Navigation Pane tree, and all other Story Elements are below it. 

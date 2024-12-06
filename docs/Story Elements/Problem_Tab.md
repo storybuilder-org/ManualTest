@@ -5,12 +5,13 @@ nav_enabled: true
 nav_order: 37
 parent: Problem Form
 ---
+{: .no_toc .text-delta }
 
 Problem Tab
 
 This tabs contains elements which help to define a story problem.
 
-![](media/Problem-Problem-Tab.png)
+![](../media/Problem-Problem-Tab.png)
 
 
 Problem Type

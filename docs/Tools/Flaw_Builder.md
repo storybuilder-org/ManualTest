@@ -5,10 +5,11 @@ nav_enabled: true
 nav_order: 70
 parent: Tools
 ---
+{: .no_toc .text-delta }
 
 Flaw Builder
 
-![](media/Flaw-Builder.png)
+![](../media/Flaw-Builder.png)
 
 This tool is invoked from a button on the Character Form’s Flaw tab. It explores some common examples of character flaws to help you in developing a character.
 

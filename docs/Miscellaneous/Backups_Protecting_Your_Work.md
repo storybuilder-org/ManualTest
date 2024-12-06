@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 107
 parent: Miscellaneous
 ---
+{: .no_toc .text-delta }
 
 Protecting Your Work
 

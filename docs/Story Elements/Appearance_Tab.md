@@ -5,6 +5,7 @@ nav_enabled: true
 nav_order: 45
 parent: Character Form
 ---
+{: .no_toc .text-delta }
 
 Appearance Tab
 
@@ -13,7 +14,7 @@ The Appearance tab is a companion to the Physical tab.
 Use this note area to describe your character's looks, style of dress and movement, and the impression he leaves.  
 
 
-![](media/CharAppearanceTab.png)
+![](../media/CharAppearanceTab.png)
 
 
 Some writers  will select a photograph of someone which they use when describing the character's appearance.  You and your readers should be able to visualize the character as though he were a real person.
