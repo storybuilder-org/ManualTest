@@ -23,4 +23,3 @@ The Narrative view is different from the Explorer view and contains only Scenes 
 	•	Trash Icon - Removes a Narrator View node
 
 The Done button closes the Narrative Editor when you’re finished.
-

@@ -7,9 +7,3 @@ parent: Home
 has_toc: false
 ---
 # Reports
-<br/>
-<br/>
-
-[Reports Menu](Reports_Menu.html) <br/><br/>
-[Print Reports](Print_Reports.html) <br/><br/>
-[Scrivener Reports](Scrivener_Reports.html) <br/><br/>

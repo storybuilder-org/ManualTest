@@ -88,5 +88,4 @@ Tony's able to free his partner by communicating to Lacas with the Luhrs pager c
 
 Does this work?  The story's over when Lacas is captured, and Leonard's inner problem, his impulsiveness, which might have gotten him killed, ends in his rescue.  The question is whether he learns and grows from the experience. A common pattern for inner problems is the ‘came to realize’ story, in which learning a lesson contributes to the   In an action-oriented story, this is less important, so we'll leave it alone for now.  However our story's theme  probably has to do with this character flaw (for example, 'Imprudence leads to danger'.)
 
- You can find out more about Problems here. 
-
+You can find out more about Problems here. 

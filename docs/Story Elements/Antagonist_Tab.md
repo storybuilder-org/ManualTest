@@ -26,7 +26,3 @@ The antagonist may not be a person.  If the conflict type is 'Person against Nat
 The antagonist may also be the same character as the protagonist, in the case of 'Man against Himself' conflicts.
 
 Goal, Motivation, Conflict Builder, Conflict
-
-
-
-

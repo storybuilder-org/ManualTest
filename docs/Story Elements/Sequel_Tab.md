@@ -24,4 +24,3 @@ Review and Thought	As the emotions ebb, the character will begin to reflect on t
 New Goal		The period of thought leads to a new plan, by which the protagonist can overcome the setback of the previous scene.  This new goal is in turn the scene's goal for the next scene, which propels the story forward.
 
 See "Scene and Sequel" for more information.
-

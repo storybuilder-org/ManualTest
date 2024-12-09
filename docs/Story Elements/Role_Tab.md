@@ -70,4 +70,3 @@ The Trickster is a clown, a mischief maker.  He provides the comedy relief that 
 Character Sketch
 
 Use these notes to provide a thumbnail picture of the character and the overall impression he makes.
-

@@ -19,14 +19,3 @@ Hovering your mouse or stylus over a button will display a tool tip describing t
 
 
 The menu bar buttons either display drop-down menus (such as File), or launch particular actions (such as Preferences.)
-
-
-[Search](Search.html) <br/><br/>
-[Show/Hide Navigation Pane](ShowHide_Navigation_Pane.html) <br/><br/>
-[File Menu](File_Menu.html) <br/><br/>
-[Add/Remove Story Elements](AddRemove_Story_Elements.html) <br/><br/>
-[Move Story Elements](Move_Story_Elements.html) <br/><br/>
-[Tools Menu](Tools_Menu.html) <br/><br/>
-[Reports](Reports.html) <br/><br/>
-[Preferences](Preferences.html) <br/><br/>
-[Key Binds](Key_Binds.html) <br/><br/>

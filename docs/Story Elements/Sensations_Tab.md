@@ -27,6 +27,3 @@ This control deals with tactile sensations such as texture, temperature,  or pai
 
 Smell/Taste
 The other senses are often neglected but can be very important.  Smells in particular can be effective in pulling a reader into a story; the sense of smell is primitive and powerful and taps into deep emotions.
-
-
-

@@ -37,7 +37,3 @@ We can treat this this issue of overcoming the advantage of the cellular phones 
 ![](../media/Tutorial-3-The--how-to--complication.png)
 
 Neither of these problems are fleshed out, but we’ll work on that in a minute.
-
-
-
-

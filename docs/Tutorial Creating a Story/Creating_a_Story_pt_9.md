@@ -66,6 +66,3 @@ It's a good idea to use Key Questions frequently while creating the concept, and
 In this tutorial we've produced most of a story outline.  We've worked through problem refinement, created several characters, drafted a plot, and along the way we've examined several tools to help these processes.  The story outline was created as this tutorial was being written, exactly as shown. We feel that any story idea can be converted into a fully developed concept using these techniques. 
 
 "Danger Call"  is a action-oriented suspense tale and stresses plot over character development.  A character-driven story would be developed in much the same way, but the character profiles and relationships would, of course, developed more fully before developing the plot.
-
-  
-

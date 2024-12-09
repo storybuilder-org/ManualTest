@@ -7,7 +7,6 @@ parent: Story Overview Form
 has_toc: false
 ---
 ### Story Idea Tab
-Story Idea Tab
 
 Not every story idea will become a story you want to write, but the habit of being on the lookout for and recording story ideas is useful.  Recording that initial idea here.
 
@@ -24,8 +23,3 @@ Date Created			The date the outline was first created.  This field is automatica
 Last Changed			The date the outline was last modified. This field is automatically modified whenever you modify the outline and save your work.
 	
 Story Idea				This is the place to record the original idea that led you to want to write this story.	
-
-
-
-
-

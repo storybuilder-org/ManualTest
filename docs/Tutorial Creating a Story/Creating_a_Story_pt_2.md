@@ -73,6 +73,3 @@ Why a third character? There’s no concrete reason at this point in the outline
 At this point all three characters are stick figures, just names and roles. But that’s okay, we’re making progress.
 
 Remember to save your work frequently.
-
-
-

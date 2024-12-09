@@ -7,4 +7,3 @@ parent: Home
 has_toc: false
 ---
 # Back Matter
-[Glossary](Glossary.html) <br/><br/>

@@ -75,9 +75,3 @@ Click on the Danger Calls node’s Structure tab. As is described in the Quick S
 The Structure tab on the Story Overview is important not necessarily at the moment of conception, but early in story development, because it constrains other choices. Type affects story length and complexity, and Genre sets reader expectations: to be amused for a humor piece, to have a mystery to solve in a mystery, etc.
 
 When you’re done with an editing session, you can Close your outline using the File Menu and open a different outline, or exit the program. Be sure to save your work.
-
-
-
-
-
-

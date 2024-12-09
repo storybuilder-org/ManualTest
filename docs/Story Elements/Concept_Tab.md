@@ -40,12 +40,3 @@ When Harry Met Sally
 	•	Can men and women be friends? 
 
 	•	Can two friends sleep together and still love each other in the morning?
-
-
-
-
-
-
-
-		
-

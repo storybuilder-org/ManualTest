@@ -17,7 +17,3 @@ The Master Plots tool will populate your plot outline with a set of plot points 
 The Dramatic Situations tool uses standard dramatic situations to help you beef up the drama in an existing scene, or to add a scene which relies on a particular dramatic situation.
 
 The Stock Scenes tool provides lists of scenes frequently found in certain plotting situations, or in a particular genre.
-
-[Master Plots](Master_Plots.html) <br/><br/>
-[Dramatic Situations](Dramatic_Situations.html) <br/><br/>
-[Stock Scenes](Stock_Scenes.html) <br/><br/>

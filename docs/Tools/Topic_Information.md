@@ -28,4 +28,3 @@ Each genre contains certain elements which tend to recur as environment, backdro
 Subgenres
 
 Contains brief descriptions of some of  the finer classifications of a particular genre.
-

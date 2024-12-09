@@ -7,5 +7,3 @@ parent: Story Elements
 has_toc: false
 ---
 ## Setting Form
-[Setting Tab](Setting_Tab.html) <br/><br/>
-[Sensations Tab](Sensations_Tab.html) <br/><br/>

@@ -81,6 +81,3 @@ What’s New tab:
 ![](../media/Preferences-Whats-New-tb.png)
 
 The What’s New tab displays the Changelog for the current release. 
-<br/>
-<br/>
-
